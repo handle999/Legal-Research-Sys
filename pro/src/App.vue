@@ -1,21 +1,23 @@
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <!-- <HelloWorld msg="You did it!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-      </nav>
+      </nav> -->
 
+      <!-- 添加级联选择器 -->
       <el-cascader-panel v-model="value" :options="options" @change="handleCascaderChange" />
+      <!-- 添加文本条（在nav中），显示被选中的内容 -->
       <nav><el-text>{{ selectedValue }}</el-text></nav>
     </div>
   </header>
 
-  <RouterView />
+  <!-- <RouterView /> -->
 </template>
 
 <style scoped>
@@ -87,16 +89,18 @@ import { RouterLink, RouterView } from 'vue-router'
 import { ref } from 'vue';
 import HelloWorld from './components/HelloWorld.vue'
 
-// 声明一个 ref 变量用于存储选择的值
-const selectedValue = ref('');
+// 声明一个value，用于级联选择器默认及更新
 const value = ref([])
+// 声明一个 ref 变量，用于存储级联选择器选择的值，并且绑定到 el-text 中
+const selectedValue = ref('');
 
 // 处理 el-cascader-panel 的 change 事件
 const handleCascaderChange = (value: any) => {
   var len = value.length;
   var txt = value[len-1];
-  console.log(len, txt);
+  console.log(len, txt);  // 打印内容，不过没有必要、
 
+  // 依照级联选择器的value，改变 el-text 的内容
   if (txt) {
     selectedValue.value = txt;
     console.log(selectedValue.value);
