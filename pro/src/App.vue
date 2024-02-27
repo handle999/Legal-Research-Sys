@@ -12,8 +12,40 @@
 
       <!-- 添加级联选择器 -->
       <el-cascader-panel v-model="value" :options="options" @change="handleCascaderChange" />
+
       <!-- 添加文本条（在nav中），显示被选中的内容 -->
-      <nav><el-text>{{ selectedValue }}</el-text></nav>
+      <nav>
+        <a v-if="selectedValue" :href="selectedValue" target="_blank">点击跳转、</a>
+      </nav>
+
+      <!-- <nav>
+        <el-radio-group
+          v-model="checkedNation"
+          @change="handleCheckedNationChange"
+        >
+          <el-radio v-for="tag in nations" :key="tag" :label="tag">{{
+            tag
+          }}</el-radio>
+        </el-radio-group>
+      </nav>
+
+      <nav>
+        <el-checkbox
+          v-model="checkAll"
+          :indeterminate="isIndeterminate"
+          @change="handleCheckAllChange"
+          >全选</el-checkbox
+        >
+        <el-checkbox-group
+          v-model="checkedItems"
+          @change="handleCheckedItemsChange"
+        >
+          <el-checkbox v-for="tag in tags" :key="tag" :label="tag">{{
+            tag
+          }}</el-checkbox>
+        </el-checkbox-group>
+      </nav> -->
+
     </div>
   </header>
 
@@ -86,24 +118,64 @@ nav a:first-of-type {
 
 <script lang="ts" setup>
 import { RouterLink, RouterView } from 'vue-router'
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 import HelloWorld from './components/HelloWorld.vue'
 
+// // // 多选框相关
+// const checkedNation = ref()
+// const nations = ['中国', '欧盟', '俄罗斯']
+
+// const checkAll = ref(false)
+// const isIndeterminate = ref(true)
+// const checkedItems = ref([''])
+// const tags = ref([''])
+// const tags0 = ['法律', '行政法规', '司法解释', '部门规章', '行业规定']
+// const tags1 = ['法规', '条例', '决定', '建议和意见', '指令指南', '条约公约', '协议协定', '判例']
+// const tags2 = ['联邦宪法和宪法性法律', '联邦规范性法律文件', '各联邦主体法律', '国际条约、国际法原则和准则', '俄罗斯总统法令', '政府行政法规']
+
+
+// const handleCheckedNationChange = (value: string) => {
+//   console.log(value)
+//   if (value == '中国') {
+//     tags.value = tags0
+//   }
+//   else if (value == '欧盟') {
+//     tags.value = tags1
+//   }
+//   else {
+//     tags.value = tags2
+//   }
+// }
+
+// const handleCheckAllChange = (val: boolean) => {
+//   checkedItems.value = val ? tags.value : []
+//   isIndeterminate.value = false
+// }
+// const handleCheckedItemsChange = (value: string[]) => {
+//   const checkedCount = value.length
+//   checkAll.value = checkedCount === tags.value.length
+//   isIndeterminate.value = checkedCount > 0 && checkedCount < tags.value.length
+// }
+
+
+
+// // // 条目列表相关
 // 声明一个value，用于级联选择器默认及更新
 const value = ref([])
 // 声明一个 ref 变量，用于存储级联选择器选择的值，并且绑定到 el-text 中
 const selectedValue = ref('');
+const selectedLabel = ref('');
 
 // 处理 el-cascader-panel 的 change 事件
-const handleCascaderChange = (value: any) => {
+const handleCascaderChange = (value: any, selectedOptions: any) => {
   var len = value.length;
   var txt = value[len-1];
   console.log(len, txt);  // 打印内容，不过没有必要、
 
   // 依照级联选择器的value，改变 el-text 的内容
   if (txt) {
+    window.open(txt, '_blank')
     selectedValue.value = txt;
-    console.log(selectedValue.value);
   }
 };
 
@@ -121,9 +193,8 @@ const options = ref([
             "label": "行政法规",
             "children": [
               {
-                "value": "国务院办公厅转发国家发展改革委商务部人民银行外交部关于进一步引导和规范境外投资方向指导意见的通知",
+                "value": "https://www.gov.cn/zhengce/content/2017-08/18/content_5218665.htm",
                 "label": "国务院办公厅转发国家发展改革委商务部人民银行外交部关于进一步引导和规范境外投资方向指导意见的通知",
-                "url": "https://www.baidu.com"
               }
             ]
           },
