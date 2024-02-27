@@ -1,9 +1,13 @@
 <template>
   <header>
-    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
-    <div class="title-wrapper"> <h1 class="title"> <span>跨国投资法律检索辅助系统</span> </h1> </div>
     <div class="wrapper">
       
+    <div class="title-wrapper">
+      <h1 class="title">
+        <span>跨国投资法律检索辅助系统</span>
+      </h1>
+    </div>
+
       <!-- <HelloWorld msg="You did it!" />
 
       <nav>
@@ -12,7 +16,9 @@
       </nav> -->
 
       <!-- 添加级联选择器 -->
-      <el-cascader-panel v-model="value" :options="options" @change="handleCascaderChange" />
+      <div class="cascader-container">
+        <el-cascader-panel v-model="value" :options="options" @change="handleCascaderChange" />
+      </div>
 
       <!-- 添加文本条（在nav中），显示被选中的内容 -->
       <nav>
@@ -54,6 +60,18 @@
 </template>
 
 <style scoped>
+.cascader-container {
+  /*   ***   */
+  width: 1080px; /* 设置宽度为页面的80% */
+  /* 其他样式规则 */
+}
+
+/* 可以为 el-cascader-panel 添加一些样式，以适应容器 */
+.el-cascader-panel {
+  /*   ***   */
+  max-width: 1080px;
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -106,6 +124,10 @@ nav a:first-of-type {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
+  }
+  .title-wrapper {
+    width: 100%; /* 让标题占满父容器的宽度 */
+    text-align: center; /* 居中文本 */
   }
 
   nav {
@@ -188,8 +210,88 @@ const handleCascaderChange = (value: any, selectedOptions: any) => {
 
 const options = ref([
   {
-    "value": "中国",
-    "label": "中国",
+    "value": "tip：各国分类层级（效力位阶）概览",
+    "label": "tip：各国分类层级（效力位阶）概览",
+    "children": [
+      {
+        "value": "中国1法律.2行政法规.3司法解释（目前未收录）.4部门规章（含：部门规章，部门规范性文件，部门工文件，行政许可批复）.5行业、团体规定",
+        "label": "中国1法律.2行政法规.3司法解释（目前未收录）.4部门规章（含：部门规章，部门规范性文件，部门工文件，行政许可批复）.5行业、团体规定"
+      },
+      {
+        "value": "欧盟 1.法规2.条例3.决定4.建议和意见，指令指南5.条约公约6.协议协定7.判例",
+        "label": "欧盟 1.法规2.条例3.决定4.建议和意见，指令指南5.条约公约6.协议协定7.判例"
+      },
+      {
+        "value": "俄罗斯1联邦宪法和宪法性法律2联邦规范性法律文件3各联邦主体法律4国际条约、国际法原则和准则5俄罗斯总统法令6政府行政法规",
+        "label": "俄罗斯1联邦宪法和宪法性法律2联邦规范性法律文件3各联邦主体法律4国际条约、国际法原则和准则5俄罗斯总统法令6政府行政法规"
+      },
+      {
+        "value": "美国：以内容分类为主，效力位阶难以分类（个别区分联邦、州）",
+        "label": "美国：以内容分类为主，效力位阶难以分类（个别区分联邦、州）"
+      }
+    ]
+  },
+  {
+    "value": "内容分类概览：",
+    "label": "内容分类概览：",
+    "children": [
+      {
+        "value": "投资法律制度",
+        "label": "投资法律制度"
+      },
+      {
+        "value": "贸易法律制度",
+        "label": "贸易法律制度"
+      },
+      {
+        "value": "公司设立法律制度",
+        "label": "公司设立法律制度"
+      },
+      {
+        "value": "税收法律制度",
+        "label": "税收法律制度"
+      },
+      {
+        "value": "劳动就业",
+        "label": "劳动就业"
+      },
+      {
+        "value": "工程承包法律制度",
+        "label": "工程承包法律制度"
+      },
+      {
+        "value": "土地法律制度",
+        "label": "土地法律制度"
+      },
+      {
+        "value": "环境保护制度",
+        "label": "环境保护制度"
+      },
+      {
+        "value": "土地法律制度：",
+        "label": "土地法律制度："
+      },
+      {
+        "value": "知识产权",
+        "label": "知识产权"
+      },
+      {
+        "value": "争议解决",
+        "label": "争议解决"
+      },
+      {
+        "value": "反垄断",
+        "label": "反垄断"
+      },
+      {
+        "value": "安全",
+        "label": "安全"
+      }
+    ]
+  },
+  {
+    "value": "中国：",
+    "label": "中国：",
     "children": [
       {
         "value": "投资法律制度",
@@ -200,8 +302,8 @@ const options = ref([
             "label": "行政法规",
             "children": [
               {
-                "value": "https://www.gov.cn/zhengce/content/2017-08/18/content_5218665.htm",
-                "label": "国务院办公厅转发国家发展改革委商务部人民银行外交部关于进一步引导和规范境外投资方向指导意见的通知",
+                "value": "国务院办公厅转发国家发展改革委商务部人民银行外交部关于进一步引导和规范境外投资方向指导意见的通知",
+                "label": "国务院办公厅转发国家发展改革委商务部人民银行外交部关于进一步引导和规范境外投资方向指导意见的通知"
               }
             ]
           },
