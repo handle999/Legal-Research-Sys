@@ -187,9 +187,9 @@ const handleCascaderChange = (value: any, selectedOptions: any) => {
 };
 
 const options = ref([
-  {
-    "value": "中国",
-    "label": "中国",
+{
+    "value": "中国：",
+    "label": "中国：",
     "children": [
       {
         "value": "投资法律制度",
@@ -200,8 +200,8 @@ const options = ref([
             "label": "行政法规",
             "children": [
               {
-                "value": "https://www.gov.cn/zhengce/content/2017-08/18/content_5218665.htm",
-                "label": "国务院办公厅转发国家发展改革委商务部人民银行外交部关于进一步引导和规范境外投资方向指导意见的通知",
+                "value": "https://www.pkulaw.com/chl/af452aa9442746f4bdfb.html?way=listView",
+                "label": "国务院办公厅转发国家发展改革委商务部人民银行外交部关于进一步引导和规范境外投资方向指导意见的通知"
               }
             ]
           },
@@ -210,203 +210,203 @@ const options = ref([
             "label": "部门规章",
             "children": [
               {
-                "value": "企业境外投资管理办法",
+                "value": "https://www.pkulaw.com/chl/411abaaa11209afcbdfb.html?way=listView",
                 "label": "企业境外投资管理办法"
               },
               {
-                "value": "中央企业境外投资监督管理办法",
+                "value": "https://www.pkulaw.com/chl/94384de2b5ef0606bdfb.html?way=listView",
                 "label": "中央企业境外投资监督管理办法"
               },
               {
-                "value": "境外投资管理办法(2014)",
+                "value": "https://www.pkulaw.com/chl/90c0410630cb5cb1bdfb.html?way=listView",
                 "label": "境外投资管理办法(2014)"
               },
               {
-                "value": "保险资金境外投资管理暂行办法",
+                "value": "https://www.pkulaw.com/chl/e53548b2d4377db5bdfb.html?way=listView",
                 "label": "保险资金境外投资管理暂行办法"
               },
               {
-                "value": "烟草行业企业境外投资项目管理办法",
+                "value": "https://www.pkulaw.com/chl/1bab8fe9a92fdf6cbdfb.html?way=listView",
                 "label": "烟草行业企业境外投资项目管理办法"
               },
               {
-                "value": "国家计委关于印发《关于编制、审批境外投资项目的项目建议书和可行性研究报告的规定》的通知",
+                "value": "https://www.pkulaw.com/chl/fc3ba1ef0d8180dabdfb.html?way=listView",
                 "label": "国家计委关于印发《关于编制、审批境外投资项目的项目建议书和可行性研究报告的规定》的通知"
               },
               {
-                "value": "财政部关于印发《国有企业境外投资直派财务负责人管理办法》的通知",
+                "value": "https://www.pkulaw.com/chl/950081cd5ea3af3dbdfb.html?way=listView",
                 "label": "财政部关于印发《国有企业境外投资直派财务负责人管理办法》的通知"
               },
               {
-                "value": "国家发展改革委关于发布企业境外投资管理办法配套格式文本(2018年版)的通知",
+                "value": "https://www.pkulaw.com/chl/1471045d756b10f2bdfb.html?way=listView",
                 "label": "国家发展改革委关于发布企业境外投资管理办法配套格式文本(2018年版)的通知"
               },
               {
-                "value": "国家发展改革委、商务部、人民银行等关于发布《民营企业境外投资经营行为规范》的通知",
+                "value": "https://www.pkulaw.com/chl/99d07674e7bb450dbdfb.html?way=listView",
                 "label": "国家发展改革委、商务部、人民银行等关于发布《民营企业境外投资经营行为规范》的通知"
               },
               {
-                "value": "财政部关于印发《国有企业境外投资财务管理办法》的通知",
+                "value": "https://www.pkulaw.com/chl/a499922b035e347abdfb.html?way=listView",
                 "label": "财政部关于印发《国有企业境外投资财务管理办法》的通知"
               },
               {
-                "value": "商务部办公厅关于境外投资备案实行无纸化管理和简化境外投资注销手续的通知",
+                "value": "https://www.pkulaw.com/chl/698010b62b83a303bdfb.html?way=listView",
                 "label": "商务部办公厅关于境外投资备案实行无纸化管理和简化境外投资注销手续的通知"
               },
               {
-                "value": "中国保监会关于调整保险资金境外投资有关政策的通知",
+                "value": "https://www.pkulaw.com/chl/6133ef981a1f09d3bdfb.html?way=listView",
                 "label": "中国保监会关于调整保险资金境外投资有关政策的通知"
               },
               {
-                "value": "商务部办公厅关于做好境外投资管理工作的通知",
+                "value": "https://www.pkulaw.com/chl/ed11fae200e9f09cbdfb.html?way=listView",
                 "label": "商务部办公厅关于做好境外投资管理工作的通知"
               },
               {
-                "value": "交通运输部办公厅关于鼓励和引导水运行业民营企业境外投资和跨国经营的若干意见",
+                "value": "https://www.pkulaw.com/chl/b3cade3633f852eebdfb.html?way=listView",
                 "label": "交通运输部办公厅关于鼓励和引导水运行业民营企业境外投资和跨国经营的若干意见"
               },
               {
-                "value": "商务部办公厅关于涉及多国利益境外投资有关事项的通知",
+                "value": "https://www.pkulaw.com/chl/6aa765ebce6b4c8dbdfb.html?way=listView",
                 "label": "商务部办公厅关于涉及多国利益境外投资有关事项的通知"
               },
               {
-                "value": "财政部关于规范国有企业境外投资中个人代持股份有关问题的通知",
+                "value": "https://www.pkulaw.com/chl/05041cde7429c62bbdfb.html?way=listView",
                 "label": "财政部关于规范国有企业境外投资中个人代持股份有关问题的通知"
               },
               {
-                "value": "商务部、国家外汇管理局关于境外投资联合年检工作有关事项的通知",
+                "value": "https://www.pkulaw.com/chl/580bbf5b30bca974bdfb.html?way=listView",
                 "label": "商务部、国家外汇管理局关于境外投资联合年检工作有关事项的通知"
               },
               {
-                "value": "中国保险监督管理委员会关于中国财产再保险股份有限公司境外投资备案的通知",
+                "value": "https://www.pkulaw.com/chl/5b03b07fd0177c9dbdfb.html?way=listView",
                 "label": "中国保险监督管理委员会关于中国财产再保险股份有限公司境外投资备案的通知"
               },
               {
-                "value": "财政部关于印发《中央国有资本经营预算境外投资资金管理暂行办法》的通知",
+                "value": "https://www.pkulaw.com/chl/b483badf24e74a61bdfb.html?way=listView",
                 "label": "财政部关于印发《中央国有资本经营预算境外投资资金管理暂行办法》的通知"
               },
               {
-                "value": "商务部办公厅、住房和城乡建设部办公厅、国家安全生产监管总局办公厅关于进一步加强境外投资合作项目安全生产工作的紧急通知",
+                "value": "https://www.pkulaw.com/chl/3fcbb231c672238ebdfb.html?way=listView",
                 "label": "商务部办公厅、住房和城乡建设部办公厅、国家安全生产监管总局办公厅关于进一步加强境外投资合作项目安全生产工作的紧急通知"
               },
               {
-                "value": "商务部关于做好境外投资管理工作有关事项的通知",
+                "value": "https://www.pkulaw.com/chl/d1c12b5069784f52bdfb.html?way=listView",
                 "label": "商务部关于做好境外投资管理工作有关事项的通知"
               },
               {
-                "value": "商务部办公厅关于启用“境外投资管理系统”和《企业境外投资证书》、《企业境外机构证书》等有关事项的通知",
+                "value": "https://www.pkulaw.com/chl/f1d6256c46b4c59cbdfb.html?way=listView",
                 "label": "商务部办公厅关于启用“境外投资管理系统”和《企业境外投资证书》、《企业境外机构证书》等有关事项的通知"
               },
               {
-                "value": "商务部办公厅关于调整境外投资核准有关事项的通知",
+                "value": "https://www.pkulaw.com/chl/e5571225c13274abbdfb.html?way=listView",
                 "label": "商务部办公厅关于调整境外投资核准有关事项的通知"
               },
               {
-                "value": "中国银监会办公厅关于进一步调整商业银行代客境外理财业务境外投资有关规定的通知",
+                "value": "https://www.pkulaw.com/chl/bc95fcc989382bc0bdfb.html?way=listView",
                 "label": "中国银监会办公厅关于进一步调整商业银行代客境外理财业务境外投资有关规定的通知"
               },
               {
-                "value": "中国银监会办公厅关于调整信托公司受托境外理财业务境外投资范围的通知",
+                "value": "https://www.pkulaw.com/chl/f470661508150933bdfb.html?way=listView",
                 "label": "中国银监会办公厅关于调整信托公司受托境外理财业务境外投资范围的通知"
               },
               {
-                "value": "中国银监会办公厅关于调整商业银行代客境外理财业务境外投资范围的通知",
+                "value": "https://www.pkulaw.com/chl/63a16ba160f62a42bdfb.html?way=listView",
                 "label": "中国银监会办公厅关于调整商业银行代客境外理财业务境外投资范围的通知"
               },
               {
-                "value": "国家发展和改革委员会、商务部、外交部等关于印发《境外投资产业指导政策》的通知",
+                "value": "https://www.pkulaw.com/chl/d28115707edb6e32bdfb.html?way=listView",
                 "label": "国家发展和改革委员会、商务部、外交部等关于印发《境外投资产业指导政策》的通知"
               },
               {
-                "value": "全国社会保障基金境外投资管理暂行规定",
+                "value": "https://www.pkulaw.com/chl/dae4a5ded33ff03bbdfb.html?way=listView",
                 "label": "全国社会保障基金境外投资管理暂行规定"
               },
               {
-                "value": "商务部关于印发《境外投资开办企业核准工作细则》的通知",
+                "value": "https://www.pkulaw.com/chl/cf936ed51416af9bbdfb.html?way=listView",
                 "label": "商务部关于印发《境外投资开办企业核准工作细则》的通知"
               },
               {
-                "value": "国家发展和改革委员会、国家开发银行关于进一步加强对境外投资重点项目融资支持有关问题的通知",
+                "value": "https://www.pkulaw.com/chl/3001636d0b560f49bdfb.html?way=listView",
                 "label": "国家发展和改革委员会、国家开发银行关于进一步加强对境外投资重点项目融资支持有关问题的通知"
               },
               {
-                "value": "国家发展和改革委员会、中国出口信用保险公司关于建立境外投资重点项目风险保障机制有关问题的通知",
+                "value": "https://www.pkulaw.com/chl/c689c219c5bba903bdfb.html?way=listView",
                 "label": "国家发展和改革委员会、中国出口信用保险公司关于建立境外投资重点项目风险保障机制有关问题的通知"
               },
               {
-                "value": "国家发展改革委、中国进出口银行关于对国家鼓励的境外投资重点项目给予信贷支持政策的通知",
+                "value": "https://www.pkulaw.com/chl/1734b31d2b850c00bdfb.html?way=listView",
                 "label": "国家发展改革委、中国进出口银行关于对国家鼓励的境外投资重点项目给予信贷支持政策的通知"
               },
               {
-                "value": "商务部关于做好境外投资审批试点工作有关问题的通知",
+                "value": "https://www.pkulaw.com/chl/63f86be3c2ba5f62bdfb.html?way=listView",
                 "label": "商务部关于做好境外投资审批试点工作有关问题的通知"
               },
               {
-                "value": "外经贸部关于印发《境外投资综合绩效评价办法(试行)》的通知",
+                "value": "https://www.pkulaw.com/chl/c8cdd04ba1f90589bdfb.html?way=listView",
                 "label": "外经贸部关于印发《境外投资综合绩效评价办法(试行)》的通知"
               },
               {
-                "value": "“十二五”利用外资和境外投资规划",
+                "value": "“https://www.pkulaw.com/chl/ceec067f472e6178bdfb.html?way=listView",
                 "label": "“十二五”利用外资和境外投资规划"
               },
               {
-                "value": "国家发展改革委、外交部、工业和信息化部等关于印发鼓励和引导民营企业积极开展境外投资的实施意见的通知",
+                "value": "https://www.pkulaw.com/chl/cc691e1d0fe7a701bdfb.html?way=listView",
                 "label": "国家发展改革委、外交部、工业和信息化部等关于印发鼓励和引导民营企业积极开展境外投资的实施意见的通知"
               },
               {
-                "value": "商务部办公厅关于启用《中国企业境外投资批准证书》的通知",
+                "value": "https://www.pkulaw.com/chl/b60503ec790c4895bdfb.html?way=listView",
                 "label": "商务部办公厅关于启用《中国企业境外投资批准证书》的通知"
               },
               {
-                "value": "商务部办公厅关于启用《中华人民共和国境外投资批准证书》的通知",
+                "value": "https://www.pkulaw.com/chl/f3570a64687797d6bdfb.html?way=listView",
                 "label": "商务部办公厅关于启用《中华人民共和国境外投资批准证书》的通知"
               },
               {
-                "value": "“十五”利用外资和境外投资规划",
+                "value": "“https://www.pkulaw.com/chl/c8aba8e447613eaabdfb.html?way=listView",
                 "label": "“十五”利用外资和境外投资规划"
               },
               {
-                "value": "中国银保监会关于允许境外投资者来华经营保险代理业务的通知",
+                "value": "https://www.pkulaw.com/chl/56ef74a1533b7d75bdfb.html?way=listView",
                 "label": "中国银保监会关于允许境外投资者来华经营保险代理业务的通知"
               },
               {
-                "value": "中国银保监会关于允许境外投资者来华经营保险公估业务的通知",
+                "value": "https://www.pkulaw.com/chl/5c19379a1e83f936bdfb.html?way=listView",
                 "label": "中国银保监会关于允许境外投资者来华经营保险公估业务的通知"
               },
               {
-                "value": "中国人民银行关于境外投资者投资境内金融机构人民币结算有关事项的通知",
+                "value": "https://www.pkulaw.com/chl/e8880c886de2296bbdfb.html?way=listView",
                 "label": "中国人民银行关于境外投资者投资境内金融机构人民币结算有关事项的通知"
               },
               {
-                "value": "国家发展改革委办公厅关于外商投资项目和境外投资项目核准有关问题的复函",
+                "value": "https://www.pkulaw.com/chl/4701c7750de88098bdfb.html?way=listView",
                 "label": "国家发展改革委办公厅关于外商投资项目和境外投资项目核准有关问题的复函"
               },
               {
-                "value": "国家发展和改革委员会办公厅关于启用全国境外投资项目备案管理网络系统的通知",
+                "value": "https://www.pkulaw.com/chl/455a37b630f85bc5bdfb.html?way=listView",
                 "label": "国家发展和改革委员会办公厅关于启用全国境外投资项目备案管理网络系统的通知"
               },
               {
-                "value": "国家税务总局关于扩大境外投资者以分配利润直接投资暂不征收预提所得税政策适用范围有关问题的公告",
+                "value": "https://www.pkulaw.com/chl/0dafee64dc193652bdfb.html?way=listView",
                 "label": "国家税务总局关于扩大境外投资者以分配利润直接投资暂不征收预提所得税政策适用范围有关问题的公告"
               },
               {
-                "value": "财政部、税务总局、国家发展改革委、商务部关于扩大境外投资者以分配利润直接投资暂不征收预提所得税政策适用范围的通知",
+                "value": "https://www.pkulaw.com/chl/f53a65645ad20d3dbdfb.html?way=listView",
                 "label": "财政部、税务总局、国家发展改革委、商务部关于扩大境外投资者以分配利润直接投资暂不征收预提所得税政策适用范围的通知"
               },
               {
-                "value": "国家发展改革委利用外资和境外投资司关于不再办理《符合国家产业政策的外商投资项目确认书》的通知",
+                "value": "https://www.pkulaw.com/chl/eb732d0d3606c4c9bdfb.html?way=listView",
                 "label": "国家发展改革委利用外资和境外投资司关于不再办理《符合国家产业政策的外商投资项目确认书》的通知"
               },
               {
-                "value": "中国人民银行关于境外投资者因经营受让不良债权开立人民币银行结算账户有关问题的通知",
+                "value": "https://www.pkulaw.com/chl/50101a27cfa3f9a6bdfb.html?way=listView",
                 "label": "中国人民银行关于境外投资者因经营受让不良债权开立人民币银行结算账户有关问题的通知"
               },
               {
-                "value": "财政部关于贯彻落实《国务院关于暂停收购境外企业和进一步加强境外投资管理的通知》的紧急通知",
+                "value": "https://www.pkulaw.com/chl/6cd4f8cb38911e34bdfb.html?way=listView",
                 "label": "财政部关于贯彻落实《国务院关于暂停收购境外企业和进一步加强境外投资管理的通知》的紧急通知"
               },
               {
-                "value": "中国人民银行上海总部公告(2017)第1号——关于中国人民银行上海总部制定了《“债券通“北向通境外投资者准入备案业务指引》的公告",
+                "value": "https://www.pkulaw.com/chl/a8e03038a132c26ebdfb.html?way=listView",
                 "label": "中国人民银行上海总部公告(2017)第1号——关于中国人民银行上海总部制定了《“债券通“北向通境外投资者准入备案业务指引》的公告"
               }
             ]
@@ -422,11 +422,11 @@ const options = ref([
             "label": "法律",
             "children": [
               {
-                "value": "中央人民政府委员会关于批准海关与对外贸易管理机关实行合并的决议",
+                "value": "https://www.pkulaw.com/chl/16582666334bc987bdfb.html?way=listView",
                 "label": "中央人民政府委员会关于批准海关与对外贸易管理机关实行合并的决议"
               },
               {
-                "value": "中华人民共和国对外贸易法(2022修正)",
+                "value": "https://www.pkulaw.com/chl/4719179c90182f57bdfb.html?way=listView",
                 "label": "中华人民共和国对外贸易法(2022修正)"
               }
             ]
@@ -436,35 +436,35 @@ const options = ref([
             "label": "行政法规",
             "children": [
               {
-                "value": "国务院关于“十四五”对外贸易高质量发展规划的批复",
+                "value": "https://www.pkulaw.com/chl/51bdd255b34ad5ebbdfb.html?way=listView",
                 "label": "国务院关于“十四五”对外贸易高质量发展规划的批复"
               },
               {
-                "value": "国务院办公厅关于推进对外贸易创新发展的实施意见",
+                "value": "https://www.pkulaw.com/chl/bab1cec514547116bdfb.html?way=listView",
                 "label": "国务院办公厅关于推进对外贸易创新发展的实施意见"
               },
               {
-                "value": "国务院关于加强进口促进对外贸易平衡发展的指导意见",
+                "value": "https://www.pkulaw.com/chl/73526ece0d281581bdfb.html?way=listView",
                 "label": "国务院关于加强进口促进对外贸易平衡发展的指导意见"
               },
               {
-                "value": "国务院办公厅关于印发对外贸易经济合作部职能配置内设机构和人员编制规定的通知(1998)",
+                "value": "https://www.pkulaw.com/chl/b3d36c47189c03f3bdfb.html?way=listView",
                 "label": "国务院办公厅关于印发对外贸易经济合作部职能配置内设机构和人员编制规定的通知(1998)"
               },
               {
-                "value": "国务院关于设立中央对外贸易发展基金有关问题的批复",
+                "value": "https://www.pkulaw.com/chl/6d915052c5006eabbdfb.html?way=listView",
                 "label": "国务院关于设立中央对外贸易发展基金有关问题的批复"
               },
               {
-                "value": "国务院办公厅关于印发对外贸易经济合作部、国家进出口商品检验局职能配置、内设机构和人员编制方案的通知",
+                "value": "https://www.pkulaw.com/chl/9b372047a654da04bdfb.html?way=listView",
                 "label": "国务院办公厅关于印发对外贸易经济合作部、国家进出口商品检验局职能配置、内设机构和人员编制方案的通知"
               },
               {
-                "value": "国务院关于进一步改革和完善对外贸易体制若干问题的决定",
+                "value": "https://www.pkulaw.com/chl/a31ae30136263374bdfb.html?way=listView",
                 "label": "国务院关于进一步改革和完善对外贸易体制若干问题的决定"
               },
               {
-                "value": "国务院关于同意向关税和贸易总协定递交《中国对外贸易制度备忘录》的批复",
+                "value": "https://www.pkulaw.com/chl/76adea22271f1bbdbdfb.html?way=listView",
                 "label": "国务院关于同意向关税和贸易总协定递交《中国对外贸易制度备忘录》的批复"
               }
             ]
@@ -474,47 +474,47 @@ const options = ref([
             "label": "部门规章",
             "children": [
               {
-                "value": "对外贸易经营者备案登记办法(2021修订)",
+                "value": "https://www.pkulaw.com/chl/e26e6cc72dc86e3dbdfb.html?way=listView",
                 "label": "对外贸易经营者备案登记办法(2021修订)"
               },
               {
-                "value": "对外贸易经营者违法违规行为公告办法",
+                "value": "https://www.pkulaw.com/chl/a36dca8531ccd74fbdfb.html?way=listView",
                 "label": "对外贸易经营者违法违规行为公告办法"
               },
               {
-                "value": "对外贸易经济合作部关于保障措施产品范围调整程序的暂行规则",
+                "value": "https://www.pkulaw.com/chl/48242f12e02de8a2bdfb.html?way=listView",
                 "label": "对外贸易经济合作部关于保障措施产品范围调整程序的暂行规则"
               },
               {
-                "value": "对外贸易经济合作部关于反倾销产品范围调整程序的暂行规则",
+                "value": "https://www.pkulaw.com/chl/42eaddcc3f00c92abdfb.html?way=listView",
                 "label": "对外贸易经济合作部关于反倾销产品范围调整程序的暂行规则"
               },
               {
-                "value": "外经贸部第四批废止的部门规章目录（中华人民共和国对外贸易经济合作部令2002年第24号）",
+                "value": "https://www.pkulaw.com/chl/0cdded0ff7506292bdfb.html?way=listView",
                 "label": "外经贸部第四批废止的部门规章目录（中华人民共和国对外贸易经济合作部令2002年第24号）"
               },
               {
-                "value": "对外贸易经济合作部、海关总署关于对走私、违规企业给予警告或暂停、撤销对外贸易、国际货运代理经营许可行政处罚的规定",
+                "value": "https://www.pkulaw.com/chl/1c1bfab2072f7fd1bdfb.html?way=listView",
                 "label": "对外贸易经济合作部、海关总署关于对走私、违规企业给予警告或暂停、撤销对外贸易、国际货运代理经营许可行政处罚的规定"
               },
               {
-                "value": "中华人民共和国对外贸易经济合作部保障措施调查听证会暂行规则",
+                "value": "https://www.pkulaw.com/chl/7c7c3130911db933bdfb.html?way=listView",
                 "label": "中华人民共和国对外贸易经济合作部保障措施调查听证会暂行规则"
               },
               {
-                "value": "外经贸部第二批废止部门规章目录(中华人民共和国对外贸易经济合作部令2001年第30号)",
+                "value": "https://www.pkulaw.com/chl/a579f540985ba769bdfb.html?way=listView",
                 "label": "外经贸部第二批废止部门规章目录(中华人民共和国对外贸易经济合作部令2001年第30号)"
               },
               {
-                "value": "对外贸易经济合作部和国家工商行政管理总局关于修改《关于外商投资企业合并与分立的规定》的决定",
+                "value": "https://www.pkulaw.com/chl/5f1dc31dd738e00abdfb.html?way=listView",
                 "label": "对外贸易经济合作部和国家工商行政管理总局关于修改《关于外商投资企业合并与分立的规定》的决定"
               },
               {
-                "value": "外经贸部第一批废止部门规章目录（中华人民共和国对外贸易经济合作部令２００１年第１３号）",
+                "value": "https://www.pkulaw.com/chl/2498357f45320435bdfb.html?way=listView",
                 "label": "外经贸部第一批废止部门规章目录（中华人民共和国对外贸易经济合作部令２００１年第１３号）"
               },
               {
-                "value": "对外贸易经济合作部关于印发《出口考核暂行办法》的通知",
+                "value": "https://www.pkulaw.com/chl/fbd73cb9354301debdfb.html?way=listView",
                 "label": "对外贸易经济合作部关于印发《出口考核暂行办法》的通知"
               }
             ]
@@ -530,23 +530,23 @@ const options = ref([
             "label": "部门规章",
             "children": [
               {
-                "value": "证券公司和证券投资基金管理公司境外设立、收购、参股经营机构管理办法(2021修正)",
+                "value": "https://www.pkulaw.com/chl/4519fe1b7ccaafecbdfb.html?way=listView",
                 "label": "证券公司和证券投资基金管理公司境外设立、收购、参股经营机构管理办法(2021修正)"
               },
               {
-                "value": "保险公司设立境外保险类机构管理办法(2015修订)",
+                "value": "https://www.pkulaw.com/chl/7e018b06bf2c1140bdfb.html?way=listView",
                 "label": "保险公司设立境外保险类机构管理办法(2015修订)"
               },
               {
-                "value": "对外贸易经济合作部关于印发《关于设立境外贸易公司和贸易代表处的暂行规定》的通知",
+                "value": "https://www.pkulaw.com/chl/5a83fab15cd33cc1bdfb.html?way=listView",
                 "label": "对外贸易经济合作部关于印发《关于设立境外贸易公司和贸易代表处的暂行规定》的通知"
               },
               {
-                "value": "【行政许可事项服务指南】证券公司在境外设立、收购或者参股证券经营机构审批",
+                "value": "https://www.pkulaw.com/chl/f3e69ab99a004c95bdfb.html?way=listView",
                 "label": "【行政许可事项服务指南】证券公司在境外设立、收购或者参股证券经营机构审批"
               },
               {
-                "value": "中国证券监督管理委员会公告〔2017〕7号—关于取消期货公司设立、收购、参股境外期货类经营机构行政审批事项的决定",
+                "value": "https://www.pkulaw.com/chl/bcc54142e7d00ca5bdfb.html?way=listView",
                 "label": "中国证券监督管理委员会公告〔2017〕7号—关于取消期货公司设立、收购、参股境外期货类经营机构行政审批事项的决定"
               }
             ]
@@ -556,11 +556,11 @@ const options = ref([
             "label": "行业规定",
             "children": [
               {
-                "value": "中国证券业协会关于举办证券公司境外设立、收购、参股经营机构管理办法培训班的通知",
+                "value": "https://www.pkulaw.com/chl/0065d2eb59c0dfd3bdfb.html?way=listView",
                 "label": "中国证券业协会关于举办证券公司境外设立、收购、参股经营机构管理办法培训班的通知"
               },
               {
-                "value": "中国人民保险(集团)公司关于分公司不得在境外设立机构的通知",
+                "value": "https://www.pkulaw.com/chl/443bf1db56c65399bdfb.html?way=listView",
                 "label": "中国人民保险(集团)公司关于分公司不得在境外设立机构的通知"
               }
             ]
@@ -576,11 +576,11 @@ const options = ref([
             "label": "行政法规",
             "children": [
               {
-                "value": "对外承包工程管理条例(2017修订)",
+                "value": "https://www.pkulaw.com/chl/6e373136b58465debdfb.html?keyword=%E5%AF%B9%E5%A4%96%E6%89%BF%E5%8C%85%E5%B7%A5%E7%A8%8B&way=listView",
                 "label": "对外承包工程管理条例(2017修订)"
               },
               {
-                "value": "国务院办公厅转发外经贸部等部门关于大力发展对外承包工程意见的通知",
+                "value": "https://www.pkulaw.com/chl/3bf503ee898129abbdfb.html?keyword=%E5%AF%B9%E5%A4%96%E6%89%BF%E5%8C%85%E5%B7%A5%E7%A8%8B&way=listView",
                 "label": "国务院办公厅转发外经贸部等部门关于大力发展对外承包工程意见的通知"
               }
             ]
@@ -590,79 +590,79 @@ const options = ref([
             "label": "部门规章",
             "children": [
               {
-                "value": "商务部关于印发《对外承包工程业务统计调查制度》和《对外劳务合作业务统计调查制度》的通知(2021修订)",
+                "value": "https://www.pkulaw.com/chl/711adf0f500c7493bdfb.html?way=listView",
                 "label": "商务部关于印发《对外承包工程业务统计调查制度》和《对外劳务合作业务统计调查制度》的通知(2021修订)"
               },
               {
-                "value": "商务部、外交部、发展改革委等关于促进对外承包工程高质量发展的指导意见",
+                "value": "https://www.pkulaw.com/chl/5249f18c66b66b31bdfb.html?way=listView",
                 "label": "商务部、外交部、发展改革委等关于促进对外承包工程高质量发展的指导意见"
               },
               {
-                "value": "商务部办公厅关于请继续做好对外承包工程领域应对新冠肺炎疫情有关工作的通知",
+                "value": "https://www.pkulaw.com/chl/33dcd1ccea6aa3c3bdfb.html?way=listView",
                 "label": "商务部办公厅关于请继续做好对外承包工程领域应对新冠肺炎疫情有关工作的通知"
               },
               {
-                "value": "商务部办公厅、海关总署办公厅、质检总局办公厅关于做好对外承包工程资格审批取消后有关政策衔接工作的通知",
+                "value": "https://www.pkulaw.com/chl/cf7b648e36cf402dbdfb.html?way=listView",
                 "label": "商务部办公厅、海关总署办公厅、质检总局办公厅关于做好对外承包工程资格审批取消后有关政策衔接工作的通知"
               },
               {
-                "value": "商务部关于印发《对外承包工程行业社会责任指引》的通知",
+                "value": "https://www.pkulaw.com/chl/6c7e06f7bf682745bdfb.html?way=listView",
                 "label": "商务部关于印发《对外承包工程行业社会责任指引》的通知"
               },
               {
-                "value": "商务部关于做好《对外承包工程资格证书》到期换领有关工作的通知",
+                "value": "https://www.pkulaw.com/chl/90df78819c113c68bdfb.html?way=listView",
                 "label": "商务部关于做好《对外承包工程资格证书》到期换领有关工作的通知"
               },
               {
-                "value": "商务部、住房城乡建设部、安全监管总局关于印发《对外承包工程违法违规行为行政处罚规定》的通知",
+                "value": "https://www.pkulaw.com/chl/38b158b4ed2b25e4bdfb.html?way=listView",
                 "label": "商务部、住房城乡建设部、安全监管总局关于印发《对外承包工程违法违规行为行政处罚规定》的通知"
               },
               {
-                "value": "财政部办公厅、商务部办公厅关于在有关国家开展对外承包工程保函风险专项资金试点工作的通知",
+                "value": "https://www.pkulaw.com/chl/7499f166675e56b0bdfb.html?way=listView",
                 "label": "财政部办公厅、商务部办公厅关于在有关国家开展对外承包工程保函风险专项资金试点工作的通知"
               },
               {
-                "value": "商务部办公厅关于进一步强调对外承包工程项下外派劳务工作有关问题的紧急通知",
+                "value": "https://www.pkulaw.com/chl/68d18042d12ce107bdfb.html?way=listView",
                 "label": "商务部办公厅关于进一步强调对外承包工程项下外派劳务工作有关问题的紧急通知"
               },
               {
-                "value": "国家税务总局关于对外承包工程建筑幕墙所用材料登记备案问题的批复",
+                "value": "https://www.pkulaw.com/chl/e00c0d1a885c918ebdfb.html?way=listView",
                 "label": "国家税务总局关于对外承包工程建筑幕墙所用材料登记备案问题的批复"
               },
               {
-                "value": "商务部关于印发进一步规范对外承包工程业务发展的规定的通知",
+                "value": "https://www.pkulaw.com/chl/d4862597bef3a69fbdfb.html?way=listView",
                 "label": "商务部关于印发进一步规范对外承包工程业务发展的规定的通知"
               },
               {
-                "value": "商务部关于印发《对外承包工程项下外派劳务管理暂行办法》的通知",
+                "value": "https://www.pkulaw.com/chl/bb7bb25497f8e822bdfb.html?way=listView",
                 "label": "商务部关于印发《对外承包工程项下外派劳务管理暂行办法》的通知"
               },
               {
-                "value": "财政部、商务部关于印发《对外承包工程保函风险专项资金管理暂行办法》补充规定的通知",
+                "value": "https://www.pkulaw.com/chl/c388213693da2969bdfb.html?way=listView",
                 "label": "财政部、商务部关于印发《对外承包工程保函风险专项资金管理暂行办法》补充规定的通知"
               },
               {
-                "value": "对外贸易经济合作部、海关总署关于印发《关于对外承包工程项下出口设备材料的工作规程》补充规定的通知",
+                "value": "https://www.pkulaw.com/chl/b6bc3747fbba9396bdfb.html?way=listView",
                 "label": "对外贸易经济合作部、海关总署关于印发《关于对外承包工程项下出口设备材料的工作规程》补充规定的通知"
               },
               {
-                "value": "对外承包工程保函风险专项资金管理暂行办法",
+                "value": "https://www.pkulaw.com/chl/42042190b9325fdcbdfb.html?way=listView",
                 "label": "对外承包工程保函风险专项资金管理暂行办法"
               },
               {
-                "value": "中国对外承包工程商会关于进一步做好外派海员劳务合作业务协调工作的通知",
+                "value": "https://www.pkulaw.com/chl/e7e6fa9f986a04f3bdfb.html?way=listView",
                 "label": "中国对外承包工程商会关于进一步做好外派海员劳务合作业务协调工作的通知"
               },
               {
-                "value": "外经贸部关于利用出口信贷开展对外承包工程和成套设备出口实行资格审定有关问题的补充通知",
+                "value": "https://www.pkulaw.com/chl/2b89a4b4d952394fbdfb.html?way=listView",
                 "label": "外经贸部关于利用出口信贷开展对外承包工程和成套设备出口实行资格审定有关问题的补充通知"
               },
               {
-                "value": "对外经济贸易部关于对外承包工程和劳务合作统计制度",
+                "value": "https://www.pkulaw.com/chl/c4f858b46a60945abdfb.html?way=listView",
                 "label": "对外经济贸易部关于对外承包工程和劳务合作统计制度"
               },
               {
-                "value": "中国人民银行、对外经济贸易部关于争取对外承包工程和劳务合作在国内保险的通知",
+                "value": "https://www.pkulaw.com/chl/0dd9c55e0368e4fcbdfb.html?way=listView",
                 "label": "中国人民银行、对外经济贸易部关于争取对外承包工程和劳务合作在国内保险的通知"
               }
             ]
@@ -672,15 +672,15 @@ const options = ref([
             "label": "行业规定",
             "children": [
               {
-                "value": "中国对外承包工程和劳务合作行业规范（试行）",
+                "value": "https://www.pkulaw.com/chl/8f0e91343ce41c94bdfb.html?way=listView",
                 "label": "中国对外承包工程和劳务合作行业规范（试行）"
               },
               {
-                "value": "中国进出口银行关于印发《中国进出口银行对外承包工程项目贷款管理暂行办法》的通知",
+                "value": "https://www.pkulaw.com/chl/734ee502847da307bdfb.html?way=listView",
                 "label": "中国进出口银行关于印发《中国进出口银行对外承包工程项目贷款管理暂行办法》的通知"
               },
               {
-                "value": "对外承包工程项目投（议）标协调办法实施细则",
+                "value": "https://www.pkulaw.com/chl/cb5da4033c39055cbdfb.html?way=listView",
                 "label": "对外承包工程项目投（议）标协调办法实施细则"
               }
             ]
@@ -696,19 +696,19 @@ const options = ref([
             "label": "部门规章",
             "children": [
               {
-                "value": "国家税务总局关于外商投资企业征免土地使用税问题的批复",
+                "value": "https://www.pkulaw.com/chl/4c0f1262c408268fbdfb.html?way=listView",
                 "label": "国家税务总局关于外商投资企业征免土地使用税问题的批复"
               },
               {
-                "value": "国家税务总局关于外商投资企业租用场地缴纳土地使用费列支问题的函",
+                "value": "https://www.pkulaw.com/chl/05e34329d5067ef0bdfb.html?way=listView",
                 "label": "国家税务总局关于外商投资企业租用场地缴纳土地使用费列支问题的函"
               },
               {
-                "value": "财政部关于外商投资企业租用场地如何缴土地使用费问题的答复",
+                "value": "https://www.pkulaw.com/chl/a82f77353a96dc53bdfb.html?way=listView",
                 "label": "财政部关于外商投资企业租用场地如何缴土地使用费问题的答复"
               },
               {
-                "value": "国家税务局关于对外商投资企业从事土地开发和使用权有偿转让征收工商统一税和企业所得税问题的通知",
+                "value": "https://www.pkulaw.com/chl/028caf13a3f906e3bdfb.html?way=listView",
                 "label": "国家税务局关于对外商投资企业从事土地开发和使用权有偿转让征收工商统一税和企业所得税问题的通知"
               }
             ]
@@ -724,19 +724,19 @@ const options = ref([
             "label": "1.法律:",
             "children": [
               {
-                "value": "·《中华人民共和国企业所得税法》",
+                "value": "https://www.pkulaw.com/chl/47bea5f5ea1fa83ebdfb.html?keyword=%E3%80%8A%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E4%BC%81%E4%B8%9A%E6%89%80%E5%BE%97%E7%A8%8E%E6%B3%95%E3%80%8B&way=listView",
                 "label": "·《中华人民共和国企业所得税法》"
               },
               {
-                "value": "·中华人民共和国税收征收管理法(2015修正))",
+                "value": "https://www.pkulaw.com/chl/ca88b5ed5ce08c6cbdfb.html?keyword=%C2%B7%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%A8%8E%E6%94%B6%E5%BE%81%E6%94%B6%E7%AE%A1%E7%90%86%E6%B3%95%282015%E4%BF%AE%E6%AD%A3%29%29&way=listView",
                 "label": "·中华人民共和国税收征收管理法(2015修正))"
               },
               {
-                "value": "·全国人民代表大会常务委员会关于修改《中华人民共和国港口法》等七部法律的决定(含：税收征收管理法、固体废物污染环境防治法、枪支管理法、防洪法、证券投资基金法、城乡规划法)",
+                "value": "https://www.pkulaw.com/chl/169396bea504794abdfb.html?keyword=%E5%85%A8%E5%9B%BD%E4%BA%BA%E6%B0%91%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A%E5%B8%B8%E5%8A%A1%E5%A7%94%E5%91%98%E4%BC%9A%E5%85%B3%E4%BA%8E%E4%BF%AE%E6%94%B9%E3%80%8A%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%B8%AF%E5%8F%A3%E6%B3%95%E3%80%8B%E7%AD%89%E4%B8%83%E9%83%A8%E6%B3%95%E5%BE%8B%E7%9A%84%E5%86%B3%E5%AE%9A%28%E5%90%AB%EF%BC%9A%E7%A8%8E%E6%94%B6%E5%BE%81%E6%94%B6%E7%AE%A1%E7%90%86%E6%B3%95%E3%80%81%E5%9B%BA%E4%BD%93%E5%BA%9F%E7%89%A9%E6%B1%A1%E6%9F%93%E7%8E%AF%E5%A2%83%E9%98%B2%E6%B2%BB%E6%B3%95%E3%80%81%E6%9E%AA%E6%94%AF%E7%AE%A1%E7%90%86%E6%B3%95%E3%80%81%E9%98%B2%E6%B4%AA%E6%B3%95%E3%80%81%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E6%B3%95%E3%80%81%E5%9F%8E%E4%B9%A1%E8%A7%84%E5%88%92%E6%B3%95%29&way=listView",
                 "label": "·全国人民代表大会常务委员会关于修改《中华人民共和国港口法》等七部法律的决定(含：税收征收管理法、固体废物污染环境防治法、枪支管理法、防洪法、证券投资基金法、城乡规划法)"
               },
               {
-                "value": "·全国人民代表大会常务委员会关于批准《多边税收征管互助公约》的决定",
+                "value": "https://www.pkulaw.com/chl/a629e8ca657697e7bdfb.html?keyword=%C2%B7%E5%85%A8%E5%9B%BD%E4%BA%BA%E6%B0%91%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A%E5%B8%B8%E5%8A%A1%E5%A7%94%E5%91%98%E4%BC%9A%E5%85%B3%E4%BA%8E%E6%89%B9%E5%87%86%E3%80%8A%E5%A4%9A%E8%BE%B9%E7%A8%8E%E6%94%B6%E5%BE%81%E7%AE%A1%E4%BA%92%E5%8A%A9%E5%85%AC%E7%BA%A6%E3%80%8B%E7%9A%84%E5%86%B3%E5%AE%9A&way=listView",
                 "label": "·全国人民代表大会常务委员会关于批准《多边税收征管互助公约》的决定"
               }
             ]
@@ -746,11 +746,11 @@ const options = ref([
             "label": "2.行政法规",
             "children": [
               {
-                "value": "·中华人民共和国税收征收管理法实施细则(2016修订)",
+                "value": "https://www.pkulaw.com/chl/7dc583d386b1f98bbdfb.html?keyword=%C2%B7%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%A8%8E%E6%94%B6%E5%BE%81%E6%94%B6%E7%AE%A1%E7%90%86%E6%B3%95%E5%AE%9E%E6%96%BD%E7%BB%86%E5%88%99%282016%E4%BF%AE%E8%AE%A2%29&way=listView",
                 "label": "·中华人民共和国税收征收管理法实施细则(2016修订)"
               },
               {
-                "value": "·外国在华常住人员携带进境物品进口税收暂行规定",
+                "value": "https://www.pkulaw.com/chl/9f0a96e24034becabdfb.html?keyword=%C2%B7%E5%A4%96%E5%9B%BD%E5%9C%A8%E5%8D%8E%E5%B8%B8%E4%BD%8F%E4%BA%BA%E5%91%98%E6%90%BA%E5%B8%A6%E8%BF%9B%E5%A2%83%E7%89%A9%E5%93%81%E8%BF%9B%E5%8F%A3%E7%A8%8E%E6%94%B6%E6%9A%82%E8%A1%8C%E8%A7%84%E5%AE%9A&way=listView",
                 "label": "·外国在华常住人员携带进境物品进口税收暂行规定"
               },
               {
@@ -758,7 +758,7 @@ const options = ref([
                 "label": "·暂行条例有关问题的通知"
               },
               {
-                "value": "·国务院办公厅关于1996年3月31日前批准的外商投资企业进口税收政策的通知",
+                "value": "https://www.pkulaw.com/chl/b1057908ca1c7261bdfb.html?keyword=%C2%B7%E5%9B%BD%E5%8A%A1%E9%99%A2%E5%8A%9E%E5%85%AC%E5%8E%85%E5%85%B3%E4%BA%8E1996%E5%B9%B43%E6%9C%8831%E6%97%A5%E5%89%8D%E6%89%B9%E5%87%86%E7%9A%84%E5%A4%96%E5%95%86%E6%8A%95%E8%B5%84%E4%BC%81%E4%B8%9A%E8%BF%9B%E5%8F%A3%E7%A8%8E%E6%94%B6%E6%94%BF%E7%AD%96%E7%9A%84%E9%80%9A%E7%9F%A5&way=listView",
                 "label": "·国务院办公厅关于1996年3月31日前批准的外商投资企业进口税收政策的通知"
               }
             ]
@@ -768,23 +768,23 @@ const options = ref([
             "label": "3.部门规章",
             "children": [
               {
-                "value": "·规定》等3部规章的决定中华人民共和国财政部、中华人民共和国海关总署、国家税务总局关于废止《科学研究和教学用品免征进口税收规定》等3部规章的决定",
+                "value": "https://www.pkulaw.com/chl/cb09391a21daec2dbdfb.html?keyword=%C2%B7%E8%A7%84%E5%AE%9A%E3%80%8B%E7%AD%893%E9%83%A8%E8%A7%84%E7%AB%A0%E7%9A%84%E5%86%B3%E5%AE%9A%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E8%B4%A2%E6%94%BF%E9%83%A8%E3%80%81%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%B5%B7%E5%85%B3%E6%80%BB%E7%BD%B2%E3%80%81%E5%9B%BD%E5%AE%B6%E7%A8%8E%E5%8A%A1%E6%80%BB%E5%B1%80%E5%85%B3%E4%BA%8E%E5%BA%9F%E6%AD%A2%E3%80%8A%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6%E5%92%8C%E6%95%99%E5%AD%A6%E7%94%A8%E5%93%81%E5%85%8D%E5%BE%81%E8%BF%9B%E5%8F%A3%E7%A8%8E%E6%94%B6%E8%A7%84%E5%AE%9A%E3%80%8B%E7%AD%893%E9%83%A8%E8%A7%84%E7%AB%A0%E7%9A%84%E5%86%B3%E5%AE%9A&way=listView",
                 "label": "·规定》等3部规章的决定中华人民共和国财政部、中华人民共和国海关总署、国家税务总局关于废止《科学研究和教学用品免征进口税收规定》等3部规章的决定"
               },
               {
-                "value": "·财政部、国家税务总局关于跨境电子商务零售出口税收政策的通知",
+                "value": "https://www.pkulaw.com/chl/49e3c819473c3440bdfb.html?keyword=%C2%B7%E8%B4%A2%E6%94%BF%E9%83%A8%E3%80%81%E5%9B%BD%E5%AE%B6%E7%A8%8E%E5%8A%A1%E6%80%BB%E5%B1%80%E5%85%B3%E4%BA%8E%E8%B7%A8%E5%A2%83%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E9%9B%B6%E5%94%AE%E5%87%BA%E5%8F%A3%E7%A8%8E%E6%94%B6%E6%94%BF%E7%AD%96%E7%9A%84%E9%80%9A%E7%9F%A5&way=listView",
                 "label": "·财政部、国家税务总局关于跨境电子商务零售出口税收政策的通知"
               },
               {
-                "value": "·国家税务总局进出口税收管理司、海关总署监管司关于使用新疆棉生产出口产品退税工作的补充通知",
+                "value": "https://www.pkulaw.com/chl/37833a137d8af709bdfb.html?keyword=%C2%B7%E5%9B%BD%E5%AE%B6%E7%A8%8E%E5%8A%A1%E6%80%BB%E5%B1%80%E8%BF%9B%E5%87%BA%E5%8F%A3%E7%A8%8E%E6%94%B6%E7%AE%A1%E7%90%86%E5%8F%B8%E3%80%81%E6%B5%B7%E5%85%B3%E6%80%BB%E7%BD%B2%E7%9B%91%E7%AE%A1%E5%8F%B8%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8%E6%96%B0%E7%96%86%E6%A3%89%E7%94%9F%E4%BA%A7%E5%87%BA%E5%8F%A3%E4%BA%A7%E5%93%81%E9%80%80%E7%A8%8E%E5%B7%A5%E4%BD%9C%E7%9A%84%E8%A1%A5%E5%85%85%E9%80%9A%E7%9F%A5&way=listView",
                 "label": "·国家税务总局进出口税收管理司、海关总署监管司关于使用新疆棉生产出口产品退税工作的补充通知"
               },
               {
-                "value": "·国家税务总局关于做好我国企业境外投资税收服务与管理工作的意见",
+                "value": "https://www.pkulaw.com/chl/b21bd7a346ef2a69bdfb.html?keyword=%C2%B7%E5%9B%BD%E5%AE%B6%E7%A8%8E%E5%8A%A1%E6%80%BB%E5%B1%80%E5%85%B3%E4%BA%8E%E5%81%9A%E5%A5%BD%E6%88%91%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%A2%83%E5%A4%96%E6%8A%95%E8%B5%84%E7%A8%8E%E6%94%B6%E6%9C%8D%E5%8A%A1%E4%B8%8E%E7%AE%A1%E7%90%86%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%84%8F%E8%A7%81&way=listView",
                 "label": "·国家税务总局关于做好我国企业境外投资税收服务与管理工作的意见"
               },
               {
-                "value": "·财政部、税务总局关于境外所得有关个人所得税政策的公告",
+                "value": "https://www.pkulaw.com/chl/591cac594442c9d5bdfb.html?keyword=%C2%B7%E8%B4%A2%E6%94%BF%E9%83%A8%E3%80%81%E7%A8%8E%E5%8A%A1%E6%80%BB%E5%B1%80%E5%85%B3%E4%BA%8E%E5%A2%83%E5%A4%96%E6%89%80%E5%BE%97%E6%9C%89%E5%85%B3%E4%B8%AA%E4%BA%BA%E6%89%80%E5%BE%97%E7%A8%8E%E6%94%BF%E7%AD%96%E7%9A%84%E5%85%AC%E5%91%8A&way=listView",
                 "label": "·财政部、税务总局关于境外所得有关个人所得税政策的公告"
               }
             ]
@@ -798,19 +798,19 @@ const options = ref([
                 "label": "（1）地方规范性文件",
                 "children": [
                   {
-                    "value": "·江苏省国家税务局关于转发《国家税务总局关于做好我国企业境外投资税收服务与管理工作的意见》的通知",
+                    "value": "https://www.pkulaw.com/lar/3d950bee3e69fac9d92c91c5cdb9e72fbdfb.html?keyword=%C2%B7%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%9B%BD%E5%AE%B6%E7%A8%8E%E5%8A%A1%E5%B1%80%E5%85%B3%E4%BA%8E%E8%BD%AC%E5%8F%91%E3%80%8A%E5%9B%BD%E5%AE%B6%E7%A8%8E%E5%8A%A1%E6%80%BB%E5%B1%80%E5%85%B3%E4%BA%8E%E5%81%9A%E5%A5%BD%E6%88%91%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%A2%83%E5%A4%96%E6%8A%95%E8%B5%84%E7%A8%8E%E6%94%B6%E6%9C%8D%E5%8A%A1%E4%B8%8E%E7%AE%A1%E7%90%86%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%84%8F%E8%A7%81%E3%80%8B%E7%9A%84%E9%80%9A%E7%9F%A5&way=listView",
                     "label": "·江苏省国家税务局关于转发《国家税务总局关于做好我国企业境外投资税收服务与管理工作的意见》的通知"
                   },
                   {
-                    "value": "·重庆市地方税务局转发国家税务总局关于做好我国企业境外投资税收服务与管理工作的意见的通知",
+                    "value": "https://www.pkulaw.com/lar/d29f9eedd0900ab6a2bf1fdf08b44ac6bdfb.html?keyword=%C2%B7%E9%87%8D%E5%BA%86%E5%B8%82%E5%9C%B0%E6%96%B9%E7%A8%8E%E5%8A%A1%E5%B1%80%E8%BD%AC%E5%8F%91%E5%9B%BD%E5%AE%B6%E7%A8%8E%E5%8A%A1%E6%80%BB%E5%B1%80%E5%85%B3%E4%BA%8E%E5%81%9A%E5%A5%BD%E6%88%91%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%A2%83%E5%A4%96%E6%8A%95%E8%B5%84%E7%A8%8E%E6%94%B6%E6%9C%8D%E5%8A%A1%E4%B8%8E%E7%AE%A1%E7%90%86%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%84%8F%E8%A7%81%E7%9A%84%E9%80%9A%E7%9F%A5&way=listView",
                     "label": "·重庆市地方税务局转发国家税务总局关于做好我国企业境外投资税收服务与管理工作的意见的通知"
                   },
                   {
-                    "value": "·福建省地方税务局转发国家税务总局关于做好我国企业境外投资税收服务与管理工作的意见的通知",
+                    "value": "https://www.pkulaw.com/lar/3af0f5527cae1fcae1e0c22587167941bdfb.html?keyword=%C2%B7%E7%A6%8F%E5%BB%BA%E7%9C%81%E5%9C%B0%E6%96%B9%E7%A8%8E%E5%8A%A1%E5%B1%80%E8%BD%AC%E5%8F%91%E5%9B%BD%E5%AE%B6%E7%A8%8E%E5%8A%A1%E6%80%BB%E5%B1%80%E5%85%B3%E4%BA%8E%E5%81%9A%E5%A5%BD%E6%88%91%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%A2%83%E5%A4%96%E6%8A%95%E8%B5%84%E7%A8%8E%E6%94%B6%E6%9C%8D%E5%8A%A1%E4%B8%8E%E7%AE%A1%E7%90%86%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%84%8F%E8%A7%81%E7%9A%84%E9%80%9A%E7%9F%A5&way=listView",
                     "label": "·福建省地方税务局转发国家税务总局关于做好我国企业境外投资税收服务与管理工作的意见的通知"
                   },
                   {
-                    "value": "·湖北省国家税务局转发国家税务总局关于做好我国企业境外投资税收服务与管理工作的意见的通知",
+                    "value": "https://www.pkulaw.com/lar/e60e0656203ac7dfff9b2f89474551c7bdfb.html?keyword=%C2%B7%E6%B9%96%E5%8C%97%E7%9C%81%E5%9B%BD%E5%AE%B6%E7%A8%8E%E5%8A%A1%E5%B1%80%E8%BD%AC%E5%8F%91%E5%9B%BD%E5%AE%B6%E7%A8%8E%E5%8A%A1%E6%80%BB%E5%B1%80%E5%85%B3%E4%BA%8E%E5%81%9A%E5%A5%BD%E6%88%91%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%A2%83%E5%A4%96%E6%8A%95%E8%B5%84%E7%A8%8E%E6%94%B6%E6%9C%8D%E5%8A%A1%E4%B8%8E%E7%AE%A1%E7%90%86%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%84%8F%E8%A7%81%E7%9A%84%E9%80%9A%E7%9F%A5&way=listView",
                     "label": "·湖北省国家税务局转发国家税务总局关于做好我国企业境外投资税收服务与管理工作的意见的通知"
                   }
                 ]
@@ -820,7 +820,7 @@ const options = ref([
                 "label": "（2）地方工作文件",
                 "children": [
                   {
-                    "value": "·国家税务总局天津市税务局关于公开采购法国等国家投资税收指南服务项目的公告",
+                    "value": "https://www.pkulaw.com/lar/5b3c949c0b5af2bf6dde837589aef276bdfb.html?keyword=%C2%B7%E5%9B%BD%E5%AE%B6%E7%A8%8E%E5%8A%A1%E6%80%BB%E5%B1%80%E5%A4%A9%E6%B4%A5%E5%B8%82%E7%A8%8E%E5%8A%A1%E5%B1%80%E5%85%B3%E4%BA%8E%E5%85%AC%E5%BC%80%E9%87%87%E8%B4%AD%E6%B3%95%E5%9B%BD%E7%AD%89%E5%9B%BD%E5%AE%B6%E6%8A%95%E8%B5%84%E7%A8%8E%E6%94%B6%E6%8C%87%E5%8D%97%E6%9C%8D%E5%8A%A1%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%85%AC%E5%91%8A&way=listView",
                     "label": "·国家税务总局天津市税务局关于公开采购法国等国家投资税收指南服务项目的公告"
                   }
                 ]
@@ -838,7 +838,7 @@ const options = ref([
             "label": "法律",
             "children": [
               {
-                "value": "《中华人民共和国劳动合同法》",
+                "value": "https://www.pkulaw.com/chl/7ab5e7d605f859e6bdfb.html?keyword=%E3%80%8A%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%8A%B3%E5%8A%A8%E5%90%88%E5%90%8C%E6%B3%95%E3%80%8B&way=listView",
                 "label": "《中华人民共和国劳动合同法》"
               }
             ]
@@ -848,7 +848,7 @@ const options = ref([
             "label": "行政法规",
             "children": [
               {
-                "value": "劳动就业服务企业管理规定",
+                "value": "https://www.pkulaw.com/chl/01ccafa3bb707f45bdfb.html?keyword=%E5%8A%B3%E5%8A%A8%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A&way=listView",
                 "label": "劳动就业服务企业管理规定"
               }
             ]
@@ -858,7 +858,7 @@ const options = ref([
             "label": "司法解释",
             "children": [
               {
-                "value": "最高人民法院关于人民法院对经劳动争议仲裁裁决的纠纷准予撤诉或驳回起诉后劳动争议仲裁裁决从何时起生效的解释",
+                "value": "https://www.pkulaw.com/chl/30514e2804abfa9bbdfb.html?keyword=%E6%9C%80%E9%AB%98%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2%E5%85%B3%E4%BA%8E%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2%E5%AF%B9%E7%BB%8F%E5%8A%B3%E5%8A%A8%E4%BA%89%E8%AE%AE%E4%BB%B2%E8%A3%81%E8%A3%81%E5%86%B3%E7%9A%84%E7%BA%A0%E7%BA%B7%E5%87%86%E4%BA%88%E6%92%A4%E8%AF%89%E6%88%96%E9%A9%B3%E5%9B%9E%E8%B5%B7%E8%AF%89%E5%90%8E%E5%8A%B3%E5%8A%A8%E4%BA%89%E8%AE%AE%E4%BB%B2%E8%A3%81%E8%A3%81%E5%86%B3%E4%BB%8E%E4%BD%95%E6%97%B6%E8%B5%B7%E7%94%9F%E6%95%88%E7%9A%84%E8%A7%A3%E9%87%8A&way=listView",
                 "label": "最高人民法院关于人民法院对经劳动争议仲裁裁决的纠纷准予撤诉或驳回起诉后劳动争议仲裁裁决从何时起生效的解释"
               }
             ]
@@ -868,31 +868,31 @@ const options = ref([
             "label": "部门规章",
             "children": [
               {
-                "value": "劳动就业服务企业产权界定规定",
+                "value": "https://www.pkulaw.com/chl/b7f70628c87cc9f6bdfb.html?keyword=%E5%8A%B3%E5%8A%A8%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E4%BC%81%E4%B8%9A%E4%BA%A7%E6%9D%83%E7%95%8C%E5%AE%9A%E8%A7%84%E5%AE%9A&way=listView",
                 "label": "劳动就业服务企业产权界定规定"
               },
               {
-                "value": "劳动就业服务企业实行股份合作制规定",
+                "value": "https://www.pkulaw.com/chl/8f9a6e8582859f80bdfb.html?keyword=%E5%8A%B3%E5%8A%A8%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E4%BC%81%E4%B8%9A%E5%AE%9E%E8%A1%8C%E8%82%A1%E4%BB%BD%E5%90%88%E4%BD%9C%E5%88%B6%E8%A7%84%E5%AE%9A&way=listView",
                 "label": "劳动就业服务企业实行股份合作制规定"
               },
               {
-                "value": "能源部关于印发《电力行业劳动就业服务企业管理办法》的通知",
+                "value": "https://www.pkulaw.com/chl/cb153b156220c72cbdfb.html?keyword=%E8%83%BD%E6%BA%90%E9%83%A8%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E3%80%8A%E7%94%B5%E5%8A%9B%E8%A1%8C%E4%B8%9A%E5%8A%B3%E5%8A%A8%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B%E7%9A%84%E9%80%9A%E7%9F%A5&way=listView",
                 "label": "能源部关于印发《电力行业劳动就业服务企业管理办法》的通知"
               },
               {
-                "value": "电力行业劳动就业服务企业管理办法",
+                "value": "https://www.pkulaw.com/chl/e1315fe64066cb55bdfb.html?keyword=%E7%94%B5%E5%8A%9B%E8%A1%8C%E4%B8%9A%E5%8A%B3%E5%8A%A8%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95&way=listView",
                 "label": "电力行业劳动就业服务企业管理办法"
               },
               {
-                "value": "化学工业劳动就业服务企业管理办法",
+                "value": "https://www.pkulaw.com/chl/f3945dec2dd34ea9bdfb.html?keyword=%E5%8C%96%E5%AD%A6%E5%B7%A5%E4%B8%9A%E5%8A%B3%E5%8A%A8%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95&way=listView",
                 "label": "化学工业劳动就业服务企业管理办法"
               },
               {
-                "value": "广播电影电视部直属单位劳动就业服务企业管理办法",
+                "value": "https://www.pkulaw.com/chl/4bb56128a6f59b81bdfb.html?keyword=%E5%B9%BF%E6%92%AD%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E9%83%A8%E7%9B%B4%E5%B1%9E%E5%8D%95%E4%BD%8D%E5%8A%B3%E5%8A%A8%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95&way=listView",
                 "label": "广播电影电视部直属单位劳动就业服务企业管理办法"
               },
               {
-                "value": "邮电部门劳动就业服务企业管理试行办法",
+                "value": "https://www.pkulaw.com/chl/5339da315f0f3a75bdfb.html?keyword=%E9%82%AE%E7%94%B5%E9%83%A8%E9%97%A8%E5%8A%B3%E5%8A%A8%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E8%AF%95%E8%A1%8C%E5%8A%9E%E6%B3%95&way=listView",
                 "label": "邮电部门劳动就业服务企业管理试行办法"
               }
             ]
@@ -908,11 +908,11 @@ const options = ref([
             "label": "1法律",
             "children": [
               {
-                "value": "中华人民共和国环境保护税法",
+                "value": "https://www.pkulaw.com/chl/05384fe808d4a55fbdfb.html?keyword=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E7%A8%8E%E6%B3%95&way=listView",
                 "label": "中华人民共和国环境保护税法"
               },
               {
-                "value": "中华人民共和国海洋环境保护法",
+                "value": "https://www.pkulaw.com/chl/f4c9a55acdaeac0fbdfb.html?keyword=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%B5%B7%E6%B4%8B%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E6%B3%95&way=listView",
                 "label": "中华人民共和国海洋环境保护法"
               }
             ]
@@ -922,11 +922,11 @@ const options = ref([
             "label": "行政法规",
             "children": [
               {
-                "value": "中华人民共和国环境保护税法实施条例",
+                "value": "https://www.pkulaw.com/chl/aeaac6abb7227ca5bdfb.html?keyword=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E7%A8%8E%E6%B3%95%E5%AE%9E%E6%96%BD%E6%9D%A1%E4%BE%8B&way=listView",
                 "label": "中华人民共和国环境保护税法实施条例"
               },
               {
-                "value": "建设项目环境保护管理条例(2017修订)",
+                "value": "https://www.pkulaw.com/chl/8d83bf01b80de0d2bdfb.html?keyword=%E5%BB%BA%E8%AE%BE%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B%282017%E4%BF%AE%E8%AE%A2%29&way=listView",
                 "label": "建设项目环境保护管理条例(2017修订)"
               }
             ]
@@ -940,7 +940,7 @@ const options = ref([
                 "label": "管理规定"
               },
               {
-                "value": "中央企业节约能源与生态环境保护监督管理办法",
+                "value": "https://www.pkulaw.com/chl/72f224f5b12a6e50bdfb.html?keyword=%E4%B8%AD%E5%A4%AE%E4%BC%81%E4%B8%9A%E8%8A%82%E7%BA%A6%E8%83%BD%E6%BA%90%E4%B8%8E%E7%94%9F%E6%80%81%E7%8E%AF%E5%A2%83%E4%BF%9D%E6%8A%A4%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95&way=listView",
                 "label": "中央企业节约能源与生态环境保护监督管理办法"
               }
             ]
@@ -956,7 +956,7 @@ const options = ref([
             "label": "1法律",
             "children": [
               {
-                "value": "中华人民共和国知识产权海关保护条例(2018修订)",
+                "value": "https://www.pkulaw.com/chl/afbefa14a6315261bdfb.html?keyword=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B5%B7%E5%85%B3%E4%BF%9D%E6%8A%A4%E6%9D%A1%E4%BE%8B%282018%E4%BF%AE%E8%AE%A2%29&way=listView",
                 "label": "中华人民共和国知识产权海关保护条例(2018修订)"
               }
             ]
@@ -966,7 +966,7 @@ const options = ref([
             "label": "2行政法规",
             "children": [
               {
-                "value": "中华人民共和国海关关于《中华人民共和国知识产权海关保护条例》的实施办法(2018修正)",
+                "value": "https://www.pkulaw.com/chl/e74d8f024787903fbdfb.html?keyword=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%B5%B7%E5%85%B3%E5%85%B3%E4%BA%8E%E3%80%8A%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%B5%B7%E5%85%B3%E4%BF%9D%E6%8A%A4%E6%9D%A1%E4%BE%8B%E3%80%8B%E7%9A%84%E5%AE%9E%E6%96%BD%E5%8A%9E%E6%B3%95%282018%E4%BF%AE%E6%AD%A3%29&way=listView",
                 "label": "中华人民共和国海关关于《中华人民共和国知识产权海关保护条例》的实施办法(2018修正)"
               }
             ]
@@ -976,11 +976,11 @@ const options = ref([
             "label": "3部门规章",
             "children": [
               {
-                "value": "卫生系统保护涉外知识产权暂行规定（试行）",
+                "value": "https://www.pkulaw.com/chl/58d509da0a9c7a7cbdfb.html?keyword=%E5%8D%AB%E7%94%9F%E7%B3%BB%E7%BB%9F%E4%BF%9D%E6%8A%A4%E6%B6%89%E5%A4%96%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E6%9A%82%E8%A1%8C%E8%A7%84%E5%AE%9A%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89&way=listView",
                 "label": "卫生系统保护涉外知识产权暂行规定（试行）"
               },
               {
-                "value": "中华人民共和国国家标准公告[2020]24号一一关于批准发布《电子商务平台知识产权保护管理》等8项国家标准的公告",
+                "value": "http://www.csres.com/notice/54240.html",
                 "label": "中华人民共和国国家标准公告[2020]24号一一关于批准发布《电子商务平台知识产权保护管理》等8项国家标准的公告"
               }
             ]
@@ -1000,11 +1000,11 @@ const options = ref([
                 "label": "地方工作文件",
                 "children": [
                   {
-                    "value": "杭州市律师协会国际投资专业委员会关于召开涉外投资争议的仲裁解决法律实务论坛的通知",
+                    "value": "https://www.pkulaw.com/lar/316991422b916a8ead5515f55757f3a8bdfb.html?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E5%BE%8B%E5%B8%88%E5%8D%8F%E4%BC%9A%E5%9B%BD%E9%99%85%E6%8A%95%E8%B5%84%E4%B8%93%E4%B8%9A%E5%A7%94%E5%91%98%E4%BC%9A%E5%85%B3%E4%BA%8E%E5%8F%AC%E5%BC%80%E6%B6%89%E5%A4%96%E6%8A%95%E8%B5%84%E4%BA%89%E8%AE%AE%E7%9A%84%E4%BB%B2%E8%A3%81%E8%A7%A3%E5%86%B3%E6%B3%95%E5%BE%8B%E5%AE%9E%E5%8A%A1%E8%AE%BA%E5%9D%9B%E7%9A%84%E9%80%9A%E7%9F%A5&way=listView",
                     "label": "杭州市律师协会国际投资专业委员会关于召开涉外投资争议的仲裁解决法律实务论坛的通知"
                   },
                   {
-                    "value": "福建省律师协会关于举办国际投资仲裁助力我国海外投资争议解决交流活动的通知",
+                    "value": "https://www.pkulaw.com/lar/b58a0bcb45af560fb992e9ec052630a2bdfb.html?keyword=%E7%A6%8F%E5%BB%BA%E7%9C%81%E5%BE%8B%E5%B8%88%E5%8D%8F%E4%BC%9A%E5%85%B3%E4%BA%8E%E4%B8%BE%E5%8A%9E%E5%9B%BD%E9%99%85%E6%8A%95%E8%B5%84%E4%BB%B2%E8%A3%81%E5%8A%A9%E5%8A%9B%E6%88%91%E5%9B%BD%E6%B5%B7%E5%A4%96%E6%8A%95%E8%B5%84%E4%BA%89%E8%AE%AE%E8%A7%A3%E5%86%B3%E4%BA%A4%E6%B5%81%E6%B4%BB%E5%8A%A8%E7%9A%84%E9%80%9A%E7%9F%A5&way=listView",
                     "label": "福建省律师协会关于举办国际投资仲裁助力我国海外投资争议解决交流活动的通知"
                   }
                 ]
@@ -1022,11 +1022,11 @@ const options = ref([
             "label": "行政法规",
             "children": [
               {
-                "value": "国务院办公厅关于印发自由贸易试验区外商投资国家安全审查试行办法的通知",
+                "value": "https://www.pkulaw.com/chl/69c1c77a4522afe6bdfb.html?keyword=%E5%9B%BD%E5%8A%A1%E9%99%A2%E5%8A%9E%E5%85%AC%E5%8E%85%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E8%87%AA%E7%94%B1%E8%B4%B8%E6%98%93%E8%AF%95%E9%AA%8C%E5%8C%BA%E5%A4%96%E5%95%86%E6%8A%95%E8%B5%84%E5%9B%BD%E5%AE%B6%E5%AE%89%E5%85%A8%E5%AE%A1%E6%9F%A5%E8%AF%95%E8%A1%8C%E5%8A%9E%E6%B3%95%E7%9A%84%E9%80%9A%E7%9F%A5&way=listView",
                 "label": "国务院办公厅关于印发自由贸易试验区外商投资国家安全审查试行办法的通知"
               },
               {
-                "value": "国务院办公厅关于建立外国投资者并购境内企业安全审查制度的通知",
+                "value": "https://www.pkulaw.com/chl/0185b6e0ab7af80ebdfb.html?keyword=%E5%9B%BD%E5%8A%A1%E9%99%A2%E5%8A%9E%E5%85%AC%E5%8E%85%E5%85%B3%E4%BA%8E%E5%BB%BA%E7%AB%8B%E5%A4%96%E5%9B%BD%E6%8A%95%E8%B5%84%E8%80%85%E5%B9%B6%E8%B4%AD%E5%A2%83%E5%86%85%E4%BC%81%E4%B8%9A%E5%AE%89%E5%85%A8%E5%AE%A1%E6%9F%A5%E5%88%B6%E5%BA%A6%E7%9A%84%E9%80%9A%E7%9F%A5&way=listView",
                 "label": "国务院办公厅关于建立外国投资者并购境内企业安全审查制度的通知"
               }
             ]
@@ -1036,15 +1036,15 @@ const options = ref([
             "label": "部门规章",
             "children": [
               {
-                "value": "外商投资安全审查办法",
+                "value": "https://www.pkulaw.com/chl/c9e69a9f6ef98599bdfb.html?keyword=%E5%A4%96%E5%95%86%E6%8A%95%E8%B5%84%E5%AE%89%E5%85%A8%E5%AE%A1%E6%9F%A5%E5%8A%9E%E6%B3%95&way=listView",
                 "label": "外商投资安全审查办法"
               },
               {
-                "value": "商务部公告2011年第53号—商务部实施外国投资者并购境内企业安全审查制度的规定",
+                "value": "https://www.pkulaw.com/chl/c2bbe54b375901debdfb.html?keyword=%E5%95%86%E5%8A%A1%E9%83%A8%E5%85%AC%E5%91%8A2011%E5%B9%B4%E7%AC%AC53%E5%8F%B7%E2%80%94%E5%95%86%E5%8A%A1%E9%83%A8%E5%AE%9E%E6%96%BD%E5%A4%96%E5%9B%BD%E6%8A%95%E8%B5%84%E8%80%85%E5%B9%B6%E8%B4%AD%E5%A2%83%E5%86%85%E4%BC%81%E4%B8%9A%E5%AE%89%E5%85%A8%E5%AE%A1%E6%9F%A5%E5%88%B6%E5%BA%A6%E7%9A%84%E8%A7%84%E5%AE%9A&way=listView",
                 "label": "商务部公告2011年第53号—商务部实施外国投资者并购境内企业安全审查制度的规定"
               },
               {
-                "value": "商务部公告2011年第8号—公布《商务部实施外国投资者并购境内企业安全审查制度有关事项的暂行规定》",
+                "value": "https://www.pkulaw.com/chl/ce0975fda14bca14bdfb.html?keyword=%E5%95%86%E5%8A%A1%E9%83%A8%E5%85%AC%E5%91%8A2011%E5%B9%B4%E7%AC%AC8%E5%8F%B7%E2%80%94%E5%85%AC%E5%B8%83%E3%80%8A%E5%95%86%E5%8A%A1%E9%83%A8%E5%AE%9E%E6%96%BD%E5%A4%96%E5%9B%BD%E6%8A%95%E8%B5%84%E8%80%85%E5%B9%B6%E8%B4%AD%E5%A2%83%E5%86%85%E4%BC%81%E4%B8%9A%E5%AE%89%E5%85%A8%E5%AE%A1%E6%9F%A5%E5%88%B6%E5%BA%A6%E6%9C%89%E5%85%B3%E4%BA%8B%E9%A1%B9%E7%9A%84%E6%9A%82%E8%A1%8C%E8%A7%84%E5%AE%9A%E3%80%8B&way=listView",
                 "label": "商务部公告2011年第8号—公布《商务部实施外国投资者并购境内企业安全审查制度有关事项的暂行规定》"
               }
             ]
@@ -1060,7 +1060,7 @@ const options = ref([
             "label": "法律",
             "children": [
               {
-                "value": "中华人民共和国反垄断法(2022修正)",
+                "value": "https://www.pkulaw.com/chl/d3236788421feacfbdfb.html?keyword=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%8F%8D%E5%9E%84%E6%96%AD%E6%B3%95%282022%E4%BF%AE%E6%AD%A3%29&way=listView",
                 "label": "中华人民共和国反垄断法(2022修正)"
               }
             ]
@@ -1070,734 +1070,10 @@ const options = ref([
             "label": "部门规章",
             "children": [
               {
-                "value": "市场监管总局关于印发《企业境外反垄断合规指引》的通知",
+                "value": "https://www.pkulaw.com/chl/bb4268005c34457cbdfb.html?keyword=%E5%B8%82%E5%9C%BA%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E3%80%8A%E4%BC%81%E4%B8%9A%E5%A2%83%E5%A4%96%E5%8F%8D%E5%9E%84%E6%96%AD%E5%90%88%E8%A7%84%E6%8C%87%E5%BC%95%E3%80%8B%E7%9A%84%E9%80%9A%E7%9F%A5&way=listView",
                 "label": "市场监管总局关于印发《企业境外反垄断合规指引》的通知"
               }
             ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "value": "俄罗斯",
-    "label": "俄罗斯",
-    "children": [
-      {
-        "value": "一、投资法律制度",
-        "label": "一、投资法律制度",
-        "children": [
-          {
-            "value": "(一)联邦宪法和宪法性法律",
-            "label": "(一)联邦宪法和宪法性法律"
-          },
-          {
-            "value": "(二)联邦规范性法律文件",
-            "label": "(二)联邦规范性法律文件",
-            "children": [
-              {
-                "value": "1.《俄罗斯联邦外国投资法》",
-                "label": "1.《俄罗斯联邦外国投资法》",
-                "children": [
-                  {
-                    "value": "调节外商投资关系的基础性法律，经联邦委员会批准通过，内容涉及外资的认定标准、外国投资者的法律地位及待遇，外资投资领域，外国投资者的权利、义务，外资法人的注册成立、撤销及法人章程的规定等。",
-                    "label": "调节外商投资关系的基础性法律，经联邦委员会批准通过，内容涉及外资的认定标准、外国投资者的法律地位及待遇，外资投资领域，外国投资者的权利、义务，外资法人的注册成立、撤销及法人章程的规定等。"
-                  }
-                ]
-              },
-              {
-                "value": "2.《俄联邦外资进入对保障国防和国家安全具有战略意义商业组织程序法》",
-                "label": "2.《俄联邦外资进入对保障国防和国家安全具有战略意义商业组织程序法》",
-                "children": [
-                  {
-                    "value": "由联邦委员会批准通过，内容涉及宗旨、构成控制战略公司的情形、限制外资进入的45个战略性行业、外国投资者或其关联集团申请事先批准的审查程序、违反法律规定应承担的法律后果等",
-                    "label": "由联邦委员会批准通过，内容涉及宗旨、构成控制战略公司的情形、限制外资进入的45个战略性行业、外国投资者或其关联集团申请事先批准的审查程序、违反法律规定应承担的法律后果等"
-                  }
-                ]
-              },
-              {
-                "value": "3.《俄罗斯联邦经济特区法》",
-                "label": "3.《俄罗斯联邦经济特区法》",
-                "children": [
-                  {
-                    "value": "针对经济特区管理而颁布的专项法律，对设立经济特区的目的、经济特区类型、经济特区管理、招商引资的标准和程序、工业生产和技术推广做出明文规定。根据该法案，俄经济特区运营期限由此前的20年延长至49年。",
-                    "label": "针对经济特区管理而颁布的专项法律，对设立经济特区的目的、经济特区类型、经济特区管理、招商引资的标准和程序、工业生产和技术推广做出明文规定。根据该法案，俄经济特区运营期限由此前的20年延长至49年。"
-                  }
-                ]
-              },
-              {
-                "value": "4.《俄罗斯联邦特许协议法》",
-                "label": "4.《俄罗斯联邦特许协议法》",
-                "children": [
-                  {
-                    "value": "此法颁布目的在于吸引外资参与俄经济建设，通过特许协议保障有效地利用公共资产和国有资产，提高面向公众的产品、工程和服务的质量水平。在特许协议中，特许权的出让方为俄罗斯联邦政府及其授权机关，或俄罗斯地方政府及其授权机关等，特许权的受让方为外国法人、俄罗斯法人、个体工商者或由两个及多个法人组成的联合体。特许协议的客体为不动产，以各类运输调度类工程设施为主体，其囊括公路运输、管道运输、铁路运输、海运、河运、码头、空运调度、地铁和其他公共交通、电力和热力生产、传输及配送等诸多工程设施在内。根据特许协议的约定，在特许协议客体运营期间，特许权受让方应向出让方支付租金。租金的形式、金额、支付程序和期限可依据特许协议签署决议在特许协议中注明。租金可在运营期末一次付清，也可在运营的单个期限内支付。此外， 《特许协议法》还对特许协议的有效期、支付条款、受让方的权利与义务等内容做出了相应的规定",
-                    "label": "此法颁布目的在于吸引外资参与俄经济建设，通过特许协议保障有效地利用公共资产和国有资产，提高面向公众的产品、工程和服务的质量水平。在特许协议中，特许权的出让方为俄罗斯联邦政府及其授权机关，或俄罗斯地方政府及其授权机关等，特许权的受让方为外国法人、俄罗斯法人、个体工商者或由两个及多个法人组成的联合体。特许协议的客体为不动产，以各类运输调度类工程设施为主体，其囊括公路运输、管道运输、铁路运输、海运、河运、码头、空运调度、地铁和其他公共交通、电力和热力生产、传输及配送等诸多工程设施在内。根据特许协议的约定，在特许协议客体运营期间，特许权受让方应向出让方支付租金。租金的形式、金额、支付程序和期限可依据特许协议签署决议在特许协议中注明。租金可在运营期末一次付清，也可在运营的单个期限内支付。此外， 《特许协议法》还对特许协议的有效期、支付条款、受让方的权利与义务等内容做出了相应的规定"
-                  }
-                ]
-              },
-              {
-                "value": "5.《俄罗斯联邦外汇调节与监督法》",
-                "label": "5.《俄罗斯联邦外汇调节与监督法》",
-                "children": [
-                  {
-                    "value": "内容涉及在俄境内或与俄罗斯相关的外汇汇兑转账，开设银行账户，携带外汇进出境，俄外汇管理机关监管及俄本国与外国公民、法人在外汇业务中的权利与义务等。",
-                    "label": "内容涉及在俄境内或与俄罗斯相关的外汇汇兑转账，开设银行账户，携带外汇进出境，俄外汇管理机关监管及俄本国与外国公民、法人在外汇业务中的权利与义务等。"
-                  }
-                ]
-              },
-              {
-                "value": "6.《俄罗斯联邦产品分成协议法》",
-                "label": "6.《俄罗斯联邦产品分成协议法》",
-                "children": [
-                  {
-                    "value": "该法主要调整国内外投资者在俄罗斯境内投资矿物资源勘探与开采及其相关活动，极大地简化了投资者与俄联邦国家之间的关系，为外国投资者提供了基本的法律保护，解除了外资进入开发战略资源领域内的禁区，减少了外国投资者的顾虑，该法的出台促进了俄罗斯矿产资源的开发和外资的引进，该法同时规定了投资俄矿产资源产业的外资企业雇用本国劳工比例及设备采购国产化比例。",
-                    "label": "该法主要调整国内外投资者在俄罗斯境内投资矿物资源勘探与开采及其相关活动，极大地简化了投资者与俄联邦国家之间的关系，为外国投资者提供了基本的法律保护，解除了外资进入开发战略资源领域内的禁区，减少了外国投资者的顾虑，该法的出台促进了俄罗斯矿产资源的开发和外资的引进，该法同时规定了投资俄矿产资源产业的外资企业雇用本国劳工比例及设备采购国产化比例。"
-                  }
-                ]
-              },
-              {
-                "value": "7.《俄罗斯联邦矿产资源法》",
-                "label": "7.《俄罗斯联邦矿产资源法》",
-                "children": [
-                  {
-                    "value": "该法对矿产的合理开发与保护矿产资源做出规定，明确矿产资源管理部门的职责；对资源权属、矿业权、国家矿产资源储备、联邦级矿区、地方矿区、许可证、矿产有偿使用等方面都做了明确的规定。调整从事地质调查、矿产勘探、开采与加工，及矿山施工建设、矿山封存、科研活动中的权利与义务关系。该法还对外商投资矿产资源做出限制性规定，包括需在俄罗斯境内成立法人实体，获得地质研究、勘探和开采的综合许可证，以及矿区开采权招标或拍卖中的其他限制条件。",
-                    "label": "该法对矿产的合理开发与保护矿产资源做出规定，明确矿产资源管理部门的职责；对资源权属、矿业权、国家矿产资源储备、联邦级矿区、地方矿区、许可证、矿产有偿使用等方面都做了明确的规定。调整从事地质调查、矿产勘探、开采与加工，及矿山施工建设、矿山封存、科研活动中的权利与义务关系。该法还对外商投资矿产资源做出限制性规定，包括需在俄罗斯境内成立法人实体，获得地质研究、勘探和开采的综合许可证，以及矿区开采权招标或拍卖中的其他限制条件。"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "value": "(三)各联邦主体法律",
-            "label": "(三)各联邦主体法律"
-          },
-          {
-            "value": "(四)国际条约、国际法原则和准则",
-            "label": "(四)国际条约、国际法原则和准则"
-          },
-          {
-            "value": "(五)俄罗斯总统法令",
-            "label": "(五)俄罗斯总统法令"
-          },
-          {
-            "value": "(六)政府行政法规",
-            "label": "(六)政府行政法规"
-          }
-        ]
-      },
-      {
-        "value": "二、贸易法律制度",
-        "label": "二、贸易法律制度",
-        "children": [
-          {
-            "value": "(一)联邦宪法和宪法性法律",
-            "label": "(一)联邦宪法和宪法性法律"
-          },
-          {
-            "value": "(二)联邦规范性法律文件",
-            "label": "(二)联邦规范性法律文件",
-            "children": [
-              {
-                "value": "1．《俄罗斯联邦对外贸易活动国家调节法》",
-                "label": "1．《俄罗斯联邦对外贸易活动国家调节法》",
-                "children": [
-                  {
-                    "value": "主要规定了俄联邦国家政府机关、各联邦主体政府机构调节对外贸易活动的权力、义务、责任与方式，以及俄罗斯各经济主体及外国人士从事对外经济活动的相关程序。",
-                    "label": "主要规定了俄联邦国家政府机关、各联邦主体政府机构调节对外贸易活动的权力、义务、责任与方式，以及俄罗斯各经济主体及外国人士从事对外经济活动的相关程序。"
-                  }
-                ]
-              },
-              {
-                "value": "2.《关税同盟海关法典》",
-                "label": "2.《关税同盟海关法典》",
-                "children": [
-                  {
-                    "value": "俄罗斯、白俄罗斯、哈萨克斯坦三国关税同盟的核心法律文本，由总则与分则构成，主要包括基本规定、海关税费、海关监管、海关作业、海关制度、个别种类货物进出海关边界与对其实施海关作业的特殊要求等",
-                    "label": "俄罗斯、白俄罗斯、哈萨克斯坦三国关税同盟的核心法律文本，由总则与分则构成，主要包括基本规定、海关税费、海关监管、海关作业、海关制度、个别种类货物进出海关边界与对其实施海关作业的特殊要求等"
-                  }
-                ]
-              },
-              {
-                "value": "3.《关于对商品进口实施特别保障、反倾销和反补贴措施法》",
-                "label": "3.《关于对商品进口实施特别保障、反倾销和反补贴措施法》",
-                "children": [
-                  {
-                    "value": "主要规定了使用特别保障措施的一般原则；严重损害威胁俄产业的认定因素；特别保障措施的实施；对倾销进口事实的认定；被调查商品出口商的价格承诺；认定外国政府补贴为特殊补贴的原则；补贴进口造成之产业损害的认定；征收临时反补贴、反倾销税和反补贴税的程序等。",
-                    "label": "主要规定了使用特别保障措施的一般原则；严重损害威胁俄产业的认定因素；特别保障措施的实施；对倾销进口事实的认定；被调查商品出口商的价格承诺；认定外国政府补贴为特殊补贴的原则；补贴进口造成之产业损害的认定；征收临时反补贴、反倾销税和反补贴税的程序等。"
-                  }
-                ]
-              },
-              {
-                "value": "4.《关于关税同盟技术调节》第319号决议",
-                "label": "4.《关于关税同盟技术调节》第319号决议",
-                "children": [
-                  {
-                    "value": "要求从2013年2月15日起，凡属于关税同盟(cu)辖下产品，都必须申请 cu 认证，同时三国也终止颁发各自原有的认证证书。",
-                    "label": "要求从2013年2月15日起，凡属于关税同盟(CU)辖下产品，都必须申请 CU 认证，同时三国也终止颁发各自原有的认证证书。"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "value": "(三)各联邦主体法律",
-            "label": "(三)各联邦主体法律"
-          },
-          {
-            "value": "(四)国际条约、国际法原则和准则",
-            "label": "(四)国际条约、国际法原则和准则"
-          },
-          {
-            "value": "(五)俄罗斯总统法令",
-            "label": "(五)俄罗斯总统法令"
-          },
-          {
-            "value": "(六)政府行政法规",
-            "label": "(六)政府行政法规"
-          }
-        ]
-      },
-      {
-        "value": "三、公司设立法律制度",
-        "label": "三、公司设立法律制度",
-        "children": [
-          {
-            "value": "(一)联邦宪法和宪法性法律",
-            "label": "(一)联邦宪法和宪法性法律"
-          },
-          {
-            "value": "(二)联邦规范性法律文件",
-            "label": "(二)联邦规范性法律文件",
-            "children": [
-              {
-                "value": "1.《俄罗斯联邦民法典》第一部分",
-                "label": "1.《俄罗斯联邦民法典》第一部分",
-                "children": [
-                  {
-                    "value": "确立公司作为商业组织，具有独立法人地位，享有独立法人财产权利的民事主体地位。",
-                    "label": "确立公司作为商业组织，具有独立法人地位，享有独立法人财产权利的民事主体地位。"
-                  }
-                ]
-              },
-              {
-                "value": "2.《俄罗斯联邦有限责任公司法》",
-                "label": "2.《俄罗斯联邦有限责任公司法》",
-                "children": [
-                  {
-                    "value": "总则部分规定了有限责任公司的基本原则、公司的责任、股东的权利与义务等。分则部分规定了公司的设立程序与条件，公司章程的内容与国家登记制度，公司的注册资本和公司财产要求，公司的治理结构，公司的改组与清算制度等",
-                    "label": "总则部分规定了有限责任公司的基本原则、公司的责任、股东的权利与义务等。分则部分规定了公司的设立程序与条件，公司章程的内容与国家登记制度，公司的注册资本和公司财产要求，公司的治理结构，公司的改组与清算制度等"
-                  }
-                ]
-              },
-              {
-                "value": "3.《俄罗斯联邦股份公司法》",
-                "label": "3.《俄罗斯联邦股份公司法》",
-                "children": [
-                  {
-                    "value": "规定了股份公司的基本原则，公司的成立、重组和清算，公司净资产与法定资本，公司股票、债券和其他有价证券，股息，股东大会、董事会及执行机构，重大交易，关联交易，财务监督，核算和报表，公司文件等",
-                    "label": "规定了股份公司的基本原则，公司的成立、重组和清算，公司净资产与法定资本，公司股票、债券和其他有价证券，股息，股东大会、董事会及执行机构，重大交易，关联交易，财务监督，核算和报表，公司文件等"
-                  }
-                ]
-              },
-              {
-                "value": "4.《俄罗斯联邦法人及个体企业家的国家登记法》",
-                "label": "4.《俄罗斯联邦法人及个体企业家的国家登记法》",
-                "children": [
-                  {
-                    "value": "规定了法人登记程序，国家统一登记簿的内容，设立法人的国家登记，以重组方式创建的法人登记程序，创始文件的变更登记，法人的清算或注销登记，拒绝国家登记及违反国家登记程序的责任等。",
-                    "label": "规定了法人登记程序，国家统一登记簿的内容，设立法人的国家登记，以重组方式创建的法人登记程序，创始文件的变更登记，法人的清算或注销登记，拒绝国家登记及违反国家登记程序的责任等。"
-                  }
-                ]
-              },
-              {
-                "value": "5. 《俄罗斯联邦破产法》",
-                "label": "5. 《俄罗斯联邦破产法》",
-                "children": [
-                  {
-                    "value": "总则部分规定了破产法的调整范围、破产特征、基本概念、金钱债务的强制性付款的构成和数额、破产案件的审理、向仲裁法院提出请求的权利、债权人会议、债权人与债务人的权利义务、仲裁管理人资质、信息披露等内容。分则部分规定了破产预防制度，仲裁法院对破产案件的审理程序、管辖权、破产案件的中止、仲裁管理人的报酬分摊，案件查证制度，财务恢复制度，外部管理制度，破产清算程序，和解协议制度，特殊类型的法人破产程序，自然人破产的相关规定，简易破产程序的主要内容等。",
-                    "label": "总则部分规定了破产法的调整范围、破产特征、基本概念、金钱债务的强制性付款的构成和数额、破产案件的审理、向仲裁法院提出请求的权利、债权人会议、债权人与债务人的权利义务、仲裁管理人资质、信息披露等内容。分则部分规定了破产预防制度，仲裁法院对破产案件的审理程序、管辖权、破产案件的中止、仲裁管理人的报酬分摊，案件查证制度，财务恢复制度，外部管理制度，破产清算程序，和解协议制度，特殊类型的法人破产程序，自然人破产的相关规定，简易破产程序的主要内容等。"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "value": "(三)各联邦主体法律",
-            "label": "(三)各联邦主体法律"
-          },
-          {
-            "value": "(四)国际条约、国际法原则和准则",
-            "label": "(四)国际条约、国际法原则和准则"
-          },
-          {
-            "value": "(五)俄罗斯总统法令",
-            "label": "(五)俄罗斯总统法令"
-          },
-          {
-            "value": "(六)政府行政法规",
-            "label": "(六)政府行政法规"
-          }
-        ]
-      },
-      {
-        "value": "四、工程承包法律制度",
-        "label": "四、工程承包法律制度",
-        "children": [
-          {
-            "value": "(一)联邦宪法和宪法性法律",
-            "label": "(一)联邦宪法和宪法性法律"
-          },
-          {
-            "value": "(二)联邦规范性法律文件",
-            "label": "(二)联邦规范性法律文件",
-            "children": [
-              {
-                "value": "1.《俄罗斯联邦城市建设法典》",
-                "label": "1.《俄罗斯联邦城市建设法典》",
-                "children": [
-                  {
-                    "value": "总则部分规定了本法典中使用的基本概念，城市建设立法的基本原则，建筑项目形成的法律基础，城市建设法调整的关系，城市建设关系的主体；分则部分规定了建筑领域内联邦、联邦主体以及自治地方的权限，地区规划的相关规定，建筑分区制度，地区规划制度，建筑结构设计、建设、重建制度，保障建筑活动的信息的相关规定，违反该法的责任，关于俄联邦直辖市莫斯科、圣彼得堡和塞瓦斯托波尔市的城市建设的特别规定等。",
-                    "label": "总则部分规定了本法典中使用的基本概念，城市建设立法的基本原则，建筑项目形成的法律基础，城市建设法调整的关系，城市建设关系的主体；分则部分规定了建筑领域内联邦、联邦主体以及自治地方的权限，地区规划的相关规定，建筑分区制度，地区规划制度，建筑结构设计、建设、重建制度，保障建筑活动的信息的相关规定，违反该法的责任，关于俄联邦直辖市莫斯科、圣彼得堡和塞瓦斯托波尔市的城市建设的特别规定等。"
-                  }
-                ]
-              },
-              {
-                "value": "2.《俄罗斯联邦民法典》第37章“承包”",
-                "label": "2.《俄罗斯联邦民法典》第37章“承包”",
-                "children": [
-                  {
-                    "value": "对建筑承包合同内容、发包方和承包方的责任与义务、建筑工程质量等都做了详细规定，概括为以下几个方面：建筑承包的一般规定；双方当事人间风险的分担；工程价格及其工程款支付方式；工程项目保险；技术文件和预算;发包方的补充合同义务；承包方的留置权；承包方保护环境和确保施工安全的义务；暂停工程的后果；质量的担保；发包人负担消除瑕疵的费用；工程的交付和验收等。",
-                    "label": "对建筑承包合同内容、发包方和承包方的责任与义务、建筑工程质量等都做了详细规定，概括为以下几个方面：建筑承包的一般规定；双方当事人间风险的分担；工程价格及其工程款支付方式；工程项目保险；技术文件和预算;发包方的补充合同义务；承包方的留置权；承包方保护环境和确保施工安全的义务；暂停工程的后果；质量的担保；发包人负担消除瑕疵的费用；工程的交付和验收等。"
-                  }
-                ]
-              },
-              {
-                "value": "3. 《俄罗斯联邦建筑活动法》",
-                "label": "3. 《俄罗斯联邦建筑活动法》",
-                "children": [
-                  {
-                    "value": "该法调整在专业建筑活动过程中出现的关系，且以发展建筑艺术，促进历史文物建筑以及自然景观的保护为主旨。规定了从事建筑项目的建筑活动的公民和法人、国家机关、地方自治机关、甲方 (开发商)、承包商以及所有者 (业主)的权利、义务和责任。",
-                    "label": "该法调整在专业建筑活动过程中出现的关系，且以发展建筑艺术，促进历史文物建筑以及自然景观的保护为主旨。规定了从事建筑项目的建筑活动的公民和法人、国家机关、地方自治机关、甲方 (开发商)、承包商以及所有者 (业主)的权利、义务和责任。"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "value": "(三)各联邦主体法律",
-            "label": "(三)各联邦主体法律"
-          },
-          {
-            "value": "(四)国际条约、国际法原则和准则",
-            "label": "(四)国际条约、国际法原则和准则"
-          },
-          {
-            "value": "(五)俄罗斯总统法令",
-            "label": "(五)俄罗斯总统法令"
-          },
-          {
-            "value": "(六)政府行政法规",
-            "label": "(六)政府行政法规"
-          }
-        ]
-      },
-      {
-        "value": "五、土地法律制度",
-        "label": "五、土地法律制度",
-        "children": [
-          {
-            "value": "(一)联邦宪法和宪法性法律",
-            "label": "(一)联邦宪法和宪法性法律"
-          },
-          {
-            "value": "(二)联邦规范性法律文件",
-            "label": "(二)联邦规范性法律文件",
-            "children": [
-              {
-                "value": "1.《俄罗斯联邦土地法典》",
-                "label": "1.《俄罗斯联邦土地法典》",
-                "children": [
-                  {
-                    "value": "总则部分包括土地立法的基本原则，土地关系的主体、客体，土地的构成，联邦主体在土地领域的职权，土地保护制度，土地所有权制度，土地权利的取得、限制和终止，土地纠纷处理，国家征收地块时的损失赔偿，土地监测、整治和国家保护，违反土地保护和利用的法律责任。分则部分包括各类农用地的使用特点，居民点土地的范围划定、构成和使用，国家特殊建设用地法律制度，受特殊保护的区域制度，林地、水源地和储备土地法律制度。",
-                    "label": "总则部分包括土地立法的基本原则，土地关系的主体、客体，土地的构成，联邦主体在土地领域的职权，土地保护制度，土地所有权制度，土地权利的取得、限制和终止，土地纠纷处理，国家征收地块时的损失赔偿，土地监测、整治和国家保护，违反土地保护和利用的法律责任。分则部分包括各类农用地的使用特点，居民点土地的范围划定、构成和使用，国家特殊建设用地法律制度，受特殊保护的区域制度，林地、水源地和储备土地法律制度。"
-                  }
-                ]
-              },
-              {
-                "value": "2.《俄罗斯农用土地流转法》",
-                "label": "2.《俄罗斯农用土地流转法》",
-                "children": [
-                  {
-                    "value": "该法明确了包括农地在内的土地私有化原则及土地买卖的程序。其总则部分规定了适用的主体、客体，农地的流通办法，共有农地中的份地流通的特殊规定，打破农地用途的变更限制和流转的数量限制，明确了农民所获土地份额的自由买卖，并对土地份额如何从共有产权中划分出来做了十分详细和明确的规定。",
-                    "label": "该法明确了包括农地在内的土地私有化原则及土地买卖的程序。其总则部分规定了适用的主体、客体，农地的流通办法，共有农地中的份地流通的特殊规定，打破农地用途的变更限制和流转的数量限制，明确了农民所获土地份额的自由买卖，并对土地份额如何从共有产权中划分出来做了十分详细和明确的规定。"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "value": "(三)各联邦主体法律",
-            "label": "(三)各联邦主体法律"
-          },
-          {
-            "value": "(四)国际条约、国际法原则和准则",
-            "label": "(四)国际条约、国际法原则和准则"
-          },
-          {
-            "value": "(五)俄罗斯总统法令",
-            "label": "(五)俄罗斯总统法令"
-          },
-          {
-            "value": "(六)政府行政法规",
-            "label": "(六)政府行政法规"
-          }
-        ]
-      },
-      {
-        "value": "六、税收法律制度",
-        "label": "六、税收法律制度",
-        "children": [
-          {
-            "value": "(一)  联邦宪法和宪法性法律",
-            "label": "(一)  联邦宪法和宪法性法律",
-            "children": [
-              {
-                "value": "《俄罗斯联邦宪法》",
-                "label": "《俄罗斯联邦宪法》",
-                "children": [
-                  {
-                    "value": "劳动自由，禁止强制劳动，每个人有权无歧视地获得劳动报酬，劳动报酬不得低于联邦法律规定的最低工资标准，劳动者有权获得失业保护，外国公民及无国籍人在俄罗斯联邦与俄罗斯公民享有同等权利、履行同等义务等。",
-                    "label": "劳动自由，禁止强制劳动，每个人有权无歧视地获得劳动报酬，劳动报酬不得低于联邦法律规定的最低工资标准，劳动者有权获得失业保护，外国公民及无国籍人在俄罗斯联邦与俄罗斯公民享有同等权利、履行同等义务等。"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "value": "(二)  联邦规范性法律文件",
-            "label": "(二)  联邦规范性法律文件",
-            "children": [
-              {
-                "value": "1.《俄罗斯联邦劳动法典》",
-                "label": "1.《俄罗斯联邦劳动法典》",
-                "children": [
-                  {
-                    "value": "其中的一般规定包括了劳动法典的基本原则、劳动关系、劳动关系双方的基本权利和义务等，另外还有劳动领域的社会合作、劳动合同、工作时间、休息时间、工资和劳动定额、保障和补偿、劳动规章和劳动纪律、员工的职业培训、再培训和技能提高、劳动保护、劳动合同双方的责任、个别工种员工劳动的特别规定、劳动权利和自由的保护、劳动争议的审理和解决、违反劳动法和包含劳动法规范的其他文件的责任等。",
-                    "label": "其中的一般规定包括了劳动法典的基本原则、劳动关系、劳动关系双方的基本权利和义务等，另外还有劳动领域的社会合作、劳动合同、工作时间、休息时间、工资和劳动定额、保障和补偿、劳动规章和劳动纪律、员工的职业培训、再培训和技能提高、劳动保护、劳动合同双方的责任、个别工种员工劳动的特别规定、劳动权利和自由的保护、劳动争议的审理和解决、违反劳动法和包含劳动法规范的其他文件的责任等。"
-                  }
-                ]
-              },
-              {
-                "value": "2.《俄罗斯联邦居民就业法》",
-                "label": "2.《俄罗斯联邦居民就业法》"
-              },
-              {
-                "value": "3.《最低工资法》",
-                "label": "3.《最低工资法》"
-              },
-              {
-                "value": "4.《俄罗斯联邦残疾人社会保障法》",
-                "label": "4.《俄罗斯联邦残疾人社会保障法》"
-              },
-              {
-                "value": "5.《俄罗斯联邦劳动退休金法》",
-                "label": "5.《俄罗斯联邦劳动退休金法》"
-              },
-              {
-                "value": "6.《工会及其权利和活动保障法》",
-                "label": "6.《工会及其权利和活动保障法》"
-              },
-              {
-                "value": "7.《俄罗斯联邦行政处罚法典》",
-                "label": "7.《俄罗斯联邦行政处罚法典》"
-              }
-            ]
-          },
-          {
-            "value": "(三)各联邦主体法律",
-            "label": "(三)各联邦主体法律"
-          },
-          {
-            "value": "(四)国际条约、国际法原则和准则",
-            "label": "(四)国际条约、国际法原则和准则",
-            "children": [
-              {
-                "value": "《俄罗斯联邦外国人法律地位法》",
-                "label": "《俄罗斯联邦外国人法律地位法》",
-                "children": [
-                  {
-                    "value": "主要规定了外国公民法律地位的原则、外国公民在俄联邦的临时居留与长期居留、身份证件、外国公民的劳动活动、来俄邀请函的办理程序、外国公民的移民登记和联邦国家的移民监督、法律责任等。",
-                    "label": "主要规定了外国公民法律地位的原则、外国公民在俄联邦的临时居留与长期居留、身份证件、外国公民的劳动活动、来俄邀请函的办理程序、外国公民的移民登记和联邦国家的移民监督、法律责任等。"
-                  }
-                ]
-              },
-              {
-                "value": "《俄罗斯出入境秩序法》",
-                "label": "《俄罗斯出入境秩序法》"
-              }
-            ]
-          },
-          {
-            "value": "(五)俄罗斯总统法令",
-            "label": "(五)俄罗斯总统法令"
-          },
-          {
-            "value": "(六)政府行政法规",
-            "label": "(六)政府行政法规"
-          }
-        ]
-      },
-      {
-        "value": "八、环境保护制度",
-        "label": "八、环境保护制度",
-        "children": [
-          {
-            "value": "(一)联邦宪法和宪法性法律",
-            "label": "(一)联邦宪法和宪法性法律"
-          },
-          {
-            "value": "(二)联邦规范性法律文件",
-            "label": "(二)联邦规范性法律文件",
-            "children": [
-              {
-                "value": "《俄罗斯联邦环境保护法》",
-                "label": "《俄罗斯联邦环境保护法》",
-                "children": [
-                  {
-                    "value": "第一部分包括环境法相关的基本原则、基本概念以及法律保护的对象、国家和地方在环境保护领域的权利范围及职权划分、各个环境保护法主体的权利及义务，并且对经济活动领域的环境保护作出了明确规定。第二部分规定了环境保护的标准、生态鉴定和环境影响评价制度、环境保护的具体要求、国家环境监测、保护的特殊客体、生态灾难地区和环境保护监督。第三部分规定了建设生态文明的基础、环境保护科学研究、生态方面的教育、环境保护纠纷的处理、违反环境保护法的责任、国际领域的合作、该法的生效日期和法律冲突时的有关适用问题。",
-                    "label": "第一部分包括环境法相关的基本原则、基本概念以及法律保护的对象、国家和地方在环境保护领域的权利范围及职权划分、各个环境保护法主体的权利及义务，并且对经济活动领域的环境保护作出了明确规定。第二部分规定了环境保护的标准、生态鉴定和环境影响评价制度、环境保护的具体要求、国家环境监测、保护的特殊客体、生态灾难地区和环境保护监督。第三部分规定了建设生态文明的基础、环境保护科学研究、生态方面的教育、环境保护纠纷的处理、违反环境保护法的责任、国际领域的合作、该法的生效日期和法律冲突时的有关适用问题。"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "value": "(三)各联邦主体法律",
-            "label": "(三)各联邦主体法律",
-            "children": [
-              {
-                "value": "《生态鉴定法》（杜马丁）",
-                "label": "《生态鉴定法》（杜马丁）",
-                "children": [
-                  {
-                    "value": "包括俄罗斯联邦总统、国家权力机关和地方自治机关的职权，国家生态鉴定的程序及要求，社会生态鉴定的程序及要求，进行生态鉴定的委托方的权利和义务，法律责任及争议解决等内容。",
-                    "label": "包括俄罗斯联邦总统、国家权力机关和地方自治机关的职权，国家生态鉴定的程序及要求，社会生态鉴定的程序及要求，进行生态鉴定的委托方的权利和义务，法律责任及争议解决等内容。"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "value": "(四)国际条约、国际法原则和准则",
-            "label": "(四)国际条约、国际法原则和准则"
-          },
-          {
-            "value": "(五)俄罗斯总统法令",
-            "label": "(五)俄罗斯总统法令"
-          },
-          {
-            "value": "(六)政府行政法规",
-            "label": "(六)政府行政法规"
-          }
-        ]
-      },
-      {
-        "value": "九、知识产权法律制度",
-        "label": "九、知识产权法律制度",
-        "children": [
-          {
-            "value": "(一)联邦宪法和宪法性法律",
-            "label": "(一)联邦宪法和宪法性法律"
-          },
-          {
-            "value": "(二)联邦规范性法律文件",
-            "label": "(二)联邦规范性法律文件",
-            "children": [
-              {
-                "value": "《俄罗斯联邦民法典》",
-                "label": "《俄罗斯联邦民法典》",
-                "children": [
-                  {
-                    "value": "对著作权及邻接权、专利、育种成果权、集成电路拓扑图、商业秘密、个别化方法和统一技术等知识产权客体作出了规定。",
-                    "label": "对著作权及邻接权、专利、育种成果权、集成电路拓扑图、商业秘密、个别化方法和统一技术等知识产权客体作出了规定。"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "value": "(三)各联邦主体法律",
-            "label": "(三)各联邦主体法律"
-          },
-          {
-            "value": "(四)国际条约、国际法原则和准则",
-            "label": "(四)国际条约、国际法原则和准则",
-            "children": [
-              {
-                "value": "1.《保护工业产权巴黎公约》",
-                "label": "1.《保护工业产权巴黎公约》"
-              },
-              {
-                "value": "2.《专利合作条约》",
-                "label": "2.《专利合作条约》"
-              },
-              {
-                "value": "3.《商标国际注册马德里协定》",
-                "label": "3.《商标国际注册马德里协定》"
-              },
-              {
-                "value": "4.《商标注册用商品与服务国际分类尼斯协定》",
-                "label": "4.《商标注册用商品与服务国际分类尼斯协定》"
-              },
-              {
-                "value": "5.《欧洲专利合作条约》",
-                "label": "5.《欧洲专利合作条约》"
-              },
-              {
-                "value": "6.《保护文学和艺术作品伯尔尼公约》",
-                "label": "6.《保护文学和艺术作品伯尔尼公约》"
-              },
-              {
-                "value": "7.《世界版权公约》",
-                "label": "7.《世界版权公约》"
-              },
-              {
-                "value": "8.《建立世界知识产权组织公约》",
-                "label": "8.《建立世界知识产权组织公约》"
-              }
-            ]
-          },
-          {
-            "value": "(五)俄罗斯总统法令",
-            "label": "(五)俄罗斯总统法令"
-          },
-          {
-            "value": "(六)政府行政法规",
-            "label": "(六)政府行政法规"
-          }
-        ]
-      },
-      {
-        "value": "十、争议解决法律制度",
-        "label": "十、争议解决法律制度",
-        "children": [
-          {
-            "value": "(一)联邦宪法和宪法性法律",
-            "label": "(一)联邦宪法和宪法性法律"
-          },
-          {
-            "value": "(二)联邦规范性法律文件",
-            "label": "(二)联邦规范性法律文件",
-            "children": [
-              {
-                "value": "1.《俄罗斯联邦民事诉讼法典》",
-                "label": "1.《俄罗斯联邦民事诉讼法典》",
-                "children": [
-                  {
-                    "value": "规定了民事诉讼的基本原则、审判组织和回避、案件参加人、诉讼代理、证据、诉讼费用、诉讼期间、法院的通知和传唤、第一审法院诉讼程序、第二审法院诉讼程序、对已经发生法律效力的判决、裁定和决定的重新审理、涉外案件的诉讼程序、仲裁机构裁决案件的执行和监督程序。",
-                    "label": "规定了民事诉讼的基本原则、审判组织和回避、案件参加人、诉讼代理、证据、诉讼费用、诉讼期间、法院的通知和传唤、第一审法院诉讼程序、第二审法院诉讼程序、对已经发生法律效力的判决、裁定和决定的重新审理、涉外案件的诉讼程序、仲裁机构裁决案件的执行和监督程序。"
-                  }
-                ]
-              },
-              {
-                "value": "2.《俄罗斯联邦仲裁程序法典》",
-                "label": "2.《俄罗斯联邦仲裁程序法典》",
-                "children": [
-                  {
-                    "value": "涉及内容有基本原则、仲裁法庭的构成、回避制度、仲裁法院的管辖权、诉讼参加人、证据与证明、保全措施、 诉讼费用、诉讼期间、第一审仲裁法院的诉讼程序、行政法律关系和其他公共法律关系案件在第一审仲裁法院的诉讼程序、仲裁法院审理的几类特定案件、涉外案件的诉讼程序、对仲裁法院裁判的再审、执行程序。",
-                    "label": "涉及内容有基本原则、仲裁法庭的构成、回避制度、仲裁法院的管辖权、诉讼参加人、证据与证明、保全措施、 诉讼费用、诉讼期间、第一审仲裁法院的诉讼程序、行政法律关系和其他公共法律关系案件在第一审仲裁法院的诉讼程序、仲裁法院审理的几类特定案件、涉外案件的诉讼程序、对仲裁法院裁判的再审、执行程序。"
-                  }
-                ]
-              },
-              {
-                "value": "3.《俄罗斯联邦仲裁机构法》",
-                "label": "3.《俄罗斯联邦仲裁机构法》",
-                "children": [
-                  {
-                    "value": "规定了仲裁机构、仲裁协议、仲裁庭的组成、仲裁裁决的法律依据、仲裁程序、仲裁程序的终止、裁决的执行与撤销、常设仲裁机构的设立、设立常设仲裁机构的非商业性组织的责任等。",
-                    "label": "规定了仲裁机构、仲裁协议、仲裁庭的组成、仲裁裁决的法律依据、仲裁程序、仲裁程序的终止、裁决的执行与撤销、常设仲裁机构的设立、设立常设仲裁机构的非商业性组织的责任等。"
-                  }
-                ]
-              },
-              {
-                "value": "4.《俄罗斯国际商事仲裁法》",
-                "label": "4.《俄罗斯国际商事仲裁法》",
-                "children": [
-                  {
-                    "value": "规定了仲裁协议、仲裁庭的组成、仲裁庭的管辖权、仲裁程序的进行、裁决的作出和程序的终止、对裁决的异议、仲裁裁决的承认与执行等。",
-                    "label": "规定了仲裁协议、仲裁庭的组成、仲裁庭的管辖权、仲裁程序的进行、裁决的作出和程序的终止、对裁决的异议、仲裁裁决的承认与执行等。"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "value": "(三)各联邦主体法律",
-            "label": "(三)各联邦主体法律"
-          },
-          {
-            "value": "(四)国际条约、国际法原则和准则",
-            "label": "(四)国际条约、国际法原则和准则",
-            "children": [
-              {
-                "value": "1.《中俄关于促进和相互保护投资协定》",
-                "label": "1.《中俄关于促进和相互保护投资协定》",
-                "children": [
-                  {
-                    "value": "规定缔约一方投资者在对方境内投资产生的任何争议，双方应通过友好协商解决。但自争议发生之日起６个月内，双方没有就争议达成一致的，可采取三种方式解决。",
-                    "label": "规定缔约一方投资者在对方境内投资产生的任何争议，双方应通过友好协商解决。但自争议发生之日起６个月内，双方没有就争议达成一致的，可采取三种方式解决。"
-                  }
-                ]
-              },
-              {
-                "value": "2.《华盛顿公约》",
-                "label": "2.《华盛顿公约》",
-                "children": [
-                  {
-                    "value": "该公约的主要宗旨是为参加该公约的各缔约国国民之间的投资争端，提供仲裁和调停的便利，以排除外交干涉和政治干预。",
-                    "label": "该公约的主要宗旨是为参加该公约的各缔约国国民之间的投资争端，提供仲裁和调停的便利，以排除外交干涉和政治干预。"
-                  }
-                ]
-              },
-              {
-                "value": "3.《关于争端解决规则与程序的谅解》",
-                "label": "3.《关于争端解决规则与程序的谅解》",
-                "children": [
-                  {
-                    "value": "协议的范围和适用，总则，管理，斡旋、磋商，调解，专家组(包括专家组的设立、职权范围、组成、程序、职能)，涉及多个起诉方的程序，机密性，寻求信息的权利，中期审议阶段，专家组报告的通过，争端解决机构决定的时限，上诉机构，对执行建议和裁决的监督，多边体制的加强，补偿和中止减让，涉及最不发达国家成员的特殊程序，仲裁等。",
-                    "label": "协议的范围和适用，总则，管理，斡旋、磋商，调解，专家组(包括专家组的设立、职权范围、组成、程序、职能)，涉及多个起诉方的程序，机密性，寻求信息的权利，中期审议阶段，专家组报告的通过，争端解决机构决定的时限，上诉机构，对执行建议和裁决的监督，多边体制的加强，补偿和中止减让，涉及最不发达国家成员的特殊程序，仲裁等。"
-                  }
-                ]
-              },
-              {
-                "value": "4.《承认和执行外国仲裁裁决公约》",
-                "label": "4.《承认和执行外国仲裁裁决公约》",
-                "children": [
-                  {
-                    "value": "规定除非有该公约明确列举的不予执行裁决的理由，各缔约国的主管机关和执行机关都有义务承认和执行外国仲裁裁决。",
-                    "label": "规定除非有该公约明确列举的不予执行裁决的理由，各缔约国的主管机关和执行机关都有义务承认和执行外国仲裁裁决。"
-                  }
-                ]
-              },
-              {
-                "value": "5.《中华人民共和国和俄罗斯联邦关于民事和刑事司法协助的条约》",
-                "label": "5.《中华人民共和国和俄罗斯联邦关于民事和刑事司法协助的条约》",
-                "children": [
-                  {
-                    "value": "宗旨是在尊重主权和互惠的基础上，实现中俄两国在司法领域的合作，互相提供民事和刑事方面的司法协助。",
-                    "label": "宗旨是在尊重主权和互惠的基础上，实现中俄两国在司法领域的合作，互相提供民事和刑事方面的司法协助。"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "value": "(五)俄罗斯总统法令",
-            "label": "(五)俄罗斯总统法令"
-          },
-          {
-            "value": "(六)政府行政法规",
-            "label": "(六)政府行政法规"
           }
         ]
       }
@@ -1816,31 +1092,13 @@ const options = ref([
             "label": "进口管理法规",
             "children": [
               {
-                "value": "《关于对进口实施共同规则的（ec）3285/94号法规》",
-                "label": "《关于对进口实施共同规则的（EC）3285/94号法规》"
+                "value": "http://data.europa.eu/eli/reg/2019/880/oj",
+                "label": "《2019 年 4 月 17 日欧洲议会和理事会关于文化产品引进和进口的第 2019/880 号法规（EU）》"
               },
               {
-                "value": "《关于对某些第三国实施共同进口规则的（ec）519/94号法规》",
-                "label": "《关于对某些第三国实施共同进口规则的（EC）519/94号法规》"
+                "value": "http://data.europa.eu/eli/reg/2015/755/oj",
+                "label": "《2015 年 4 月 29 日欧洲议会和理事会关于从某些第三国进口的共同规则的条例 （EU） 2015/755（修订）》"
               },
-              {
-                "value": "《关于对某些纺织品进口实施共同规则的（ec）3030/93号法规》",
-                "label": "《关于对某些纺织品进口实施共同规则的（EC）3030/93号法规》"
-              },
-              {
-                "value": "《关于实施乌拉圭回合农业协议所需采取措施的（ec）974/95号法规》",
-                "label": "《关于实施乌拉圭回合农业协议所需采取措施的（EC）974/95号法规》"
-              },
-              {
-                "value": "《关于农产品共同关税术语调整程序的（eec）234/79号法规》",
-                "label": "《关于农产品共同关税术语调整程序的（EEC）234/79号法规》"
-              },
-              {
-                "value": "《关于某些农产品加工产品的贸易安排的（ec）3448/93号法规》",
-                "label": "《关于某些农产品加工产品的贸易安排的（EC）3448/93号法规》"
-              }
-            ]
-          },
           {
             "value": "出口管理法规",
             "label": "出口管理法规",
@@ -1850,43 +1108,13 @@ const options = ref([
                 "label": "法规",
                 "children": [
                   {
-                    "value": "《关于实施共同出口规则的（eec）2603/69号法规》",
-                    "label": "《关于实施共同出口规则的（EEC）2603/69号法规》"
+                    "value": "http://data.europa.eu/eli/reg/2021/821/oj",
+                    "label": "《2021 年 5 月 20 日欧洲议会和理事会第 2021/821 号条例 （EU），该条例建立了控制两用物项出口、经纪、技术援助、过境和转让的联盟制度（重铸）》"
                   },
                   {
-                    "value": "《关于文化产品出口的（eec）3911/92号法规》",
-                    "label": "《关于文化产品出口的（EEC）3911/92号法规》"
-                  },
-                  {
-                    "value": "《关于危险化学品进出口的（eec）2455/92号法规》",
-                    "label": "《关于危险化学品进出口的（EEC）2455/92号法规》"
-                  },
-                  {
-                    "value": "《关于设定农产品出口退税术语的（ec）3846/87号法规》",
-                    "label": "《关于设定农产品出口退税术语的（EC）3846/87号法规》"
-                  },
-                  {
-                    "value": "《关于建立两用产品及技术出口控制体系的（ec）1183/2007号法规》",
-                    "label": "《关于建立两用产品及技术出口控制体系的（EC）1183/2007号法规》"
-                  }
-                ]
-              },
-              {
-                "value": "决定",
-                "label": "决定",
-                "children": [
-                  {
-                    "value": "《关于出口信贷保险、信贷担保和融资信贷的咨询与信息程序的（eec）2455/92号决定》",
-                    "label": "《关于出口信贷保险、信贷担保和融资信贷的咨询与信息程序的（EEC）2455/92号决定》"
-                  },
-                  {
-                    "value": "《关于在官方支持的出口信贷领域适用项目融资框架协议原则的（ec）77/2001号决定》",
-                    "label": "《关于在官方支持的出口信贷领域适用项目融资框架协议原则的（EC）77/2001号决定》"
-                  }
-                ]
-              }
-            ]
-          },
+                    "value": "http://data.europa.eu/eli/reg/2012/258/oj",
+                    "label": "《2012年3月14日欧洲议会和理事会第258/2012号条例（欧盟），其中关于执行《联合国打击跨国有组织犯罪公约关于打击非法制造和贩运枪支及其零部件和弹药的补充议定书》第10条，并确立枪支的出口许可、进口和过境措施， 其零部件和弹药》"
+                  }，
           {
             "value": "贸易救济措施",
             "label": "贸易救济措施",
@@ -1896,32 +1124,12 @@ const options = ref([
                 "label": "反倾销",
                 "children": [
                   {
-                    "value": "条例",
-                    "label": "条例",
+                    "value": "判例",
+                    "label": "判例",
                     "children": [
                       {
-                        "value": "欧盟理事会第459/68号条例",
-                        "label": "欧盟理事会第459/68号条例"
-                      },
-                      {
-                        "value": "欧盟理事会第3283/94号条例",
-                        "label": "欧盟理事会第3283/94号条例"
-                      },
-                      {
-                        "value": "欧盟理事会第3284/94号条例",
-                        "label": "欧盟理事会第3284/94号条例"
-                      },
-                      {
-                        "value": "欧盟理事会第459/68号条例",
-                        "label": "欧盟理事会第459/68号条例"
-                      },
-                      {
-                        "value": "欧盟理事会第1225/2009号条例",
-                        "label": "欧盟理事会第1225/2009号条例"
-                      },
-                      {
-                        "value": "欧盟理事会第765/2012号条例",
-                        "label": "欧盟理事会第765/2012号条例"
+                        "value": "http://data.europa.eu/eli/reg_impl/2021/1483/oj",
+                        "label": "2021 年 9 月 15 日欧盟委员会实施条例 （EU） 2021/1483，根据欧洲议会和理事会第 2016/1036 号条例 （EU） 第 11（2） 条进行到期审查后，对原产于中华人民共和国和台湾的进口不锈钢冷轧扁平产品征收最终反倾销税"
                       }
                     ]
                   }
@@ -1932,12 +1140,12 @@ const options = ref([
                 "label": "反补贴",
                 "children": [
                   {
-                    "value": "条例",
-                    "label": "条例",
+                    "value": "判例",
+                    "label": "判例",
                     "children": [
                       {
-                        "value": "欧盟理事会第597/2009号条例",
-                        "label": "欧盟理事会第597/2009号条例"
+                        "value": "http://data.europa.eu/eli/reg/2008/1010/oj",
+                        "label": "2008年10月13日第1010/2008号条例（EC）第1010/2008号条例，在根据第2026/97号条例（EC）第18条进行到期审查后，对原产于印度的磺酸进口征收明确的反补贴税，并根据第2026/97号条例（EC）第19条进行部分临时审查，并修订第1000/2008号条例（EC），对原产于中华人民共和国和印度的进口硫酸征收明确的反倾销税根据第 （EC） 第 384/96 号条例第 11（2） 条进行的到期审查"
                       }
                     ]
                   }
@@ -1954,7 +1162,7 @@ const options = ref([
                 "label": "法规",
                 "children": [
                   {
-                    "value": "《食品基本法》",
+                    "value": "http://data.europa.eu/eli/reg/2002/178/oj",
                     "label": "《食品基本法》"
                   }
                 ]
@@ -1964,17 +1172,13 @@ const options = ref([
                 "label": "条例",
                 "children": [
                   {
-                    "value": "欧盟理事会有关食品卫生的第852/2004号条例",
+                    "value": "http://data.europa.eu/eli/reg/2004/852/oj",
                     "label": "欧盟理事会有关食品卫生的第852/2004号条例"
                   },
                   {
-                    "value": "有关动物源性食品特殊卫生规则的第853/2004号条例",
+                    "value": "http://data.europa.eu/eli/reg/2004/853/oj",
                     "label": "有关动物源性食品特殊卫生规则的第853/2004号条例"
                   },
-                  {
-                    "value": "有关人类消费用动物源性食品官方控制组织的特殊规则的第854/2004号条例",
-                    "label": "有关人类消费用动物源性食品官方控制组织的特殊规则的第854/2004号条例"
-                  }
                 ]
               }
             ]
@@ -1984,21 +1188,11 @@ const options = ref([
             "label": "共同海关税则",
             "children": [
               {
-                "value": "法规",
-                "label": "法规",
-                "children": [
-                  {
-                    "value": "《关于建立欧盟海关法典的第（eec）2913/92号法规》",
-                    "label": "《关于建立欧盟海关法典的第（EEC）2913/92号法规》"
-                  }
-                ]
-              },
-              {
                 "value": "条例",
                 "label": "条例",
                 "children": [
                   {
-                    "value": "欧盟理事会第2658/87号条例",
+                    "value": "http://data.europa.eu/eli/reg/1987/2658/oj",
                     "label": "欧盟理事会第2658/87号条例"
                   }
                 ]
@@ -2016,7 +1210,7 @@ const options = ref([
             "label": "条约",
             "children": [
               {
-                "value": "里斯本条约",
+                "value": "https://eur-lex.europa.eu/EN/legal-content/summary/the-treaty-of-lisbon.html",
                 "label": "里斯本条约"
               }
             ]
@@ -2046,27 +1240,19 @@ const options = ref([
                 "label": "条例",
                 "children": [
                   {
-                    "value": "《欧洲经济共同体条约》81/82条",
+                    "value": "https://eur-lex.europa.eu/EN/legal-content/summary/treaty-of-rome-eec.html",
                     "label": "《欧洲经济共同体条约》81/82条"
                   },
                   {
-                    "value": "《第十七号理事会条例》",
+                    "value": "http://www.euchinacomp.org/attachments/article/46/02_Council_Regulation_EC_No_1_2003_CN.pdf",
                     "label": "《第十七号理事会条例》"
                   },
                   {
-                    "value": "《第1/2003号理事会条例》（2002）",
+                    "value": "http://data.europa.eu/eli/reg/2003/1/oj",
                     "label": "《第1/2003号理事会条例》（2002）"
                   },
                   {
-                    "value": "《第4064/89号合并控制条例》",
-                    "label": "《第4064/89号合并控制条例》"
-                  },
-                  {
-                    "value": "《合并控制条例》（2004）",
-                    "label": "《合并控制条例》（2004）"
-                  },
-                  {
-                    "value": "《欧盟运行条约》101/102条（2019）",
+                    "value": "https://eur-lex.europa.eu/EN/legal-content/summary/treaty-on-the-functioning-of-the-european-union.html",
                     "label": "《欧盟运行条约》101/102条（2019）"
                   }
                 ]
@@ -2082,11 +1268,11 @@ const options = ref([
                 "label": "法规",
                 "children": [
                   {
-                    "value": "《数字市场法》（2020）",
+                    "value": "http://data.europa.eu/eli/reg/2022/1925/oj",
                     "label": "《数字市场法》（2020）"
                   },
                   {
-                    "value": "《数字服务法》（2020）",
+                    "value": "http://data.europa.eu/eli/reg/2022/2065/oj",
                     "label": "《数字服务法》（2020）"
                   }
                 ]
@@ -2096,7 +1282,7 @@ const options = ref([
                 "label": "条例",
                 "children": [
                   {
-                    "value": "《一般数据保护条例》（2018）",
+                    "value": "http://data.europa.eu/eli/reg/2016/679/oj",
                     "label": "《一般数据保护条例》（2018）"
                   }
                 ]
@@ -2106,121 +1292,41 @@ const options = ref([
                 "label": "指南建议",
                 "children": [
                   {
-                    "value": "《关于处理车联网有关应用中的个人数据的第01/2020号指南》",
-                    "label": "《关于处理车联网有关应用中的个人数据的第01/2020号指南》"
-                  },
-                  {
-                    "value": "《关于2016/679号条例第46 (2) (a) 条和第46 (3) (b) 条在欧盟和非欧盟公共机构之间个人数据传输的第02/2020号指南》",
+                    "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679",
                     "label": "《关于2016/679号条例第46 (2) (a) 条和第46 (3) (b) 条在欧盟和非欧盟公共机构之间个人数据传输的第02/2020号指南》"
                   },
                   {
-                    "value": "《关于新冠疫情背景下的科学研究目的处理健康数据的第03/2020号指南》",
-                    "label": "《关于新冠疫情背景下的科学研究目的处理健康数据的第03/2020号指南》"
-                  },
-                  {
-                    "value": "《关于在新冠疫情中使用位置数据和接触者追踪工具的第04/2020号指南》",
-                    "label": "《关于在新冠疫情中使用位置数据和接触者追踪工具的第04/2020号指南》"
-                  },
-                  {
-                    "value": "《关于2016/679号条例项下同意条款的第05/2020号指南》",
+                    "value": "http://data.europa.eu/eli/reg/2016/679/oj",
                     "label": "《关于2016/679号条例项下同意条款的第05/2020号指南》"
                   },
                   {
-                    "value": "《关于〈支付服务指令ⅱ〉和gdpr的协调适用关系的第06/2020号指南》",
-                    "label": "《关于〈支付服务指令Ⅱ〉和GDPR的协调适用关系的第06/2020号指南》"
-                  },
-                  {
-                    "value": "《关于gdpr 中数据控制者和数据处理者概念的第07/2020号指南》",
-                    "label": "《关于GDPR 中数据控制者和数据处理者概念的第07/2020号指南》"
-                  },
-                  {
-                    "value": "《关于社交媒体用户提供定向服务的第08/2020号准则》",
-                    "label": "《关于社交媒体用户提供定向服务的第08/2020号准则》"
-                  },
-                  {
-                    "value": "《关于2016/679号条例项下的相关和合理异议的第09/2020号指南》",
+                    "value": "http://data.europa.eu/eli/reg/2016/679/oj",
                     "label": "《关于2016/679号条例项下的相关和合理异议的第09/2020号指南》"
                   },
                   {
-                    "value": "《关于gdpr第23条项下的限制主体权利的第10/2020号指南》",
-                    "label": "《关于GDPR第23条项下的限制主体权利的第10/2020号指南》"
-                  },
-                  {
-                    "value": "《关于采取传输t具补充措施以确保符合欧盟个人数据保护水平的第01/2020号建议》",
-                    "label": "《关于采取传输T具补充措施以确保符合欧盟个人数据保护水平的第01/2020号建议》"
-                  },
-                  {
-                    "value": "《针对监控措施的关丁欧盟重要保障的第002/2020号建议》",
-                    "label": "《针对监控措施的关丁欧盟重要保障的第002/2020号建议》"
-                  },
-                  {
-                    "value": "《关于通过视频设备处理个人数据的第03/2019号指南》",
+                    "value": "https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-32019-processing-personal-data-through-video_en",
                     "label": "《关于通过视频设备处理个人数据的第03/2019号指南》"
                   },
                   {
-                    "value": "《关于gipk 下搜索引擎案件中被遗忘权认定标准的第05/2019号指南(第1部分) 》",
-                    "label": "《关于GIPK 下搜索引擎案件中被遗忘权认定标准的第05/2019号指南(第1部分) 》"
-                  },
-                  {
-                    "value": "《关于 (hdpr第25条的设计和默认隐私保护2.0的第04/2019号指南》《关于处理车联网有关应用中的个人数据的第01/2020号指南》",
+                    "value": "https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf",
                     "label": "《关于 (HDPR第25条的设计和默认隐私保护2.0的第04/2019号指南》《关于处理车联网有关应用中的个人数据的第01/2020号指南》"
                   },
                   {
-                    "value": "《关于2016/679号条例第46 (2) (a) 条和第46 (3) (b) 条在欧盟和非欧盟公共机构之间个人数据传输的第02/2020号指南》",
+                    "value": "https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-22020-articles-46-2-and-46-3-b-regulation_en",
                     "label": "《关于2016/679号条例第46 (2) (a) 条和第46 (3) (b) 条在欧盟和非欧盟公共机构之间个人数据传输的第02/2020号指南》"
                   },
                   {
-                    "value": "《关于新冠疫情背景下的科学研究目的处理健康数据的第03/2020号指南》",
-                    "label": "《关于新冠疫情背景下的科学研究目的处理健康数据的第03/2020号指南》"
-                  },
-                  {
-                    "value": "《关于在新冠疫情中使用位置数据和接触者追踪工具的第04/2020号指南》",
-                    "label": "《关于在新冠疫情中使用位置数据和接触者追踪工具的第04/2020号指南》"
-                  },
-                  {
-                    "value": "《关于 2016/679号条例项下同意条款的第05/2020号指南》",
+                    "value": "http://data.europa.eu/eli/reg/2016/679/oj",
                     "label": "《关于 2016/679号条例项下同意条款的第05/2020号指南》"
                   },
                   {
-                    "value": "《关于〈支付服务指令ⅱ〉和gdpr的协调适用关系的第06/2020号指南》",
+                    "value": "https://commission.europa.eu/law/law-topic/data-protection/eu-data-protection-rules_en",
                     "label": "《关于〈支付服务指令Ⅱ〉和GDPR的协调适用关系的第06/2020号指南》"
                   },
                   {
-                    "value": "《关于gdpr 中数据控制者和数据处理者概念的第07/2020号指南》",
-                    "label": "《关于GDPR 中数据控制者和数据处理者概念的第07/2020号指南》"
-                  },
-                  {
-                    "value": "《关于社交媒体用户提供定向服务的第08/2020号准则》",
-                    "label": "《关于社交媒体用户提供定向服务的第08/2020号准则》"
-                  },
-                  {
-                    "value": "《关于2016/679号条例项下的相关和合理异议的第09/2020号指南》",
-                    "label": "《关于2016/679号条例项下的相关和合理异议的第09/2020号指南》"
-                  },
-                  {
-                    "value": "《关于gdpr第23条项下的限制主体权利的第10/2020号指南》",
+                    "value": "https://commission.europa.eu/law/law-topic/data-protection/eu-data-protection-rules_en",
                     "label": "《关于GDPR第23条项下的限制主体权利的第10/2020号指南》"
                   },
-                  {
-                    "value": "《关于采取传输t具补充措施以确保符合欧盟个人数据保护水平的第01/2020号建议》",
-                    "label": "《关于采取传输T具补充措施以确保符合欧盟个人数据保护水平的第01/2020号建议》"
-                  },
-                  {
-                    "value": "《针对监控措施的关丁欧盟重要保障的第002/2020号建议》",
-                    "label": "《针对监控措施的关丁欧盟重要保障的第002/2020号建议》"
-                  },
-                  {
-                    "value": "《关于通过视频设备处理个人数据的第03/2019号指南》",
-                    "label": "《关于通过视频设备处理个人数据的第03/2019号指南》"
-                  },
-                  {
-                    "value": "《关于gipk 下搜索引擎案件中被遗忘权认定标准的第05/2019号指南(第1部分) 》",
-                    "label": "《关于GIPK 下搜索引擎案件中被遗忘权认定标准的第05/2019号指南(第1部分) 》"
-                  },
-                  {
-                    "value": "《关于 (hdpr第25条的设计和默认隐私保护2.0的第04/2019号指南》",
-                    "label": "《关于 (HDPR第25条的设计和默认隐私保护2.0的第04/2019号指南》"
-                  }
                 ]
               }
             ]
@@ -2232,76 +1338,76 @@ const options = ref([
         "label": "知识产权",
         "children": [
           {
-            "value": "● 条约",
-            "label": "● 条约",
+            "value": "条约",
+            "label": "条约",
             "children": [
               {
-                "value": "",
-                "label": ""
+                "value": "https://www.wipo.int/wipolex/zh/text/318029",
+                "label": "《商标法条约》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://www.wipo.int/wipolex/zh/text/322976",
+                "label": "《海牙协定》"
               },
               {
-                "value": "《马德里议定书》",
+                "value": "https://www.wipo.int/wipolex/zh/text/283466",
                 "label": "《马德里议定书》"
               },
               {
-                "value": "《",
-                "label": "《"
+                "value": "https://www.wipo.int/wipolex/zh/text/283696",
+                "label": "《伯尔尼公约》"
               },
               {
-                "value": "《与贸易（包括假冒商品贸易在内的）有关的知识产权协定》",
+                "value": "http://ipr.mofcom.gov.cn/zhuanti/law/conventions/wto/trips_right.html",
                 "label": "《与贸易（包括假冒商品贸易在内的）有关的知识产权协定》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://www.cpahkltd.com/UploadFiles/20110603102159616.pdf",
+                "label": "《反假冒贸易协定》（ACTA）"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://www.epo.org/en/legal/epc/2020/EPC_conv_20231101_en_20231101.pdf",
+                "label": "《欧洲专利公约》EPC"
               }
             ]
           },
           {
-            "value": "",
-            "label": "",
+            "value": "判例",
+            "label": "判例",
             "children": [
               {
-                "value": "",
-                "label": ""
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62022CJ0201&qid=1709042559580",
+                "label": "法院判决（第五分庭）2023年11月23日 （ *1 )（初步裁决参考 – 知识产权 – 指令 2014/26/EU – 版权及相关 权的集体管理 – 集体管理组织 – 指令 2004/48/EC – 确保知识产权执法所需的措施、程序和补救措施– 第 4 条 – 有权寻求适用第 2004/48/EC 号指令中规定的措施、程序和补救措施的人 – 有权进行扩展集体许可的集体管理组织 – 有权提起知识产权 辩护诉讼)"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62021CJ0628&qid=1709042735970",
+                "label": "法院（第五分庭）2023年4月27日的判决。初步裁决参考 – 知识产权 – 指令 2004/48/EC – 确保知识产权执法所需的措施、程序和补救措施 – 信息权 – 诉讼地位 – 需要事先确定知识产权的存在。案件C-628/21。"
               }
             ]
           },
           {
-            "value": "",
-            "label": "",
+            "value": "指令",
+            "label": "指令",
             "children": [
               {
-                "value": "",
-                "label": ""
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52006PC0226&qid=1709042768099",
+                "label": "欧洲议会和理事会关于知识产权领域租赁权和出借权以及与版权有关的某些权利的指令提案（编纂版）/* COM/2006/0226 final - COD 2006/0073 */"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0048&qid=1709042917697",
+                "label": "委员会向欧洲议会、欧洲理事会、欧洲经济和社会委员会以及地区委员会提交的报告 适用欧洲议会和理事会2004年4月29日关于知识产权执法的第2004/48/EC号指令"
               },
               {
-                "value": "第三国知识产权 执法战略（2005/c 129/03）",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52005XC0526%2801%29&qid=1709042987734",
                 "label": "第三国知识产权 执法战略（2005/C 129/03）"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52005PC0276%2801%29&qid=1709043014054",
+                "label": "关于欧洲议会和理事会关于旨在确保知识产权执法的刑事措施的指令的提案 {SEC（2005）848}"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021PC0183&qid=1709043045268",
+                "label": "关于代表欧洲联盟在世界贸易组织与贸易有关的知识产权理事会中采取的立场的理事会决定的理事会的提案COM/2021/183 决赛"
               }
             ]
           }
@@ -2312,84 +1418,84 @@ const options = ref([
         "label": "国家安全",
         "children": [
           {
-            "value": "● 指令",
-            "label": "● 指令",
+            "value": "指令",
+            "label": "指令",
             "children": [
               {
-                "value": "● 《一般数据保护条例》(gdpr)《2016/680指令》《2018/1725指令》",
-                "label": "● 《一般数据保护条例》(GDPR)《2016/680指令》《2018/1725指令》"
+                "value": "https://gdpr-info.eu/",
+                "label": "《一般数据保护条例》(GDPR)《2016/680指令》《2018/1725指令》"
               }
             ]
           },
           {
-            "value": "● 指南",
-            "label": "● 指南",
+            "value": "指南",
+            "label": "指南",
             "children": [
               {
-                "value": "《关于处理车联网有关应用中的个人数据的第01/2020号指南》",
+                "value": "https://edpb.europa.eu/system/files/2021-03/edpb_guidelines_202001_connected_vehicles_v2.0_adopted_en.pdf",
                 "label": "《关于处理车联网有关应用中的个人数据的第01/2020号指南》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-22020-articles-46-2-and-46-3-b-regulation_en",
+                "label": "《关于2016/679号条例第46 (2)(a) 条和第46 (3) (b) 条在欧盟和非欧盟公共机构之间个一人数据传输的第02/2020号指南》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_202003_healthdatascientificresearchcovid19_en.pdf",
+                "label": "《关于新冠疫情背景下的科学研究目的处理健康数据的第03/2020号指南》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_20200420_contact_tracing_covid_with_annex_en.pdf",
+                "label": "《关于在新冠疫情中使用位置数据和接触者追踪工具的第04/2020号指南》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_20200420_contact_tracing_covid_with_annex_en.pdf",
+                "label": "《关于 2016/679号条例项下同意条款的第05/2020号指南》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-062020-interplay-second-payment-services_en",
+                "label": "《关于〈支付服务指令II〉和GDPR的协调适用关系的第06/2020号指南》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/system/files/2023-10/EDPB_guidelines_202007_controllerprocessor_final_en.pdf",
+                "label": "《关于GDPR 中数据控制者和数据处理者概念的第07/2020号指南》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/sites/default/files/consultation/edpb_guidelines_202008_onthetargetingofsocialmediausers_en.pdf",
+                "label": "《关于社交媒体用户提供定向服务的第08/2020号准则》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_202005_consent_en.pdf",
+                "label": "《关于2016/679号条例项下的相关和合理异议的第09/2020号指南》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/system/files/2021-10/edpb_guidelines202010_on_art23_adopted_after_consultation_en.pdf",
+                "label": "《关于GDPR第23条项下的限制主体权利的第10/2020号指南》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201903_video_devices_en_0.pdf",
+                "label": "《关于通过视频设备处理个人数据的第03/2019号指南》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201905_rtbfsearchengines_afterpublicconsultation_en.pdf",
+                "label": "《关于GIPK 下搜索引擎案件中被遗忘权认定标准的第05/2019号指南(第1部分) 》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf",
+                "label": "《关于(HDPR第25条的设计和默认隐私保护2.0的第04/2019号指南》"
               }
             ]
           },
           {
-            "value": "● 建议",
-            "label": "● 建议",
+            "value": "建议",
+            "label": "建议",
             "children": [
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/system/files/2021-06/edpb_recommendations_202001vo.2.0_supplementarymeasurestransferstools_en.pdf",
+                "label": "《关于采取传输T具补充措施以确保符合欧盟个人数据保护水平的第01/2020号建议》"
               },
               {
-                "value": "",
-                "label": ""
+                "value": "https://edpb.europa.eu/sites/default/files/files/file1/edpb_recommendations_202002_europeanessentialguaranteessurveillance_en.pdf",
+                "label": "《针对监控措施的关于欧盟重要保障的第002/2020号建议》"
               }
             ]
           }
@@ -2400,26 +1506,26 @@ const options = ref([
         "label": "工程承包",
         "children": [
           {
-            "value": "● 法律",
-            "label": "● 法律",
+            "value": "法律",
+            "label": "法律",
             "children": [
               {
-                "value": "● 欧洲土地法典： european code on land law，编号： com(2003) 71 final",
-                "label": "● 欧洲土地法典： European Code on Land Law，编号： COM(2003) 71 final"
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32003L0071",
+                "label": "欧洲土地法典： European Code on Land Law，编号： COM(2003) 71 final"
               }
             ]
           },
           {
-            "value": "● 判例",
-            "label": "● 判例",
+            "value": "判例",
+            "label": "判例",
             "children": [
               {
-                "value": "● 2023 年 10 月 12 日法院（第一分庭）的判决（要求爱沙尼亚塔林纳哈尔杜斯科胡斯做出初步裁决）——est wind power oü v elering as（案例 c-11/22，",
-                "label": "● 2023 年 10 月 12 日法院（第一分庭）的判决（要求爱沙尼亚塔林纳哈尔杜斯科胡斯做出初步裁决）——Est Wind Power OÜ v Elering AS（案例 C-11/22，"
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62022CA0011&qid=1709026052792",
+                "label": "2023 年 10 月 12 日法院（第一分庭）的判决（要求爱沙尼亚塔林纳哈尔杜斯科胡斯做出初步裁决）——Est Wind Power OÜ v Elering AS（案例 C-11/22，"
               },
               {
-                "value": "● 2010年10月7日法院（第五分庭）判决（参考意大利博尔扎诺法庭的初步裁决）——对玛莎·努斯鲍默的刑事诉讼（案件编号c-224/09）",
-                "label": "● 2010年10月7日法院（第五分庭）判决（参考意大利博尔扎诺法庭的初步裁决）——对玛莎·努斯鲍默的刑事诉讼（案件编号C-224/09）"
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62009CA0224&qid=1709026285688",
+                "label": "2010年10月7日法院（第五分庭）判决（参考意大利博尔扎诺法庭的初步裁决）——对玛莎·努斯鲍默的刑事诉讼（案件编号C-224/09）"
               }
             ]
           },
@@ -2428,19 +1534,19 @@ const options = ref([
             "label": "● 指令",
             "children": [
               {
-                "value": "● 欧洲土地资源保护指令：european directive on protection of soil resources，编号：2004/35/ec",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0035&qid=1709041607521",
                 "label": "● 欧洲土地资源保护指令：European Directive on Protection of Soil Resources，编号：2004/35/EC"
               },
               {
-                "value": "● 关于欧盟土地使用和开发指令：european directive onland use and development，编号：2011/92/eu",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0092&qid=1709041691315",
                 "label": "● 关于欧盟土地使用和开发指令：European Directive onLand Use and Development，编号：2011/92/EU"
               },
               {
-                "value": "● 欧洲议会和理事会指令 （eu） 2021/1883 关于第三国国民为高素质就业而入境和居住的条件，并废除理事会指令 2009/50/ec",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021L1883&qid=1709041765145",
                 "label": "● 欧洲议会和理事会指令 （EU） 2021/1883 关于第三国国民为高素质就业而入境和居住的条件，并废除理事会指令 2009/50/EC"
               },
               {
-                "value": "● 欧洲议会和理事会指令 2014/54/eu   在工人行动自由的背景下，便利行使赋予工人的权利的措施（与欧洲经济区相关的文本）",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021L1883&qid=1709041765145",
                 "label": "● 欧洲议会和理事会指令 2014/54/EU   在工人行动自由的背景下，便利行使赋予工人的权利的措施（与欧洲经济区相关的文本）"
               },
               {
@@ -2448,7 +1554,7 @@ const options = ref([
                 "label": "● 指南"
               },
               {
-                "value": "●  欧洲土地利用规划指南：european guidelines for land use planning，编号：com(1999) 224 final",
+                "value": "https://minerva.jrc.ec.europa.eu/EN/content/minerva/a0bf56b7-79a0-454e-a84a-02b6e0a2a990/lupguideseviipdf",
                 "label": "●  欧洲土地利用规划指南：European Guidelines for Land Use Planning，编号：COM(1999) 224 final"
               }
             ]
@@ -2464,41 +1570,29 @@ const options = ref([
             "label": "条约",
             "children": [
               {
-                "value": "《欧共体条约》",
+                "value": "https://eur-lex.europa.eu/eli/treaty/teec/sign",
                 "label": "《欧共体条约》"
               },
-              {
-                "value": "中国与欧盟各成员国签订避免双重征税双边协定",
-                "label": "中国与欧盟各成员国签订避免双重征税双边协定"
-              },
-              {
-                "value": "·中国与欧洲国家税收协定",
-                "label": "·中国与欧洲国家税收协定"
-              }
-            ]
+              ]
           },
           {
             "value": "法律法规",
             "label": "法律法规",
             "children": [
               {
-                "value": "税务合作指令",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0016",
                 "label": "税务合作指令"
               },
               {
-                "value": "欧洲税收透明度指令",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32018L0822",
                 "label": "欧洲税收透明度指令"
               },
               {
-                "value": "争端解决机制指令",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32013L0011",
                 "label": "争端解决机制指令"
               },
               {
-                "value": "税收逃漏和避税预警指令",
-                "label": "税收逃漏和避税预警指令"
-              },
-              {
-                "value": "增值税指令",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0112",
                 "label": "增值税指令"
               }
             ]
@@ -2508,7 +1602,7 @@ const options = ref([
             "label": "条例",
             "children": [
               {
-                "value": "跨境交易增值税条例",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R1042",
                 "label": "跨境交易增值税条例"
               }
             ]
@@ -2518,15 +1612,15 @@ const options = ref([
             "label": "判例法",
             "children": [
               {
-                "value": "进口生产资料税抵免案（case c-69/91）",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A61991CJ0069",
                 "label": "进口生产资料税抵免案（Case C-69/91）"
               },
               {
-                "value": "欧元货币税（case c-384/09）",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62009CJ0384",
                 "label": "欧元货币税（Case C-384/09）"
               },
               {
-                "value": "违反国家援助规定的税收减免案（case c-172/03）",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62003CJ0172",
                 "label": "违反国家援助规定的税收减免案（Case C-172/03）"
               }
             ]
@@ -2535,30 +1629,10 @@ const options = ref([
             "value": "指南",
             "label": "指南",
             "children": [
-              {
-                "value": "消费税指南",
-                "label": "消费税指南"
-              },
-              {
-                "value": "内部市场和关税同盟指南",
+               {
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A12016E%2FTXT",
                 "label": "内部市场和关税同盟指南"
               },
-              {
-                "value": "",
-                "label": ""
-              },
-              {
-                "value": "核算税指南",
-                "label": "核算税指南"
-              },
-              {
-                "value": "跨越国境合理分配利润指南",
-                "label": "跨越国境合理分配利润指南"
-              },
-              {
-                "value": "欧盟税收政策指南",
-                "label": "欧盟税收政策指南"
-              }
             ]
           }
         ]
@@ -2572,19 +1646,19 @@ const options = ref([
             "label": "条约",
             "children": [
               {
-                "value": "《欧洲联盟运作条约》第191，第193条；附加议定书第二部分",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AC%3A2016%3A202%3ATOC",
                 "label": "《欧洲联盟运作条约》第191，第193条；附加议定书第二部分"
               },
               {
-                "value": "《生态系统和生物多样性战略》",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AC%3A2016%3A202%3ATOC",
                 "label": "《生态系统和生物多样性战略》"
               },
               {
-                "value": "《气候变化框架公约》",
+                "value": "https://unfccc.int/resource/docs/convkp/conveng.pdf",
                 "label": "《气候变化框架公约》"
               },
               {
-                "value": "《京都议定书》",
+                "value": "https://unfccc.int/resource/docs/convkp/kpeng.pdf",
                 "label": "《京都议定书》"
               }
             ]
@@ -2594,31 +1668,31 @@ const options = ref([
             "label": "法律法规",
             "children": [
               {
-                "value": "水框架指令2000/60/ec",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32000L0060",
                 "label": "水框架指令2000/60/EC"
               },
               {
-                "value": "工业排放指令2010/75/eu",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32010L0075",
                 "label": "工业排放指令2010/75/EU"
               },
               {
-                "value": "包装和包装废物指令1994/62/ec",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A31994L0062",
                 "label": "包装和包装废物指令1994/62/EC"
               },
               {
-                "value": "废物框架指令2008/98/ec",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32008L0098",
                 "label": "废物框架指令2008/98/EC"
               },
               {
-                "value": "溶剂排放指令1999/13/ec",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A31999L0013",
                 "label": "溶剂排放指令1999/13/EC"
               },
               {
-                "value": "生物多样性和自然栖息地保护指令92/43/eec",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A31992L0043",
                 "label": "生物多样性和自然栖息地保护指令92/43/EEC"
               },
               {
-                "value": "植物保护产品指令2009/128/ec",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32009L0128",
                 "label": "植物保护产品指令2009/128/EC"
               },
               {
@@ -2626,15 +1700,15 @@ const options = ref([
                 "label": ""
               },
               {
-                "value": "食品接触材料指令2004/1935/ec",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L1935",
                 "label": "食品接触材料指令2004/1935/EC"
               },
               {
-                "value": "氟利昂气体指令517/2014",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0517",
                 "label": "氟利昂气体指令517/2014"
               },
               {
-                "value": "企业责任法中《欧盟 2020战略：在经济、环境和社会三方面推动智能、可持续和包容性增长》《企业信息披露指令》",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013L0034",
                 "label": "企业责任法中《欧盟 2020战略：在经济、环境和社会三方面推动智能、可持续和包容性增长》《企业信息披露指令》"
               }
             ]
@@ -2644,23 +1718,19 @@ const options = ref([
             "label": "条例",
             "children": [
               {
-                "value": "欧盟渔业和海洋污染条例（eu regulation 1005/2008）",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32008R1005",
                 "label": "欧盟渔业和海洋污染条例（EU Regulation 1005/2008）"
               },
               {
-                "value": "欧洲气候和能源框架法（european climate and energy framework law）",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027",
                 "label": "欧洲气候和能源框架法（European Climate and Energy Framework Law）"
               },
               {
-                "value": "欧盟化学品考评、授权和限制条例（reach regulation ec no 1907/2006）",
-                "label": "欧盟化学品考评、授权和限制条例（REACH Regulation EC No 1907/2006）"
-              },
-              {
-                "value": "欧盟水产养殖条例（eu aquaculture regulation 2014/304）",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0304",
                 "label": "欧盟水产养殖条例（EU Aquaculture Regulation 2014/304）"
               },
               {
-                "value": "欧盟环境纪录公开条例（eu regulation 1367/2006）",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32006R1367",
                 "label": "欧盟环境纪录公开条例（EU Regulation 1367/2006）"
               }
             ]
@@ -2670,25 +1740,17 @@ const options = ref([
             "label": "判例",
             "children": [
               {
-                "value": "天然保护法",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32092L0043",
                 "label": "天然保护法"
               },
               {
-                "value": "产品法案",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1623101610474&uri=CELEX:32019L1020",
                 "label": "产品法案"
               },
               {
                 "value": "",
                 "label": ""
               },
-              {
-                "value": "生态平衡法",
-                "label": "生态平衡法"
-              },
-              {
-                "value": "natura 2000判例法",
-                "label": "Natura 2000判例法"
-              }
             ]
           },
           {
@@ -2696,39 +1758,27 @@ const options = ref([
             "label": "指南",
             "children": [
               {
-                "value": "1. 欧盟液化天然气基础设施和燃料统一标准的技术指南",
+                "value": "https://ec.europa.eu/energy/topics/oil-gas-and-coal/liquefied-natural-gas_en",
                 "label": "1. 欧盟液化天然气基础设施和燃料统一标准的技术指南"
               },
               {
-                "value": "2. 欧盟对大气污染物排放的在线监测和报告的指南及数据交换标准",
+                "value": "https://environment.ec.europa.eu/topics/air_en",
                 "label": "2. 欧盟对大气污染物排放的在线监测和报告的指南及数据交换标准"
               },
               {
-                "value": "3. 欧盟有害化学物质评估的技术指南",
+                "value": "https://echa.europa.eu/guidance-documents/guidance-on-chemical-safety-assessment",
                 "label": "3. 欧盟有害化学物质评估的技术指南"
               },
-              {
-                "value": "4. 欧盟烷基苯类物质的风险评估指南",
-                "label": "4. 欧盟烷基苯类物质的风险评估指南"
-              },
-              {
-                "value": "5. 欧盟废物的分类和转移指南",
-                "label": "5. 欧盟废物的分类和转移指南"
-              },
-              {
-                "value": "6. 欧盟对环境和气候因素强调风险评估的指导",
-                "label": "6. 欧盟对环境和气候因素强调风险评估的指导"
-              },
-              {
-                "value": "7. 欧盟船舶废物处理技术与标准细则指南",
+               {
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32000L0059",
                 "label": "7. 欧盟船舶废物处理技术与标准细则指南"
               },
               {
-                "value": "8. 欧盟对工业排放指令以及新工业污染控制指令的实施指南",
+                "value": "：https://ec.europa.eu/environment/industry/pdf/about_ippc/guidance_ippc.pdf",
                 "label": "8. 欧盟对工业排放指令以及新工业污染控制指令的实施指南"
               },
               {
-                "value": "9. 欧盟环境关键基础设施的生态设计指导方针",
+                "value": "https://ec.europa.eu/environment/nature/ecosystems/ecological_infrastructure.htm",
                 "label": "9. 欧盟环境关键基础设施的生态设计指导方针"
               }
             ]
@@ -2744,7 +1794,7 @@ const options = ref([
             "label": "条约",
             "children": [
               {
-                "value": "欧盟与中国之间的投资协定",
+                "value": "https://ec.europa.eu/trade/policy/countries-and-regions/countries/china/",
                 "label": "欧盟与中国之间的投资协定"
               }
             ]
@@ -2758,21 +1808,17 @@ const options = ref([
                 "label": ""
               },
               {
-                "value": "欧洲土地资源保护指令",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0055 ",
                 "label": "欧洲土地资源保护指令"
               },
               {
-                "value": "欧盟土地征收指令",
+                "value": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32006L0042:EN:HTML",
                 "label": "欧盟土地征收指令"
               },
               {
-                "value": "关于欧盟土地使用和开发指令",
+                "value": "https://eur-lex.europa.eu/eli/dir/2014/89/oj",
                 "label": "关于欧盟土地使用和开发指令"
               },
-              {
-                "value": "关于欧洲城市规划指南",
-                "label": "关于欧洲城市规划指南"
-              }
             ]
           },
           {
@@ -2780,13 +1826,9 @@ const options = ref([
             "label": "条例",
             "children": [
               {
-                "value": "欧盟土地保护条例",
+                "value": "https://ec.europa.eu/environment/soil/index_en.htm",
                 "label": "欧盟土地保护条例"
               },
-              {
-                "value": "关于欧洲土地空间规划",
-                "label": "关于欧洲土地空间规划"
-              }
             ]
           },
           {
@@ -2794,27 +1836,11 @@ const options = ref([
             "label": "判例法",
             "children": [
               {
-                "value": "欧盟环境评估法（eia）的判例法，案例包括：t-177/12、c-420/87和c-127/02",
+                "value": "https://curia.europa.eu/jcms/jcms/j_6/",
                 "label": "欧盟环境评估法（EIA）的判例法，案例包括：T-177/12、C-420/87和C-127/02"
               }
             ]
           },
-          {
-            "value": "指南",
-            "label": "指南",
-            "children": [
-              {
-                "value": "欧洲土地利用规划指南",
-                "label": "欧洲土地利用规划指南"
-              },
-              {
-                "value": "关于欧盟土地资源开发指南",
-                "label": "关于欧盟土地资源开发指南"
-              },
-              {
-                "value": "欧盟城市土地使用规划指南",
-                "label": "欧盟城市土地使用规划指南"
-              }
             ]
           }
         ]
@@ -2828,11 +1854,11 @@ const options = ref([
             "label": "条约",
             "children": [
               {
-                "value": "1《区域全面经济伙伴关系协定》（rcep）第十二章：投资，包括投资政策、投资自由化和便利化等方面的规定。",
+                "value": "https://rcepsec.org/",
                 "label": "1《区域全面经济伙伴关系协定》（RCEP）第十二章：投资，包括投资政策、投资自由化和便利化等方面的规定。"
               },
               {
-                "value": "2《欧洲自由贸易联盟》：投资与贸易领域的协调（第十三章 资本自由流动），投资保护（第十四章 知识产权保护和关于国民待遇、最惠国待遇的投资条款），讨论投资领域合作的机会（附录十三-e 欧洲自由贸易联盟国家和南美南方共同市场关于贸易、投资和创新合作的讨论）",
+                "value": "https://www.efta.int/",
                 "label": "2《欧洲自由贸易联盟》：投资与贸易领域的协调（第十三章 资本自由流动），投资保护（第十四章 知识产权保护和关于国民待遇、最惠国待遇的投资条款），讨论投资领域合作的机会（附录十三-E 欧洲自由贸易联盟国家和南美南方共同市场关于贸易、投资和创新合作的讨论）"
               }
             ]
@@ -2842,15 +1868,11 @@ const options = ref([
             "label": "法律法规",
             "children": [
               {
-                "value": "1《欧盟外商直接投资审查条例》",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R0459",
                 "label": "1《欧盟外商直接投资审查条例》"
               },
               {
-                "value": "2《欧洲证券市场法规》",
-                "label": "2《欧洲证券市场法规》"
-              },
-              {
-                "value": "3《简化债务重组和破产规则法规》",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L1023",
                 "label": "3《简化债务重组和破产规则法规》"
               }
             ]
@@ -2860,13 +1882,9 @@ const options = ref([
             "label": "条例",
             "children": [
               {
-                "value": "1《欧盟成员国关于外商直接投资审查的指引》",
+                "value": "https://ec.europa.eu/docsroom/documents/41401",
                 "label": "1《欧盟成员国关于外商直接投资审查的指引》"
               },
-              {
-                "value": "2《欧盟成员国本国审查机制》",
-                "label": "2《欧盟成员国本国审查机制》"
-              }
             ]
           },
           {
@@ -2874,11 +1892,11 @@ const options = ref([
             "label": "判例",
             "children": [
               {
-                "value": "1，第c-98/11 p号案件 - 液晶面板制造商的价格操纵违反投资自由和贸易自由原则",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?isOldUri=true&uri=CELEX:62011CJ0098",
                 "label": "1，第C-98/11 P号案件 - 液晶面板制造商的价格操纵违反投资自由和贸易自由原则"
               },
               {
-                "value": "2，c-529/16 e和其他人诉欧洲委员会案，此案涉及到财政资助和国有企业剥离问题。",
+                "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?isOldUri=true&uri=CELEX:62016CJ0529",
                 "label": "2，C-529/16 E和其他人诉欧洲委员会案，此案涉及到财政资助和国有企业剥离问题。"
               }
             ]
@@ -2888,15 +1906,11 @@ const options = ref([
             "label": "指南",
             "children": [
               {
-                "value": "1《投资保护指南》",
+                "value": "https://ec.europa.eu/commission/presscorner/detail/en/ip_19_719",
                 "label": "1《投资保护指南》"
               },
               {
-                "value": "2 《投资协定进程指南》",
-                "label": "2 《投资协定进程指南》"
-              },
-              {
-                "value": "3《 投资协定进程指南》",
+                "value": "https://ec.europa.eu/trade/policy/in-focus/eu-approach-investment-protection_en",
                 "label": "3《 投资协定进程指南》"
               }
             ]
@@ -2905,7 +1919,7 @@ const options = ref([
       }
     ]
   },
-  {
+ {
     "value": "美国（以联邦法律为主）",
     "label": "美国（以联邦法律为主）",
     "children": [
@@ -2936,7 +1950,7 @@ const options = ref([
                 "label": "联邦",
                 "children": [
                   {
-                    "value": "1935年《社会保障法》及修正案",
+                    "value": "https://wenku.so.com/d/085d85e1869e944ee430e27c268e0fd9",
                     "label": "1935年《社会保障法》及修正案"
                   }
                 ]
@@ -2988,7 +2002,7 @@ const options = ref([
             "label": "贸易法规",
             "children": [
               {
-                "value": "1988年综合竞争贸易法",
+                "value": "https://www.zsbeike.com/wap/jilu/10011450.html",
                 "label": "1988年综合竞争贸易法"
               },
               {
@@ -3014,11 +2028,11 @@ const options = ref([
                 "label": "1972年海洋哺乳动物保护法"
               },
               {
-                "value": "1962贸易拓展法",
+                "value": "https://www.doc88.com/p-1184842883697.html",
                 "label": "1962贸易拓展法"
               },
               {
-                "value": "1974年贸易法122条款",
+                "value": "https://money.163.com/keywords/0/3/00310039003700345e748d3866136cd5/1.html",
                 "label": "1974年贸易法122条款"
               }
             ]
@@ -3028,11 +2042,11 @@ const options = ref([
             "label": "出口管理制度",
             "children": [
               {
-                "value": "1979年出口管理法",
+                "value": "https://www.sohu.com/a/277103236_100269542",
                 "label": "1979年出口管理法"
               },
               {
-                "value": "武器出口管制法案",
+                "value": "https://www.sohu.com/a/277103236_100269542",
                 "label": "武器出口管制法案"
               },
               {
@@ -3040,15 +2054,16 @@ const options = ref([
                 "label": "联邦",
                 "children": [
                   {
-                    "value": "《出口管制改革法案》",
+                    "value": "https://wenku.so.com/d/558747dfb5acffb1bb5a7dccfe053972",
                     "label": "《出口管制改革法案》"
                   },
                   {
-                    "value": "《出口管制条例》",
+                    "value": "https://zhuanlan.zhihu.com/p/426403382",
                     "label": "《出口管制条例》"
                   },
                   {
-                    "value": "《商业管制清单》和《商业国家列表》",
+                    "value": "https://www.docin.com/p-877869049.html 
+https://nlibvpn.bit.edu.cn/https/77726476706e69737468656265737421a1b94f993f2426477b1b9da099426d3695fe/Search/Results.html?query=List%20of%20Business%20Countries&isPremiumAdvanceSearch=False&jurisdiction=ALLFEDS&saveJuris=False&contentType=ALL&querySubmissionGuid=i0ad604ac0000018defcf8d67a0e0d6b4&startIndex=1&searchId=i0ad604ac0000018defcf8d67a0e0d6b4&kmSearchIdRequested=False&simpleSearch=False&isAdvancedSearchTemplatePage=False&skipSpellCheck=False&isTrDiscoverSearch=False&thesaurusSearch=False&thesaurusTermsApplied=False&ancillaryChargesAccepted=False&proviewEligible=False&eventingTypeOfSearch=FRM&trailingSpace=False&citationSortable=False&useNonBillableZoneClientId=False&transitionType=Search&contextData=%28sc.Default%29",
                     "label": "《商业管制清单》和《商业国家列表》"
                   }
                 ]
@@ -3056,7 +2071,7 @@ const options = ref([
             ]
           },
           {
-            "value": "反商业贿赂法规",
+            "value": "https://qiaoyi.org/usashangyehuolu.html",
             "label": "反商业贿赂法规",
             "children": [
               {
@@ -3068,7 +2083,7 @@ const options = ref([
                 "label": "联邦",
                 "children": [
                   {
-                    "value": "美国反海外腐败法案",
+                    "value": "https://baike.so.com/doc/6497384-6711099.html",
                     "label": "美国反海外腐败法案"
                   }
                 ]
@@ -3084,107 +2099,107 @@ const options = ref([
                 "label": "多边条约（美国缔结时间顺序排列）",
                 "children": [
                   {
-                    "value": "承认及执行外国仲裁裁决公约（un）",
+                    "value": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXII-1&chapter=22&clang=_en",
                     "label": "承认及执行外国仲裁裁决公约（UN）"
                   },
                   {
-                    "value": "货物凭a.t.a.报关单证册暂时进口的海关公约（wco）",
+                    "value": "http://www.wcoomd.org/-/media/wco/public/global/pdf/about-us/legal-instruments/conventions-and-agreements/ata/pf_ata_conv_text.pdf?la=en",
                     "label": "货物凭A.T.A.报关单证册暂时进口的海关公约（WCO）"
                   },
                   {
-                    "value": "关于解决国家和他国国民之间投资争端公约（wbg）",
+                    "value": "http://tfs.mofcom.gov.cn/article/date/j/al/200212/20021200058437.shtml",
                     "label": "关于解决国家和他国国民之间投资争端公约（WBG）"
                   },
                   {
-                    "value": "内陆国家过境贸易公约（un）",
+                    "value": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=X-3&chapter=10&clang=_en",
                     "label": "内陆国家过境贸易公约（UN）"
                   },
                   {
-                    "value": "国际易腐食品运输及其所用特别设备协定（易腐食品运输协定）（un）",
+                    "value": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XI-B-22&chapter=11&clang=_en",
                     "label": "国际易腐食品运输及其所用特别设备协定（易腐食品运输协定）（UN）"
                   },
                   {
-                    "value": "集装箱关务公约（un）    关于简化和协调海关业务制度的国际公约（京都公约）（wco）",
+                    "value": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XI-A-9&chapter=11&clang=_en，http://www.wcoomd.org/en/topics/facilitation/instrument-and-tools/conventions/pf_revised_kyoto_conv.aspx",
                     "label": "集装箱关务公约（UN）    关于简化和协调海关业务制度的国际公约（京都公约）（WCO）"
                   },
                   {
-                    "value": "联合国国际货物销售时效公约（un）",
+                    "value": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=X-7&chapter=10&clang=_en",
                     "label": "联合国国际货物销售时效公约（UN）"
                   },
                   {
-                    "value": "＞关于国际公路货运通行证制度下国际货运海关公约（国际公路货运公约）（un）",
+                    "value": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XI-A-16&chapter=11&clang=_en",
                     "label": "＞关于国际公路货运通行证制度下国际货运海关公约（国际公路货运公约）（UN）"
                   },
                   {
-                    "value": "民用航空器贸易协议（wto）",
+                    "value": "https://www.wto.org/english/docs_e/legal_e/air-79_e.htm",
                     "label": "民用航空器贸易协议（WTO）"
                   },
                   {
-                    "value": "联合国国际货物销售合同公约（un）",
+                    "value": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=X-10&chapter=10&clang=_en",
                     "label": "联合国国际货物销售合同公约（UN）"
                   },
                   {
-                    "value": "商品名称及编码协调制度的国际公约（wco）",
+                    "value": "http://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools/hs_convention.aspx",
                     "label": "商品名称及编码协调制度的国际公约（WCO）"
                   },
                   {
-                    "value": "1986年－1994年关贸总协定／世贸组织乌拉圭回合谈判相关协定（wto）        建立世界贸易组织的马拉喀什协议» 1994年关税与贸易总协定（gatt）",
+                    "value": "https://www.wto.org/english/docs_e/legal_e/06-gatt_e.htm／世贸组织乌拉圭回合谈判相关协定（wto）        https://www.wto.org/english/docs_e/legal_e/04-wto_e.htm",
                     "label": "1986年－1994年关贸总协定／世贸组织乌拉圭回合谈判相关协定（WTO）        建立世界贸易组织的马拉喀什协议» 1994年关税与贸易总协定（GATT）",
                     "children": [
                       {
-                        "value": "农业协议",
+                        "value": "https://www.wto.org/english/docs_e/legal_e/14-ag_01_e.htm",
                         "label": "农业协议"
                       },
                       {
-                        "value": "实施卫生与植物卫生措施协议",
+                        "value": "https://www.wto.org/english/docs_e/legal_e/15sps_01_e.htm",
                         "label": "实施卫生与植物卫生措施协议"
                       },
                       {
-                        "value": "纺织品与服装协定» 技术性贸易壁垒协议",
+                        "value": "https://www.wto.org/english/docs_e/legal_e/16-tex_e.htm",
                         "label": "纺织品与服装协定» 技术性贸易壁垒协议"
                       },
                       {
-                        "value": "与贸易有关的投资措施协议» 关于执行1994年关贸总协定第六条的协议（反倾销协议）",
+                        "value": "https://www.wto.org/english/docs_e/legal_e/18-trims_e.htm https://www.wto.org/english/docs_e/legal_e/19-adp_01_e.htm",
                         "label": "与贸易有关的投资措施协议» 关于执行1994年关贸总协定第六条的协议（反倾销协议）"
                       },
                       {
-                        "value": "关于实施1994年关税与贸易总协定第七条的协定（海关估价协定）",
+                        "value": "https://www.wto.org/english/docs_e/legal_e/20-val_01_e.htm",
                         "label": "关于实施1994年关税与贸易总协定第七条的协定（海关估价协定）"
                       },
                       {
-                        "value": "装运前检验协议» 政府采购协定» 原产地规则协议» 进口许可程序协议» 补贴与反补贴措施协议",
+                        "value": "https://www.wto.org/english/docs_e/legal_e/21-psi_e.htm https://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm https://www.wto.org/english/docs_e/legal_e/22-roo_e.htm https://www.wto.org/english/docs_e/legal_e/23-lic_e.htm https://www.wto.org/english/docs_e/legal_e/24-scm_01_e.htm",
                         "label": "装运前检验协议» 政府采购协定» 原产地规则协议» 进口许可程序协议» 补贴与反补贴措施协议"
                       },
                       {
-                        "value": "保障措施协议» 服务贸易总协定（gats）",
+                        "value": "https://www.wto.org/english/docs_e/legal_e/25-safeg_e.htm，https://www.wto.org/english/tratop_e/serv_e/gatsintr_e.htm",
                         "label": "保障措施协议» 服务贸易总协定（GATS）"
                       },
                       {
-                        "value": "与贸易有关的知识产权协",
-                        "label": "与贸易有关的知识产权协"
+                        "value": "https://www.wto.org/english/docs_e/legal_e/31bis_trips_01_e.htm",
+                        "label": "与贸易有关的知识产权协定"
                       },
                       {
-                        "value": "关于争端解决规则与程序的谅解",
+                        "value": "https://www.wto.org/english/docs_e/legal_e/28-dsu_e.htm",
                         "label": "关于争端解决规则与程序的谅解"
                       },
                       {
-                        "value": "贸易政策审议机制» 国际牛肉协议",
+                        "value": "https://www.wto.org/english/docs_e/legal_e/29-tprm_e.htm https://www.wto.org/english/docs_e/legal_e/ibma-94_e.htm",
                         "label": "贸易政策审议机制» 国际牛肉协议"
                       },
                       {
-                        "value": "1995年谷物贸易公约（un）",
+                        "value": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XIX-41-a&chapter=19&clang=_en",
                         "label": "1995年谷物贸易公约（UN）"
                       },
                       {
-                        "value": "服务贸易总协定第四议定书（wto）",
+                        "value": "https://www.wto.org/english/tratop_e/serv_e/4prote_e.htm",
                         "label": "服务贸易总协定第四议定书（WTO）"
                       },
                       {
-                        "value": "服务贸易总协定第五议定书（wto）",
+                        "value": "https://www.wto.org/english/tratop_e/serv_e/5prote_e.htm",
                         "label": "服务贸易总协定第五议定书（WTO）"
                       },
                       {
-                        "value": "粮食援助公约（2012年4月25日，伦敦） （un）",
+                        "value": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XIX-48&chapter=19&clang=_en",
                         "label": "粮食援助公约（2012年4月25日，伦敦） （UN）"
                       }
                     ]
@@ -3196,15 +2211,15 @@ const options = ref([
                 "label": "区域经济一体化条约",
                 "children": [
                   {
-                    "value": "加拿大政府，墨西哥合众国政府和美利坚合众国政府间北美自由贸易协定（修订文本仍在谈判中）",
+                    "value": "https://ustr.gov/trade-agreements/free-trade-agreements/north-american-free-trade-agreement-nafta",
                     "label": "加拿大政府，墨西哥合众国政府和美利坚合众国政府间北美自由贸易协定（修订文本仍在谈判中）"
                   },
                   {
-                    "value": "中美洲自由贸易协定，签约其他国家包括哥斯达黎加、多米尼加共和国、萨尔瓦多、危地马拉、洪都拉斯、尼加拉瓜。",
+                    "value": "https://ustr.gov/trade-agreements/free-trade-agreements/cafta-dr-dominican-republic-central-america-fta/final-text",
                     "label": "中美洲自由贸易协定，签约其他国家包括哥斯达黎加、多米尼加共和国、萨尔瓦多、危地马拉、洪都拉斯、尼加拉瓜。"
                   },
                   {
-                    "value": "跨大西洋贸易与投资伙伴关系协定（ttip）（谈判中）",
+                    "value": "https://ustr.gov/ttip",
                     "label": "跨大西洋贸易与投资伙伴关系协定（TTIP）（谈判中）"
                   }
                 ]
@@ -3228,51 +2243,51 @@ const options = ref([
                     "label": "自由贸易协定（12个签署国）",
                     "children": [
                       {
-                        "value": "澳大利亚(australian fta)",
+                        "value": "https://ustr.gov/trade-agreements/free-trade-agreements/australian-fta/final-text",
                         "label": "澳大利亚(Australian FTA)"
                       },
                       {
-                        "value": "巴林(bahrain f ta)",
+                        "value": "https://ustr.gov/trade-agreements/free-trade-agreements/bahrain-fta/final-text",
                         "label": "巴林(Bahrain F TA)"
                       },
                       {
-                        "value": "智利 (chile ft a)",
+                        "value": "https://ustr.gov/trade-agreements/free-trade-agreements/chile-fta/final-text",
                         "label": "智利 (Chile FT A)"
                       },
                       {
-                        "value": "哥伦比亚(colombia tpa)",
+                        "value": "https://ustr.gov/trade-agreements/free-trade-agreements/colombia-fta/final-text",
                         "label": "哥伦比亚(Colombia TPA)"
                       },
                       {
-                        "value": "以色列(israel f ta)",
+                        "value": "https://ustr.gov/sites/default/files/files/agreements/FTA/israel/Israel%20FTA.pdf",
                         "label": "以色列(Israel F TA)"
                       },
                       {
-                        "value": "约旦(jordan f ta)",
+                        "value": "https://ustr.gov/trade-agreements/free-trade-agreements/jordan-fta/final-text",
                         "label": "约旦(Jordan F TA)"
                       },
                       {
-                        "value": "韩国(korus f ta)",
+                        "value": "https://ustr.gov/trade-agreements/free-trade-agreements/korus-fta/final-text",
                         "label": "韩国(KORUS F TA)"
                       },
                       {
-                        "value": "摩洛哥(morocco fta)",
+                        "value": "https://ustr.gov/trade-agreements/free-trade-agreements/morocco-fta/final-text",
                         "label": "摩洛哥(Morocco FTA)"
                       },
                       {
-                        "value": "阿曼(oman ft a)",
+                        "value": "https://ustr.gov/trade-agreements/free-trade-agreements/oman-fta/final-text",
                         "label": "阿曼(Oman FT A)"
                       },
                       {
-                        "value": "巴拿马(panamatpa)",
+                        "value": "https://ustr.gov/trade-agreements/free-trade-agreements/panama-tpa/final-text",
                         "label": "巴拿马(PanamaTPA)"
                       },
                       {
-                        "value": "秘鲁(peru tp a)",
+                        "value": "https://ustr.gov/trade-agreements/free-trade-agreements/peru-tpa/final-text",
                         "label": "秘鲁(Peru TP A)"
                       },
                       {
-                        "value": "新加坡(singapore fta)",
+                        "value": "https://ustr.gov/trade-agreements/free-trade-agreements/singapore-fta/final-text",
                         "label": "新加坡(Singapore FTA)"
                       }
                     ]
@@ -3288,19 +2303,19 @@ const options = ref([
         "label": "证券交易",
         "children": [
           {
-            "value": "1933证券法",
+            "value": "https://wenku.so.com/d/0b7d3e089577ec5b495162a7f1fc158f",
             "label": "1933证券法"
           },
           {
-            "value": "1934证券交易法",
+            "value": "https://wenku.so.com/d/6a9142c3e1d2a07caf191087d23f6eb4",
             "label": "1934证券交易法"
           },
           {
-            "value": "1940投资公司法",
+            "value": "https://www.doc88.com/p-9833374666069.html",
             "label": "1940投资公司法"
           },
           {
-            "value": "1950年《标准公司法》11-13章中关于收购上市公司的规定",
+            "value": "https://wenku.so.com/d/fcad5cf0a0f3969ca712a4ef309c5153?src=ob_zz_juhe360wenku",
             "label": "1950年《标准公司法》11-13章中关于收购上市公司的规定"
           }
         ]
@@ -3314,55 +2329,55 @@ const options = ref([
             "label": "联邦",
             "children": [
               {
-                "value": "《国家劳资关系法案》（1935年）",
+                "value": "https://www.110.com/fagui/law_14212.html",
                 "label": "《国家劳资关系法案》（1935年）"
               },
               {
-                "value": "《1964年民权法案第七章》（1964）",
+                "value": "https://wenku.so.com/d/6cb551321911e321fbeb25f605f6a121?src=ob_zz_juhe360wenku",
                 "label": "《1964年民权法案第七章》（1964）"
               },
               {
-                "value": "《1967年反劳动者年龄歧视法》（ 1967）",
+                "value": "https://wenku.so.com/d/6ef7bd06a8fa23158eb7a88f6c592714",
                 "label": "《1967年反劳动者年龄歧视法》（ 1967）"
               },
               {
-                "value": "《美国残疾人法案》（ 1990）",
+                "value": "https://www.docin.com/p-2003113555.html",
                 "label": "《美国残疾人法案》（ 1990）"
               },
               {
-                "value": "《家庭与医疗休假法》",
+                "value": "https://www.docin.com/p-1006844006.html",
                 "label": "《家庭与医疗休假法》"
               },
               {
-                "value": "《公平劳动标准法》",
+                "value": "https://wenku.so.com/d/50f927015bf8819f40596b0de1f83261",
                 "label": "《公平劳动标准法》"
               },
               {
-                "value": "《军人就业及再就业权利法》",
+                "value": "https://www.docin.com/p-2333017216.html",
                 "label": "《军人就业及再就业权利法》"
               },
               {
-                "value": "《同酬法案》",
+                "value": "https://www.zsbeike.com/bk/699945.html",
                 "label": "《同酬法案》"
               },
               {
-                "value": "《雇员退休收入保障法》",
+                "value": "https://www.docin.com/p-2442059349.html",
                 "label": "《雇员退休收入保障法》"
               },
               {
-                "value": "《综合预算协调法》",
+                "value": "https://www.docin.com/p-699885910.html",
                 "label": "《综合预算协调法》"
               },
               {
-                "value": "《1970年职业安全和健康法》",
+                "value": "https://max.book118.com/html/2016/0315/37707231.shtm",
                 "label": "《1970年职业安全和健康法》"
               },
               {
-                "value": "《移民改革及控制法案》",
+                "value": "https://cdmd.cnki.com.cn/Article/CDMD-10040-1011170847.htm",
                 "label": "《移民改革及控制法案》"
               },
               {
-                "value": "《劳资报告与公告法》",
+                "value": "https://wenku.so.com/d/4f7511911a9809d32224de44caa91414",
                 "label": "《劳资报告与公告法》"
               }
             ]
@@ -3372,15 +2387,15 @@ const options = ref([
             "label": "纽约州",
             "children": [
               {
-                "value": "《纽约州劳动法》",
+                "value": "https://zh.dol.ny.gov/labor-standards-0",
                 "label": "《纽约州劳动法》"
               },
               {
-                "value": "《带薪安全和病假法案》",
+                "value": "https://www.nyc.gov/assets/dca/downloads/pdf/about/PaidSickLeave-EmployerOnePager-SimplifiedChinese.pdf",
                 "label": "《带薪安全和病假法案》"
               },
               {
-                "value": "1935年《社会保障法》及修正案",
+                "value": "https://wenku.so.com/d/8cc8c0e98ba3999ed783c91f6c484b7e",
                 "label": "1935年《社会保障法》及修正案"
               }
             ]
@@ -3396,107 +2411,99 @@ const options = ref([
             "label": "联邦",
             "children": [
               {
-                "value": "《联邦水污染控制法》（1948年）",
+                "value": "https://www.doc88.com/p-3037600672098.html",
                 "label": "《联邦水污染控制法》（1948年）"
               },
               {
-                "value": "《联邦杀虫剂、灭菌剂及灭鼠剂法》（1947年）",
+                "value": "https://www.docin.com/p-532834244.html",
                 "label": "《联邦杀虫剂、灭菌剂及灭鼠剂法》（1947年）"
               },
               {
-                "value": "《原子能法》（1954年）",
+                "value": "https://max.book118.com/html/2022/0905/6202044043004233.shtm",
                 "label": "《原子能法》（1954年）"
               },
               {
-                "value": "《联邦大气污染控制法》（1955年）",
+                "value": "https://xueshu.baidu.com/usercenter/paper/show?paperid=5b6fa1d79616bf2b44888f3a1c63a485&site=xueshu_se",
                 "label": "《联邦大气污染控制法》（1955年）"
               },
               {
-                "value": "《联邦有害物质法》（1960年）",
+                "value": "https://www.docin.com/p-97146516.html",
                 "label": "《联邦有害物质法》（1960年）"
               },
               {
-                "value": "《鱼类和野生生物协调法》（1965年）",
+                "value": "https://wikipredia.net/zh/Fish_and_Wildlife_Coordination_Act",
                 "label": "《鱼类和野生生物协调法》（1965年）"
               },
               {
-                "value": "《空气质量法》（1967年）",
+                "value": "https://wikipredia.net/zh/Clean_Air_Act_(United_States)",
                 "label": "《空气质量法》（1967年）"
               },
               {
-                "value": "《自然和风景河流法》（1968年）",
+                "value": "https://www.rivers.gov/documents/act/complete-act.pdf",
                 "label": "《自然和风景河流法》（1968年）"
               },
               {
-                "value": "《环境质量改善法》（1970年）",
-                "label": "《环境质量改善法》（1970年）"
-              },
-              {
-                "value": "《美国环境教育法》（1970年）",
+                "value": "https://wikipredia.net/zh/National_Environmental_Education_Act",
                 "label": "《美国环境教育法》（1970年）"
               },
               {
-                "value": "《海岸带管理法》（1972年）",
+                "value": "https://www.pkulaw.cn/fulltext_form.aspx?Gid=1ce0af4b6304721be88d0e556ef6911abdfb",
                 "label": "《海岸带管理法》（1972年）"
               },
               {
-                "value": "《海洋哺乳动物保护法》（1972年）",
+                "value": "https://wikipredia.net/zh/Marine_Mammal_Protection_Act",
                 "label": "《海洋哺乳动物保护法》（1972年）"
               },
               {
-                "value": "《海洋保护研究及禁渔区法》（1972年）",
+                "value": "https://www.sgpjbg.com/baogao/40702.html",
                 "label": "《海洋保护研究及禁渔区法》（1972年）"
               },
               {
-                "value": "《联邦环境杀虫剂控制法》（1972年）",
+                "value": "https://wikipredia.net/zh/Federal_Insecticide,_Fungicide,_and_Rodenticide_Act",
                 "label": "《联邦环境杀虫剂控制法》（1972年）"
               },
               {
-                "value": "《噪声控制法》（1972年）",
+                "value": "https://www.docin.com/p-532834927.html",
                 "label": "《噪声控制法》（1972年）"
               },
               {
-                "value": "《安全饮用水法》（1974年）",
+                "value": "https://www.doc88.com/p-0827889648310.html",
                 "label": "《安全饮用水法》（1974年）"
               },
               {
-                "value": "《濒危物种法》（1973年）",
+                "value": "https://wikipredia.net/zh/Endangered_Species_Act_of_1973",
                 "label": "《濒危物种法》（1973年）"
               },
               {
-                "value": "《联邦土地政策及管理法》（1976年）",
+                "value": "https://www.doc88.com/p-378887687818.html",
                 "label": "《联邦土地政策及管理法》（1976年）"
               },
               {
-                "value": "《有毒物质运输法》（1975年）",
+                "value": "https://www.epa.gov/laws-regulations/summary-toxic-substances-control-act",
                 "label": "《有毒物质运输法》（1975年）"
               },
               {
-                "value": "《资源保护与回收法》（1976年）",
+                "value": "https://www.epa.gov/rcra",
                 "label": "《资源保护与回收法》（1976年）"
               },
               {
-                "value": "《有毒物质控制法》（1976年）",
+                "value": "https://www.epa.gov/laws-regulations/summary-toxic-substances-control-act",
                 "label": "《有毒物质控制法》（1976年）"
               },
               {
-                "value": "《酸雨法》（1980年）",
+                "value": "https://www.epa.gov/sites/default/files/2015-06/documents/title_iv_-acid_deposition_control.pdf",
                 "label": "《酸雨法》（1980年）"
               },
               {
-                "value": "《机动车燃料效益法》（1980年）",
-                "label": "《机动车燃料效益法》（1980年）"
-              },
-              {
-                "value": "《生物量及酒精燃料法》（1980年）",
+                "value": "https://nepis.epa.gov/Exe/ZyNET.exe/P100SUB1.TXT?ZyActionD=ZyDocument&Client=EPA&Index=1991+Thru+1994&Docs=&Query=&Time=&EndTime=&SearchMethod=1&TocRestrict=n&Toc=&TocEntry=&QField=&QFieldYear=&QFieldMonth=&QFieldDay=&IntQFieldOp=0&ExtQFieldOp=0&XmlQuery=&File=D%3A%5Czyfiles%5CIndex%20Data%5C91thru94%5CTxt%5C00000034%5CP100SUB1.txt&User=ANONYMOUS&Password=anonymous&SortMethod=h%7C-&MaximumDocuments=1&FuzzyDegree=0&ImageQuality=r75g8/r75g8/x150y150g16/i425&Display=hpfr&DefSeekPage=x&SearchBack=ZyActionL&Back=ZyActionS&BackDesc=Results%20page&MaximumPages=1&ZyEntry=1&SeekPage=x&ZyPURL",
                 "label": "《生物量及酒精燃料法》（1980年）"
               },
               {
-                "value": "《固体废物处置法》（1980年）",
+                "value": "https://bjgy.bjcourt.gov.cn/article/detail/2009/06/id/869777.shtml",
                 "label": "《固体废物处置法》（1980年）"
               },
               {
-                "value": "《核废弃物政策法》（1982年）",
+                "value": "https://www.neilandrew.com/what-is-the-nuclear-waste-policy-act-5112440#",
                 "label": "《核废弃物政策法》（1982年）"
               }
             ]
@@ -3508,15 +2515,15 @@ const options = ref([
         "label": "(外企)工程承包规定",
         "children": [
           {
-            "value": "一般商法",
+            "value": "https://www.govinfo.gov/content/pkg/COMPS-10384/pdf/COMPS-10384.pdf",
             "label": "一般商法"
           },
           {
-            "value": "外企获得土地规定",
+            "value": "https://www.whitehouse.gov/wp-content/uploads/2022/05/BUILDING-A-BETTER-AMERICA-V2.pdf",
             "label": "外企获得土地规定",
             "children": [
               {
-                "value": "土地法",
+                "value": "https://www.docin.com/p-2421133374.html",
                 "label": "土地法"
               },
               {
@@ -3532,27 +2539,27 @@ const options = ref([
         "label": "知识产权保护",
         "children": [
           {
-            "value": "专利法",
+            "value": "https://wenku.so.com/d/8646a42a38b8aa443d11e14812315769?src=ob_zz_juhe360wenku",
             "label": "专利法"
           },
           {
-            "value": "商标法",
+            "value": "https://wenku.so.com/d/4347a11776e3c74ff40c4c91239c0227?src=ob_zz_juhe360wenku",
             "label": "商标法"
           },
           {
-            "value": "版权法",
+            "value": "https://wenku.so.com/d/29694c78843b380a73a1b3d7e33d0c97?src=ob_zz_juhe360wenku",
             "label": "版权法"
           },
           {
-            "value": "反不正当竞争法",
+            "value": "https://wenku.so.com/d/795ad1815e65caadc4581093c33499c9",
             "label": "反不正当竞争法"
           },
           {
-            "value": "乌拉圭回合协议法",
+            "value": "https://www.wipo.int/wipolex/zh/legislation/details/14313",
             "label": "乌拉圭回合协议法"
           },
           {
-            "value": "莱希-史密斯美国发明创造法",
+            "value": "https://www.wipo.int/wipolex/zh/legislation/details/12912",
             "label": "莱希-史密斯美国发明创造法"
           }
         ]
@@ -3566,27 +2573,27 @@ const options = ref([
             "label": "联邦",
             "children": [
               {
-                "value": "《综合贸易与竞争法》（1988）",
+                "value": "https://www.doc88.com/p-7018944388412.html",
                 "label": "《综合贸易与竞争法》（1988）"
               },
               {
-                "value": "《谢尔曼法》（1890）",
+                "value": "https://wiki.mbalib.com/wiki/Sherman_Antitrust_Act",
                 "label": "《谢尔曼法》（1890）"
               },
               {
-                "value": "《克莱顿法》（1914）",
+                "value": "https://baike.so.com/doc/9758500-10105100.html",
                 "label": "《克莱顿法》（1914）"
               },
               {
-                "value": "《塞勒——凯弗维尔反兼并法》（1950）",
+                "value": "https://investors.wiki/zh/celler-kefauver-act",
                 "label": "《塞勒——凯弗维尔反兼并法》（1950）"
               },
               {
-                "value": "《哈特—斯科特—罗迪诺反托拉斯改进法》（1976）",
+                "value": "https://max.book118.com/html/2017/0504/104207487.shtm",
                 "label": "《哈特—斯科特—罗迪诺反托拉斯改进法》（1976）"
               },
               {
-                "value": "《反托拉斯程序修订法》（1980）",
+                "value": "https://lawecommons.luc.edu/cgi/viewcontent.cgi?article=2066&context=luclj",
                 "label": "《反托拉斯程序修订法》（1980）"
               }
             ]
@@ -3600,16 +2607,12 @@ const options = ref([
                 "label": "反垄断",
                 "children": [
                   {
-                    "value": "《纽约州特许经营法》",
+                    "value": "https://law.justia.com/codes/new-york/2006/general-business/idx_gbs0a33.html",
                     "label": "《纽约州特许经营法》"
                   },
                   {
-                    "value": "《纽约特许经营条例》",
+                    "value": "https://law.justia.com/codes/new-york/2006/general-business/idx_gbs0a33.html",
                     "label": "《纽约特许经营条例》"
-                  },
-                  {
-                    "value": "联邦贸易委员会关于通过计算机软盘交付披露文件的第97-2号非正式工作人员咨询意见",
-                    "label": "联邦贸易委员会关于通过计算机软盘交付披露文件的第97-2号非正式工作人员咨询意见"
                   }
                 ]
               }
@@ -3660,11 +2663,11 @@ const options = ref([
             "label": "州（纽约州为例）",
             "children": [
               {
-                "value": "2005《信息安全漏洞和通知法》",
+                "value": "https://zh.ag.ny.gov/resources/organizations/data-breach-reporting/shield-act",
                 "label": "2005《信息安全漏洞和通知法》"
               },
               {
-                "value": "2019《制止黑客攻击和改善电子数据法》",
+                "value": "https://zh.ag.ny.gov/resources/organizations/data-breach-reporting/shield-act",
                 "label": "2019《制止黑客攻击和改善电子数据法》"
               }
             ]
@@ -3680,77 +2683,77 @@ const options = ref([
             "label": "联合国",
             "children": [
               {
-                "value": "1. 国际民用航空组织（icao)",
+                "value": "https://www.icao.int/about-icao/Pages/default.aspx",
                 "label": "1. 国际民用航空组织（ICAO)"
               },
               {
-                "value": "2. 国际农业发展基金（ifad)",
+                "value": "https://www.ifad.org/en",
                 "label": "2. 国际农业发展基金（IFAD)"
               },
               {
-                "value": "3. 国际劳工组织（ilo)",
+                "value": "https://www.ilo.org/global/lang--en/index.htm",
                 "label": "3. 国际劳工组织（ILO)"
               },
               {
-                "value": "4. 国际货币基金组织（imf)",
+                "value": "https://www.imf.org/en/home",
                 "label": "4. 国际货币基金组织（IMF)"
               },
               {
-                "value": "5. 国际海事组织（imo）",
+                "value": "https://www.imo.org/en/",
                 "label": "5. 国际海事组织（IMO）"
               },
               {
-                "value": "6. 国际电信联盟（itu）",
+                "value": "https://www.itu.int/zh/Pages/default.aspx",
                 "label": "6. 国际电信联盟（ITU）"
               },
               {
-                "value": "7. 联合国教科文组织",
+                "value": "https://www.unesco.org/zh/brief",
                 "label": "7. 联合国教科文组织"
               },
               {
-                "value": "8.联合国粮食及农业组织unfao",
+                "value": "https://www.fao.org/home/zh",
                 "label": "8.联合国粮食及农业组织UNFAO"
               },
               {
-                "value": "9. 联合国工业发展组织(unido)",
+                "value": "https://www.unido.org",
                 "label": "9. 联合国工业发展组织(UNIDO)"
               },
               {
-                "value": "1 0世界旅游组织（unwto)",
+                "value": "https://www.unwto.org/",
                 "label": "1 0世界旅游组织（UNWTO)"
               },
               {
-                "value": "11万国邮政联1. 盟(upu)",
-                "label": "11万国邮政联1. 盟(UPU)"
+                "value": "https://www.upu.int/en/Universal-Postal-Union",
+                "label": "11万国邮政联盟(UPU)"
               },
               {
-                "value": "12世界银行2(wbg)",
+                "value": "https://www.worldbank.org/en/home",
                 "label": "12世界银行2(WBG)"
               },
               {
-                "value": "1 3世界卫生组3.织（who)",
-                "label": "1 3世界卫生组3.织（WHO)"
+                "value": "https://www.who.int/zh",
+                "label": "13世界卫生组织（WHO)"
               },
               {
-                "value": "14世界知识产权组织（wipo)",
+                "value": "https://www.wipo.int/portal/zh/",
                 "label": "14世界知识产权组织（WIPO)"
               },
               {
-                "value": "1 5世界气象组5. 织（wmo)",
-                "label": "1 5世界气象组5. 织（WMO)"
+                "value": "https://wmo.int/",
+                "label": "15世界气象组织（WMO)"
               }
             ]
           },
           {
-            "value": "世界贸易组织",
+            "value": "https://www.wto.org/",
             "label": "世界贸易组织"
           },
           {
-            "value": "世界海关组织",
+            "value": "https://www.wcoomd.org/",
             "label": "世界海关组织",
             "children": [
               {
-                "value": "海关国际条约",
+                "value": "http://xian.customs.gov.cn/customs/ztzl86/302310/5366122/gjmylyflgf/gjmyzbpgsjdgjtxxdx/5382624/index.html",
                 "label": "海关国际条约"
               },
               {
@@ -3763,5 +2766,6 @@ const options = ref([
       }
     ]
   }
-]);
+]
+      
 </script>
